@@ -1,0 +1,11 @@
+{
+  "options": {
+    "colors": ["#dddee0", "#E9A9A0", "#FE4D30"]
+  },
+  "data": [
+    ["Type", "Percentage"],
+      ["Agree",      16.7],
+      ["Undecided",     42.8],
+      ["Disagree",  40.6]
+  ]
+}

@@ -1,0 +1,45 @@
+@import '../colors';
+@import '../elements';
+@import '../typography';
+
+:global {
+
+.team-slide {
+  @include headers;
+  @include typography-sans;
+  background-color: $color-lightgray;
+  color: $color-black;
+
+  .body {
+    display: grid;
+    grid-gap: 3rem;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .section {
+    display: block;
+
+    > ul {
+      display: grid;
+      grid-gap: 1.5rem;
+      grid-template-columns: 1fr 1fr 1fr;
+      margin-top: 2.5rem;
+
+      > li {
+        @include typography-size(x-small);
+        display: block;
+        margin-bottom: 1rem;
+        line-height: 1.6;
+        text-align: center;
+
+        img {
+          width: 100%;
+          border-radius: 100vw;
+          filter: grayscale(1);
+        }
+      }
+    }
+  }
+}
+
+} // :global

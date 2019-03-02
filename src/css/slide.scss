@@ -1,0 +1,171 @@
+@import './colors';
+@import './typography';
+@import './mixins';
+
+:global {
+
+@media screen {
+  .remark-container {
+    background-color: #999999;
+  }
+
+  .remark-slide-container {
+    // Make slide containers hidden instead of not displaying in order for Google
+    // Data Studio pages inside iframes to be able to determine their dimensions
+    // when they finish loading while their containing slides are not visible.
+    display: block;
+    visibility: hidden;
+    pointer-events: none;
+  }
+
+  .remark-visible {
+    visibility: visible;
+  }
+
+  .remark-slide-scaler {
+    box-shadow: none;
+    pointer-events: auto;
+  }
+}
+
+.remark-slide,
+.remark-slide-content {
+  display: block;
+  overflow: hidden;
+  position: relative;
+  box-sizing: border-box;
+  height: 100%;
+}
+
+.remark-slide-number {
+  @include typography-sans;
+  @include typography-size(xx-small);
+  display: block;
+  position: absolute;
+  right: 40px;
+  bottom: 1rem;
+  color: $color-darkgray;
+  opacity: 1;
+}
+
+.twitter-tweet {
+  margin: 0 !important;
+}
+
+.slide {
+  @include typography-serif;
+  @include typography-size(medium);
+  padding: 1.25rem 5rem;
+
+  *[lang="en"] & {
+    line-height: 1.1;
+  }
+
+  *[lang="ja"] & {
+    line-height: 1.2;
+  }
+
+  *::selection {
+    color: $color-white;
+    background: $color-gray;
+  }
+
+  strong {
+    font-weight: bold;
+  }
+
+  em {
+    font-style: italic;
+  }
+
+  code {
+    @include typography-mono;
+  }
+
+  img {
+    width: 100%;
+    object-fit: cover;
+  }
+
+  summary {
+    margin-bottom: 0.5rem;
+    cursor: pointer;
+
+    > * {
+      display: inline;
+    }
+
+    &:focus {
+      outline: none;
+    }
+  }
+
+  a {
+    color: $color-black;
+    text-decoration: none;
+
+    &:visited, &:link {
+      border-bottom: 2px solid $color-orange;
+
+      &:hover {
+        color: $color-white;
+        background-color: $color-orange;
+      }
+    }
+  }
+
+  .source {
+    @include typography-sans;
+    @include typography-size(xx-small);
+    display: block;
+    position: absolute;
+    right: calc(40% + 2rem); // Not sure
+    bottom: 1rem;
+    left: 5rem;
+    color: $color-darkgray;
+
+    &:before {
+      content: 'Source: ';
+    }
+  }
+
+  .footer {
+    @include typography-sans;
+    @include typography-size(xx-small);
+    display: block;
+    position: absolute;
+    left: 60%; // Not sure
+    bottom: 1rem;
+    color: $color-orange;
+
+    &:before {
+      content: '2019 Design In Tech Report | ';
+    }
+  }
+}
+
+.lightgray-slide {
+  color: $color-black;
+  background-color: $color-lightgray;
+}
+
+.darkgray-slide {
+  color: $color-white;
+  background-color: $color-darkgray;
+}
+
+.yellow-slide {
+  color: $color-black;
+  background-color: $color-yellow;
+}
+
+.black-slide {
+  color: $color-white;
+  background-color: $color-black;
+
+  a {
+    color: $color-white;
+  }
+}
+
+} // :global

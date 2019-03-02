@@ -1,0 +1,23 @@
+@import '../colors';
+@import '../elements';
+@import '../typography';
+
+:global {
+
+.chapter-slide {
+  @include headers;
+  @include paragraphs;
+  @include lists;
+
+  display: grid;
+  grid-gap: 2rem;
+  grid-template-columns: 1fr 1fr;
+  padding-top: 6rem;
+
+  h1 {
+    @include typography-size(x-large);
+    margin-top: 0;
+  }
+}
+
+} // :global

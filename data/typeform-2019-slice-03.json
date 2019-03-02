@@ -1,0 +1,11 @@
+{
+  "options": {
+    "colors": ["#dddee0", "#A884EB", "#6918f9"]
+  },
+  "data": [
+    ["Type", "Responses"],
+      ["Early qual",      463],
+      ["Early quant + qual",     353],
+      ["Both and throughout",  527]
+  ]
+}

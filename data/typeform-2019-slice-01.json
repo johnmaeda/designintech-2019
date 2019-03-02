@@ -1,0 +1,11 @@
+{
+  "options": {
+    "colors": ["#dddee0", "#A884EB", "#6918f9"]
+  },
+  "data": [
+    ["Type", "Responses"],
+      ["The Boss Said …",      431],
+      ["Semi-Subjectively",     585],
+      ["Objectively",  340]
+  ]
+}

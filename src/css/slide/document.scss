@@ -1,0 +1,13 @@
+@import '../colors';
+@import '../elements';
+@import '../typography';
+
+:global {
+
+.document-slide {
+  @include headers;
+  @include paragraphs;
+  @include lists;
+}
+
+} // :global

@@ -1,0 +1,21 @@
+@import '../colors';
+@import '../elements';
+@import '../typography';
+
+:global {
+
+.culture-of-company-slide {
+  @include headers;
+  @include paragraphs;
+  @include lists;
+
+  ol {
+    padding-left: 1.25em; // Intentionally em
+
+    > li {
+      list-style-type: upper-alpha;
+    }
+  }
+}
+
+} // :global

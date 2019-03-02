@@ -1,0 +1,11 @@
+{
+  "options": {
+    "colors": ["#dddee0", "#A884EB", "#6918f9"]
+  },
+  "data": [
+    ["Type", "Responses"],
+      ["We're bloated", 587],
+      ["We're improving", 282],
+      ["We're bold",     477]
+  ]
+}

@@ -1,0 +1,32 @@
+@import '../colors';
+@import '../elements';
+@import '../typography';
+
+:global {
+
+.overview-slide {
+  @include headers;
+  @include paragraphs;
+  @include lists;
+
+  display: grid;
+  grid-gap: 2rem;
+  grid-template-columns: 1fr 2.5fr;
+  padding-top: 10rem;
+
+  h1 {
+    @include typography-size(x-large);
+    margin-top: 0;
+  }
+
+  .grid {
+    margin-top: 0;
+
+    p {
+      @include typography-size(small);
+      margin-left: 1rem;
+    }
+  }
+}
+
+} // :global

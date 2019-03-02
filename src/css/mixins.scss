@@ -1,0 +1,94 @@
+@mixin block-margin($size: 1rem) {
+  margin: $size 0;
+
+  &:first-child {
+    margin-top: 0;
+  }
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+
+@mixin relative-block-margin($size: 1em) {
+  margin: $size 0; // Intentionally em
+
+  &:first-child {
+    margin-top: 0;
+  }
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+
+@mixin unset-block-margin {
+  margin: unset;
+
+  &:first-child {
+    margin-top: unset;
+  }
+
+  &:last-child {
+    margin-bottom: unset;
+  }
+}
+
+// Is there any better way for recursive repeats?
+@mixin remove-edge-margins {
+  > *:first-child {
+    margin-top: 0;
+
+    > *:first-child {
+      margin-top: 0;
+
+      > *:first-child {
+        margin-top: 0;
+
+        > *:first-child {
+          margin-top: 0;
+
+          > *:first-child {
+            margin-top: 0;
+
+            > *:first-child {
+              margin-top: 0;
+
+              > *:first-child {
+                margin-top: 0;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  > *:last-child {
+    margin-bottom: 0;
+
+    > *:last-child {
+      margin-bottom: 0;
+
+      > *:last-child {
+        margin-bottom: 0;
+
+        > *:last-child {
+          margin-bottom: 0;
+
+          > *:last-child {
+            margin-bottom: 0;
+
+            > *:last-child {
+              margin-bottom: 0;
+
+              > *:last-child {
+                margin-bottom: 0;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

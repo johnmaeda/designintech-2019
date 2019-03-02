@@ -1,0 +1,11 @@
+{
+  "options": {
+    "colors": ["#dddee0", "#E9A9A0", "#FE4D30"]
+  },
+  "data": [
+    ["Type", "Percentage"],
+      ["Less than 3",      4.3],
+      ["Inbetween",     38],
+      ["Over 10",  57.7]
+  ]
+}

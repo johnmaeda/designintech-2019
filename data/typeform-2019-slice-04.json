@@ -1,0 +1,11 @@
+{
+  "options": {
+    "colors": ["#dddee0", "#A884EB", "#6918f9"]
+  },
+  "data": [
+    ["Type", "Responses"],
+      ["Report findings",      242],
+      ["Assess wants",     305],
+      ["Interpret needs",  801]
+  ]
+}

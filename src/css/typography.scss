@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css?family=family=Roboto:400,700|Roboto+Mono');
+
+@import './functions';
+
+$font-family-sans: 'Roboto', 'source-han-sans-japanese', sans-serif;
+$font-family-serif: 'Georgia', 'YuMincho', 'Yu Mincho', serif;
+$font-family-mono: 'Roboto Mono', 'source-han-sans-japanese', sans-serif;
+
+$font-size-xx-large: rem(48px);
+$font-size-x-large: rem(45px);
+$font-size-large: rem(36px);
+$font-size-x-medium: rem(30px);
+$font-size-medium: rem(20px);
+$font-size-small: rem(15px);
+$font-size-x-small: rem(13px);
+$font-size-xx-small: rem(12px);
+$font-size-xxx-small: rem(9.6px);
+
+$font-sizes: (
+  xx-large: $font-size-xx-large,
+  x-large: $font-size-x-large,
+  large: $font-size-large,
+  x-medium: $font-size-x-medium,
+  medium: $font-size-medium,
+  small: $font-size-small,
+  x-small: $font-size-x-small,
+  xx-small: $font-size-xx-small,
+  xxx-small: $font-size-xxx-small
+);
+
+$font-size-scales: (
+  en: 1,
+  ja: 0.85
+);
+
+@mixin typography-sans() {
+  font-family: $font-family-sans;
+}
+
+@mixin typography-serif() {
+  font-family: $font-family-serif;
+}
+
+@mixin typography-mono() {
+  font-family: $font-family-mono;
+}
+
+@mixin unset-typography() {
+  font-family: unset;
+}
+
+@mixin typography-size($size) {
+  display: block;
+
+  @if map-has-key($font-sizes, $size) {
+    font-size: map-get($font-sizes, $size);
+
+    @each $lang, $scale in $font-size-scales {
+      *[lang="#{$lang}"] & {
+        font-size: map-get($font-sizes, $size) * $scale;
+      }
+    }
+  } @else {
+    font-size: $size;
+
+    @each $lang, $scale in $font-size-scales {
+      *[lang="#{$lang}"] & {
+        font-size: $size * $scale;
+      }
+    }
+  }
+}
+
+@mixin unset-typography-size() {
+  display: unset;
+  font-size: unset;
+}
+
+:global {
+
+.sans {
+  @include typography-sans;
+}
+
+.serif {
+  @include typography-serif;
+}
+
+.mono {
+  @include typography-mono;
+}
+
+@each $name, $size in $font-sizes {
+  .#{$name} {
+    @include typography-size($name);
+  }
+}
+
+// TODO
+.irregular-small {
+  @include typography-size(14px);
+}
+
+.uppercase {
+  letter-spacing: 0.1em; // Intentionally em
+  text-transform: uppercase;
+}
+
+} // :global
