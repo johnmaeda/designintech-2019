@@ -18,20 +18,46 @@ class: team-slide
 # Team
 
 .body[
+
 .section[
 ## Team
-* ![](https://raw.githubusercontent.com/johnmaeda/designintechreport-2018/master/asset/image/maeda.jpg)
+* ![](https://raw.githubusercontent.com/johnmaeda/designintech-2019/master/asset/image/maeda.jpg)
 	John Maeda
-* ![](https://raw.githubusercontent.com/johnmaeda/designintechreport-2018/master/asset/image/takram.jpg)
+* ![](https://raw.githubusercontent.com/johnmaeda/designintech-2019/master/asset/image/takram.jpg)
 	Takram
+* ![](https://raw.githubusercontent.com/johnmaeda/designintech-2019/master/asset/image/ruth.jpg)
+	Tony Ruth
+* ![](https://raw.githubusercontent.com/johnmaeda/designintech-2019/master/asset/image/fatimah.jpg)
+	Fatimah Kabba
+* ![](https://raw.githubusercontent.com/johnmaeda/designintech-2019/master/asset/image/garcia.jpg)
+	Dezzie Garcia
+* ![](https://raw.githubusercontent.com/johnmaeda/designintech-2019/master/asset/image/kawakami.jpg)
+	Eriko Kawakami
+]
+.section[
+## Past Contributors
+* ![](https://raw.githubusercontent.com/johnmaeda/designintechreport-2018/master/asset/image/bon.jpg)
+	Bon Ku
+* ![](https://raw.githubusercontent.com/johnmaeda/designintechreport-2018/master/asset/image/ling.jpg)
+	Ling Fan
+* ![](https://raw.githubusercontent.com/johnmaeda/designintechreport-2018/master/asset/image/sunil.jpg)
+	Sunil Malhotra
+* ![](https://raw.githubusercontent.com/johnmaeda/designintechreport-2018/master/asset/image/luis.jpg)
+	Luis Arnal
 ]
 
 .section[
 ## Founding Team
-Jackie Xu, Aviv Gilboa, Fatimah Kabba, Justin Sayarath, John Maeda
-
-## Past Contributors
-Bon Ku, Ling Fan, Sunil Malhotra, Luis Arnal
+* ![](https://raw.githubusercontent.com/johnmaeda/designintechreport-2018/master/asset/image/jackie.jpg)
+	Jackie Xu
+* ![](https://raw.githubusercontent.com/johnmaeda/designintechreport-2018/master/asset/image/aviv.jpg)
+	Aviv Gilboa
+* ![](https://raw.githubusercontent.com/johnmaeda/designintechreport-2018/master/asset/image/fatimah.jpg)
+	Fatimah Kabba
+* ![](https://raw.githubusercontent.com/johnmaeda/designintechreport-2018/master/asset/image/justin.jpg)
+	Justin Sayarath
+* ![](https://raw.githubusercontent.com/johnmaeda/designintechreport-2018/master/asset/image/maeda.jpg)
+	John Maeda
 ]
 ]
 
