@@ -132,6 +132,16 @@ class: chapter-slide lightgray-slide
 
 ---
 
+class: yellow-slide
+
+.header[
+Summary by Tony Ruth (text will be inline normally outside of the illo box)
+]
+
+![](https://raw.githubusercontent.com/johnmaeda/designintech-2019/master/asset/image/Ruth1.jpg)
+
+---
+
 class: document-slide
 
 #  Critically Making, **Useful** or **Cool**
@@ -321,5 +331,161 @@ class: document-slide
 class: yellow-slide
 
 .header[
-# Tony Ruth
+Summary by Tony Ruth (text will be inline normally outside of the illo box)
 ]
+
+![](https://raw.githubusercontent.com/johnmaeda/designintech-2019/master/asset/image/Ruth2.jpg)
+
+---
+
+class: document-slide
+
+# Going Retro, **Handcraft**
+
+.stack[
+.group[
+
+.numeral.subhead[2010]
+
+.large.quote[The software industry is poised to embrace its craft heritage. 
+
+From [Your Life In 2020 for Forbes](https://www.forbes.com/2010/04/08/john-maeda-design-technology-data-companies-10-keynote.html#13c132c96eeb) back in 2010
+]
+]
+.group[
+.numeral.subhead[2016]
+
+.sans[**10 Values For Craft Software** by Nick Francis]
+
+1. Delight in the process
+2. Use only the best ingredients
+3. Invest in the “unmeasurables”
+4. Think of profit as a byproduct
+5. Be stubborn about values
+6. Have an opinion
+7. Delay gratification
+8. Choose your customers
+9. Make better, not more
+10. Grow in a sustainable way
+
+.small.quote["Since profit is a byproduct of your real mission as a company, grow only as fast as you can maintain the quality and integrity of your product. Growth that strengthens the foundation of the business and forges a path for future sustainability is always a great thing." —[Nick Francis](https://qz.com/715291/farm-to-keyboard-why-software-is-the-next-craft-industry/)
+]
+]
+]
+
+.source[@nickfrancis @helpscout [Farm to keyboard: why software is the next “craft” industry](https://qz.com/715291/farm-to-keyboard-why-software-is-the-next-craft-industry/) via @Quartz]
+.footer[Trend Mixes]
+
+---
+
+class: document-slide
+
+# Craft &times; Industry in 2019
+
+.large.quote["Instead of freaking out about how ‘small’ Gumroad actually is (like I thought they would), our creators have grown more loyal. It feels like we’re all in this together, trying to do earn a living doing what we love.
+
+Soon, we will also open-source the whole product, WordPress-style. Anyone will be able to deploy their own version of Gumroad, make the changes they want, and sell the content they want, without us being the middle-man." 
+
+—[Sahil Lavingia](https://medium.com/@shl/reflecting-on-my-failure-to-build-a-billion-dollar-company-b0c31d7db0e7)
+]
+
+.source[@shl @gumroad [Reflecting on My Failure to Build a Billion-Dollar Company](https://medium.com/s/story/reflecting-on-my-failure-to-build-a-billion-dollar-company-b0c31d7db0e7)]
+.footer[Trend Mixes]
+
+---
+
+class: document-slide
+
+# Going Retro / Craft Handmade
+
+.quote["The act of repairing becomes a visible and meaningful part of the object, poetically transforming and guiding the piece into new artistic terrain." —[RISD Museum](https://risdmuseum.org/exhibitions-events/events/repair-work-re-visioning-process)]
+.darkgray.stack[
+.group[
+.figure[
+
+![:image 0 50%, auto, 460px, https://risdmuseum.org/sites/default/files/styles/scaled_1324_w/public/card2_final_.jpg]
+.caption[Luli Heinz via RISD Museum]
+]
+]
+]
+
+.source[@risdmuseum [Repair as Metaphor](https://www.risd.edu/news/stories/repair-as-metaphor/) @rhodri [Oil Lamp Repair](https://twitter.com/rhodri/status/1076964860704055297)]
+.footer[Trend Mixes]
+
+---
+
+class: document-slide
+
+# Going Retro / How To Re-Spark Joy ...
+
+.grid.ratio-1-3[
+.group[
+"Clay vessels are remarkably durable, yet they are vulnerable to breakage if mishandled or dropped. This distinctive technique was based on the longstanding practice of using plant resin lacquer as an adhesive, but Japanese craftsmen transformed the appearance of the repair by sprinkling the lacquer with powdered gold, thus creating a new component for appreciation. 'Gold' lacquer repairs became closely associated with ceramic utensils used for tea (chanoyu)." —[Smithsonian](https://www.si.edu/Exhibitions/Golden-Seams-The-Japanese-Art-of-Mending-Ceramics-4567) (2008)
+]
+.group[
+.figure[
+
+![:image 0 50%, auto, 500px, https://d7hftxdivxxvm.cloudfront.net/?resize_to=width&src=https%3A%2F%2Fartsy-media-uploads.s3.amazonaws.com%2FHejoTLRBixJtj5Dw_a1WqA%252FFS-7376_10.jpg&width=800&quality=80]
+.caption[SI Freer|Sackler 17thc]
+]
+]
+]
+
+.source[@artsy [Kintsugi](https://www.artsy.net/article/artsy-editorial-centuries-old-japanese-tradition-mending-broken-ceramics-gold) [Golden Seams: The Japanese Art of Mending Ceramics](https://www.si.edu/Exhibitions/Golden-Seams-The-Japanese-Art-of-Mending-Ceramics-4567)]
+.footer[Trend Mixes]
+
+---
+
+class: yellow-slide
+
+.header[
+Summary by Tony Ruth (text will be inline normally outside of the illo box)
+]
+
+![](https://raw.githubusercontent.com/johnmaeda/designintech-2019/master/asset/image/Ruth3.jpg)
+
+---
+
+class: document-slide
+
+# SpeedCraft And The Need For Speed
+
+.darkgray.stack[
+.group[
+.numeral.subhead[2015]
+
+.quote["A small but growing number of people, however, are taking ad-blocking a step further and just disabling JavaScript altogether." —[Klint Finley](https://www.wired.com/2015/11/i-turned-off-javascript-for-a-whole-week-and-it-was-glorious/)
+]
+
+.numeral.subhead[2018]
+
+.quote["Average load time for the top 50 sites was 9.46 seconds with trackers loading, and 2.69 seconds without." —[Pingdom](https://royal.pingdom.com/trackers-impact-performance/)
+]
+
+.quote["Because of #GDPR, USA Today decided to run a separate version of their website for EU users, which has all the tracking scripts and ads removed. The site seemed very fast, so I did a performance audit. How fast the internet could be without all the junk! 🙄 5.2MB → 500KB" —[Marcel Freinbichler](https://twitter.com/fr3ino/status/1000166112615714816?s=20)
+]
+]
+
+.group[
+.orange.subhead[.fas.fa-chess-king[]]
+<br />
+
+.sans[Chris Coyier: [The Low Hanging Fruit of Web Performance](https://mediatemple.net/blog/tips/low-hanging-fruit-web-performance/) <br />]
+
+1. Reduce Requests
+2. Optimize Assets
+3. Make sure you’re gzipping
+4. Make sure you’re browser caching
+5. Use a CDN
+6. Lazy Load and Defer Loading of Things
+7. Use responsive images (or at least use reasonable sizes)
+8. Mind Your Fonts
+9. Good Hosting / HTTP2 / PHP7
+10. Turbolinks
+]
+]
+
+.source[@wired @pingdom @fr3ino @chriscoyier @mediatemple [NYT 09](https://www.nytimes.com/2009/05/10/business/10ping.html)]
+.footer[Trend Mixes]
+
+---
