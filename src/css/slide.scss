@@ -100,12 +100,22 @@
     }
   }
 
+  blockquote p:before {
+    content: '“';
+    position: absolute;
+    margin-left: -1em;
+    width: 1em;
+    text-align: right;
+  }
+
   a {
     color: $color-black;
     text-decoration: none;
 
     &:visited, &:link {
-      border-bottom: 2px solid $color-orange;
+      box-shadow:
+        inset 0 -0.175em $color-lightorange;
+/*      border-bottom: 1px solid $color-orange;*/
 
       &:hover {
         color: $color-white;
