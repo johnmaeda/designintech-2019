@@ -123,7 +123,7 @@ class: chapter-slide lightgray-slide
 
 class: document-slide
 
-background-image: URL(https://maeda.pm/wp-content/uploads/2019/02/IMG_0374-1.jpg)
+background-image: URL(https://raw.githubusercontent.com/johnmaeda/designintech-2019/master/asset/image/ai101.jpg)
 
 # A gigantic AI section didn't spark joy for me, so there is none.
 
