@@ -75,7 +75,7 @@ class: overview-slide lightgray-slide
 .group[
 ### 1) TBD = Tech × Business × Design
 
-How do technology, business, and design interrelate in the startup and corporate ecosystems?
+How do technology, business, and design interrelate in the startup and corporate ecosystems today?
 ]
 .group[
 ### 2) About Design-_______ Organizations
@@ -85,12 +85,12 @@ If design is in flux and it's difficult for designers to understand, is that goo
 .group[
 ### 3) Awesome Humans: Yes We Can
 
-How do we move the conversation away from dystopia, and not to eutopia, but to being present in the now?
+How do we move the conversation away from dystopia, and not to eutopia, but to being present in the now most constructively?
 ]
 .group[
 ### 4) Three Tasty Trend Mixes
 
-What do we sense is happening out there and how is it making us feel good (or bad) and more curious?
+What do we sense is happening out there and how is it making us feel good (or bad) and more curious for the future?
 ]
 .group[
 ### 5) Yaaaaaaaaawn! Boring AI
@@ -100,7 +100,7 @@ When we consider how computation will enable everything and all things with us a
 .group[
 ### 6) Addressing Imbalance
 
-Once we recognize exclusion from a historical perspective and a technological lens, what do we do about it?
+Once we recognize exclusion from a historical perspective and a technological lens, what can we do about addressing it?
 ]
 ]
 
@@ -226,14 +226,14 @@ Considers intersectionality as a source of creativity and a driver of change. Em
 ]
 ]
 
-.source[MIT Press]
+.source[@mitpress]
 .footer[Technology &times; Business &times; Design]
 
 ---
 
 class: document-slide
 
-# Coming Soon: How To Speak Machine 📘
+# Coming Soon: 📘 How To Speak Machine 
 
 <br /> 
 .grid.ratio-1-3[
@@ -245,22 +245,41 @@ class: document-slide
 ]
 ]
 
-.darkgray.group[
-.x-medium.sans[
-### Laws of Design for a Computational Age
+
+.darkgray.stack[
+.medium.group[
+
+# Computational<br /> Design ...
+
+... works in a new Moore’s Law-fueled medium that is from an alien universe.
+
+... makes big data. And that makes it need thick data to combat scaled biases.
+
+... creates economic opportunity because it advances a valuable new kind of talent.
+
+... needs to counterbalance itself with an emotional connection (i.e. art).
+
+... is the most valuable kind of design right now in the technology industry.
 ]
 
-Digital products don’t work like physical products; they possess their own set of laws, which demand a new mindset on the part of their creators. They are already more powerful than we can comprehend, and getting more powerful at an exponential pace. Once set in motion, algorithms never tire. And when a program’s size, speed, and tirelessness combines with its ability to learn and transform itself based on how we use it, the outcome can be unpredictable and dangerous. Take seemingly instant transformation of Microsoft’s chatbot Tay into a hate-spewing racist, or how crime-predicting algorithms reinforce racial bias.
+.medium.group[
 
-Maeda provides a simple framework for how designers can seize the opportunities afforded by technology to make great, world-changing, and inclusive products—while avoiding the pitfalls inherent to the medium. Readers will learn to conceive of products that are never “finished,” how to account for rapid advances in artificial intelligence, and why increasing diversity in design is fundamental to business growth. 
-A must-read for anyone working in product development in the digital age. 
+# Inclusive <br />Design ...
 
-[_Sign up for Advance Information_](https://design.co/signup)
+... works in an old-fashioned world that’s been excluding people for too long.
+
+... fights big data (scaled biases) when making thick data — by going proximate. 
+
+... locates imbalances and opportunities to solve problems with those impacted. 
+
+... enrichens the critical depth of makers, pointing them to meaningful problems.
+
+... is the most important kind of design right now in the technology industry.
 ]
 ]
+]
 
-.source[@johnmaeda [howtospeakmachine.com](https://howtospeakmachine.com)]
-.footer[Technology &times; Business &times; Design]
+.source[[howtospeakmachine.com](https://howtospeakmachine.com) / **Pre-order** from [Amazon](https://amzn.to/2HjDtM6) | [Barnes & Noble](http://links.penguinrandomhouse.com/type/affiliate/isbn/9780399564420/siteID/8001/retailerid/2/trackingcode/PRH30BB1D484D) | [IndieBound](http://links.penguinrandomhouse.com/type/affiliate/isbn/9780399564420/siteID/8001/retailerid/6/trackingcode/penguinrandom)]
 
 ---
 
@@ -426,8 +445,8 @@ class: document-slide
     * Diversify revenue model
     * Capture high growth asset opportunity
 ]
-.medium.group[
-_Firms that engage in creative capital trading are outside the usual venture ecosystem like:_ 
+.medium.sans.group[
+Firms that engage in creative capital trading are outside the usual venture ecosystem like:
 
 .orange[Law/ ] Cooley, Gunderson, .orange[Marketing and PR/ ] WEST, Tusk, Derris, Man Made Music, .orange[Branding/ ] Gin Lane (Pattern Brand), Red Antler, Partners & Spade, .orange[Product/ ] FKTRY, BASIC, Smart Design, Work&Co, Fuseproject, ustwo, Dynamo Partners, IDEO, Ministry Of Programming, FROG, R/GA, Pivot Ventures, Argo Design, Thinktiv, .orange[Full Stack], Prehype, Bullish, Prota Ventures, Runyon, Sweet Studio.
 ]
@@ -774,19 +793,19 @@ Here are a few career path recommendations for a designer just starting out in t
 
 .darkgray.stack[
 .group[
-.orange.subhead[Agency]
+.sans.large[Agency]
 
 >Join a small agency that is about three years old.”
 ]
 .group[
-.orange.subhead[Startup]
+.sans.large[Startup]
 
->I definitely don't recommend agencies. I'd recommend startups or a big company that has a relevant product.”
+>I definitely don't recommend agencies. I'd recommend startups <br/>or a big company that has a <br/>relevant product.”
 ]
 .group[
-.orange.subhead[Big Company]
+.sans.large[Big Company]
 
->Join a big company to learn how diverse the discipline is, then specialise and find a meaningful startup.”
+>Join a big company to learn <br/>how diverse the discipline is, <br/>then specialise and find a <br/>meaningful startup.”
 <br/><br/>
 ]
 ]
@@ -794,19 +813,19 @@ Here are a few career path recommendations for a designer just starting out in t
 
 .darkgray.stack[
 .group[
-.orange.subhead[Consultancy]
+.sans.large[Consultancy]
 
 > Every 3 to 6 months there’s a new project = new problems = many problems over a few years = knowledge on how to solve the next problems that are coming.
 ]
 .group[
-.orange.subhead[Freelance]
+.sans.large[Freelance]
 
->Freelance! Get a taste of what’s out there.”
+>Freelance! Get a taste of what’s <br/>out there.”
 ]
 .group[
-.orange.subhead[Grad School]
+.sans.large[Grad School]
 
->Any one option is a good one, however if design shall have a seat in the C-suite, grad school is not a bad idea”
+>Any one option is a good one, however if design shall have a<br/> seat in the C-suite, grad school <br/>is not a bad idea”
 ]
 ]
 
@@ -998,8 +1017,8 @@ class: document-slide
 
 # Designers generally excel at introverting together.
 
-.darkgray[
-👆 _This makes them a little different than most devs. And a lot different from business folks._<br /><br />]
+.darkgray.sans[
+(👆 This makes them a little different than most devs. And a lot different from business folks.)<br /><br />]
 
 .x-medium.quote[
 >The most successful design leaders are investing in personal growth, helping them scale themselves and their teams. They’re challenging assumptions about how organizations work and creating the way for more healthy, inclusive teams to thrive.” —[Mia Blume](https://www.goabstract.com/blog/embracing-open-design-in-2019/)
@@ -1411,7 +1430,7 @@ class: document-slide
 class: document-slide
 
 .header[
-# There’s something about GenZ &times; Chinese awesomeness ...
+# There’s something about GenZ &times; Chinese awesomeness.
 ]
 
 .darkgray.stack[
@@ -1602,7 +1621,7 @@ class: document-slide
 ]
 
 .group[
-.orange.numeral.subhead[2018]
+.black.numeral.subhead[2018]
 
 .sans[Boston Dynamics / Parkour Atlas 2018]
 
@@ -1638,7 +1657,7 @@ class: document-slide
 ]
 
 .group[
-.orange.numeral.subhead[2019]
+.black.numeral.subhead[2019]
 
 .sans[Facebook / Oculus Rift (2019)]
 
@@ -1674,7 +1693,7 @@ class: document-slide
 ]
 
 .group[
-.orange.numeral.subhead[2018]
+.black.numeral.subhead[2018]
 
 .sans[2019 Lexus ES / with Amazon Alexa  (2018)]
 <iframe width="505" height="284" src="https://www.youtube.com/embed/MneX34h9aPQ?start=18" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -1709,7 +1728,7 @@ class: document-slide
 ]
 
 .group[
-.orange.numeral.subhead[2018]
+.black.numeral.subhead[2018]
 
 .sans[Microsoft / Hololens Mixed Reality (2018)]
 
@@ -1741,7 +1760,7 @@ class: document-slide
 .stack[
 .group[
 
-.numeral.subhead[2010]
+.gray.numeral.subhead[2010]
 
 .large.quote[
 >The software industry is poised to embrace its craft heritage.” 
@@ -1844,7 +1863,7 @@ class: document-slide
 
 .grid.ratio-1-1[
 .group[
-.numeral.subhead[2015]
+.gray.numeral.subhead[2015]
 
 .large.quote[
 > A small but growing number of people, however, are taking ad-blocking a step further and just disabling JavaScript altogether.” —[Klint Finley](https://www.wired.com/2015/11/i-turned-off-javascript-for-a-whole-week-and-it-was-glorious/)
@@ -1995,7 +2014,7 @@ background-size: cover
 
 class: document-slide
 
-# Trust Me: 🛡 **Defense** or ⚔️ ️️**Offense**
+# Trust Me: 🤷‍♀️🤷‍♂️ **Defense** or 🛡️️⚔️ **Offense**
 
 .x-medium.quote[
 > Good (electronic) fences make good neighbors.” —Me
@@ -2005,22 +2024,22 @@ class: document-slide
 .stack[
 .group[
 
-.white.subhead[.x-large[🛡]]
+.white.subhead[.x-large[🤷‍♀️🤷‍♂️ ]]
 
 .sans[No action taken is the default **defense**]
 
-1. DNS
-2. Network
-3. Browser
-4. Messaging
-5. Social Media
-6. Legislation
-7. Walled Gardens
+1. Default DNS
+2. Default Network
+3. Default Browser
+4. Default Messaging
+5. Default Social Media
+6. Default Legislation
+7. Default Walled Gardens
 
 ]
 .group[
 
-.white.subhead[.x-large[⚔️ ]]
+.white.subhead[.x-large[🛡⚔️]]
 
 .sans[Taking action requires an **offense** game]
 
@@ -2045,7 +2064,7 @@ class: document-slide
 
 class: document-slide
 
-# 🛡 **Defense** and ⚔️ ️️**Offense** takes a variety of forms these days.
+# The design of “entrusting trust” takes a variety of forms now.
 
 .quote[
 > [Data Permissions Catalogue](https://catalogue.projectsbyif.com) collects different patterns for a range of data sharing activities, from getting consent from users to asking for access to personal data and sharing data with third parties.”
@@ -2100,7 +2119,7 @@ class: document-slide
 
 class: document-slide
 
-# ⚔️ **Defense** tactics can turn out to be 🙀 **Offensive** these days.
+# 🛡️️⚔️ **Offense** tactics can turn out to be 🙀 **Offensive** these days.
 
 .grid.ratio-2-1[
 
@@ -2125,7 +2144,7 @@ But Facebook quietly repurposed Onavo code for use in its Facebook Research app 
 
 class: document-slide
 
-# ⚔️ **Defense** expert Dr. Latanya Sweeney long saw it coming.
+# Data privacy expert Dr. Latanya Sweeney long saw it coming.
 
 .grid.ratio-2-1[
 
@@ -2166,7 +2185,8 @@ class: document-slide
 >It’s not difficult to [find](https://gizmodo.com/facebook-was-fully-aware-that-tracking-who-people-call-1830884585) [examples](https://www.nytimes.com/interactive/2018/12/10/business/location-data-privacy-apps.html?smid=tw-share) of companies making questionable product decisions, especially when it comes to your data and privacy. There can be many reasons why the ethical design path is not chosen, but there is one common factor — there are people, such as managers, engineers, and/or designers, behind each choice.” —[Holly Habstritt Gaal](https://spreadprivacy.com/ethical-by-design/)
 
 .small.sans.table.across-3[
-.th[
+.medium.th[
+[.orange[Framework By Holly Habstritt Gaal]](https://spreadprivacy.com/ethical-by-design/)
 ]
 .medium.black.th[
 Problem
@@ -2174,50 +2194,50 @@ Problem
 .medium.black.th[
 Solution
 ]
-.lightgray.th[
-Clarity of Control
+.medium.lightgray.th[
+Clarity Of Control
 ]
 .td[
-“You don't know you're being tracked until it's too late.”
+>You don't know you're being tracked until it's too late.”
 ]
 .td[
-“Set clear expectations so you’re always in control of your data.”
+>Set clear expectations so you’re always in control of your data.”
 ]
-.lightgray.th[
-Protected or Not?
-]
-.td[
-“Privacy features can be hard to find.”
+.medium.lightgray.th[
+Protected Or Not?
 ]
 .td[
-“Showcase features that demonstrate our privacy-focused mission.”
-]
-.lightgray.th[
-Trustworthiness
+>Privacy features can be hard to find.”
 ]
 .td[
-“Your favorite sites may have poor privacy practices.”
+>Showcase features that demonstrate our privacy-focused mission.”
+]
+.medium.lightgray.th[
+Actively Defending You
 ]
 .td[
-“Block trackers on your behalf, enforcing transparency and honesty from other sites, so you can still visit them with peace of mind.”
-]
-.lightgray.th[
-Sharing Where You Are
+>Your favorite sites may have poor privacy practices.”
 ]
 .td[
-“Your location is personal, but important for getting results.”
+>Block trackers on your behalf, enforcing transparency and honesty from other sites, so you can still visit them with peace of mind.”
+]
+.medium.lightgray.th[
+Sharing Your Whereabouts
 ]
 .td[
-“Let you decide how and when to provide your location, then throw it away after use.”
-]
-.lightgray.th[
-Comprehensibility
+>Your location is personal, but important for getting results.”
 ]
 .td[
-“Internet privacy is a complex and overwhelming topic.”
+>Let you decide how and when to provide your location, then throw it away after use.”
+]
+.medium.lightgray.th[
+Making Privacy Obvious
 ]
 .td[
-“Make learning easy and accessible.”
+>Internet privacy is a complex and overwhelming topic.”
+]
+.td[
+>Make learning easy and accessible.”
 ]
 ]
 
@@ -2284,9 +2304,11 @@ class: document-slide
 # Advice: Listen to Chinese Jack — he’s always provocative.
 
 .x-large.quote[
-> There is no expert of tomorrow. Only an expert of yesterday.
+> There is no expert of tomorrow.<br />
+Only an expert of yesterday.
 
-Don’t be evil is not enough. Do good things for the world.”
+Don’t be evil is not enough. <br />
+Do good things for the world.”
 
 —[Jack Ma](https://www.youtube.com/watch?v=8r_fxDoG1Ak&feature=youtu.be) WEF 2019
 ]
@@ -2676,10 +2698,10 @@ class: document-slide
 .subhead[.medium[New Automattic Design Experiment]]
 
 .small.quote[
->The value of a computational design system is not to replace designers, but to augment the workflow such that a designer's time is spent reviewing and selecting the best creative, rather than pushing pixels across a screen and cutting banner ads. Moreover, the immediate value lies in .orange[increasing design efficiency and speed] — giving designers more time to focus on refining the system, solving creative problems, and improving the overall brand + product experience.” —[Jeff Ong](https://jffng.com/)
+>The value of a computational design system is not to replace designers, but to augment the workflow such that a designer's time is spent reviewing and selecting the best creative, rather than pushing pixels across a screen and cutting banner ads. Moreover, the immediate value lies in .orange[increasing design efficiency and speed] — giving designers more time to focus on refining the system, solving creative problems, and improving the overall brand + product experience.” —[Jeff Ong](https://automattic.design/2019/03/06/automating-asset-creation/)
 
 .figure[
-![](https://automatticdesign.files.wordpress.com/2019/03/loop_assets-4.gif)
+![](https://automatticdesign.files.wordpress.com/2019/03/cascade_lo_whitebg.gif)
 .caption[via Automattic Design]
 ]
 
@@ -2693,56 +2715,15 @@ class: document-slide
 
 ---
 
-class: document-slide
+class: htsm-slide
+background-image: url(https://howtospeakmachine.com/wp-content/uploads/2019/03/htsmprism1200window.jpg)
+background-size: cover
 
-# Advice: Speaking machine **and** speaking human is a better future.
-
-<br /> 
-.grid.ratio-1-3[
-.group[
-
-.figure[
-![](https://raw.githubusercontent.com/johnmaeda/designintech-2019/master/asset/image/190302htsm.jpg)
-.caption[via Penguin]
-]
-]
+# .white[Advice: Speaking machine **and** speaking human is a better future.]
 
 
-.darkgray.stack[
-.medium.group[
-
-# Computational<br /> Design ...
-
-... works in a new Moore’s Law-fueled medium that is from an alien universe.
-
-... makes big data. And that makes it need thick data to combat scaled biases.
-
-... creates economic opportunity because it advances a valuable new kind of talent.
-
-... needs to counterbalance itself with an emotional connection (i.e. art).
-
-... is the most valuable kind of design right now in the technology industry.
-]
-
-.medium.group[
-
-# Inclusive <br />Design ...
-
-... works in an old-fashioned world that’s been excluding people for too long.
-
-... fights big data (scaled biases) when making thick data — by going proximate. 
-
-... locates imbalances and opportunities to solve problems with those impacted. 
-
-... enrichens the critical depth of makers, pointing them to meaningful problems.
-
-... is the most important kind of design right now in the technology industry.
-]
-]
-]
-
-.source[@johnmaeda [howtospeakmachine.com](https://howtospeakmachine.com)]
-.footer[Addressing Imbalance]
+.source[[howtospeakmachine.com](https://howtospeakmachine.com) / **Pre-order** from [Amazon](https://amzn.to/2HjDtM6) | [Barnes & Noble](http://links.penguinrandomhouse.com/type/affiliate/isbn/9780399564420/siteID/8001/retailerid/2/trackingcode/PRH30BB1D484D) | [IndieBound](http://links.penguinrandomhouse.com/type/affiliate/isbn/9780399564420/siteID/8001/retailerid/6/trackingcode/penguinrandom)]
+.footer[How To Speak Machine]
 
 ---
 class: chapter-slide lightgray-slide
@@ -3015,15 +2996,16 @@ _We’re all in this together._
 
 class: document-slide
 
-# What kind of world do you want to live in? In an open one?
+# What kind of world do you want to live in? Closed? Or open?
 
 .grid.ratio-1-2[
 .group[
 
-.large.quote[
-> A few words by Alexis Lloyd around the motivations of this film.”
+### A meditation on the open web
 
-—[Alexis Lloyd](http://www.alexislloyd.com/)
+.medium.quote[
+
+> What is the world of the open web like, beyond the walls of dominant social media platforms? How do our experiences of the internet differ depending on where we spend our time and share our ideas? Come with us on a journey to explore the landscape of the web and get to know the people and possibilities of open source, the open web, and open opportunities.” —[Alexis Lloyd](http://www.alexislloyd.com/)
 ]
 ]
 .group[
@@ -3031,9 +3013,8 @@ class: document-slide
 ![:iframe 380px, https://www.youtube.com/embed/HJb1bw7F0GE]
 
 .small.quote[
-> Some sort of relevant words from a post here ... that speaks to the open web and it's demise
-
-—[Reputable source](https://www.theguardian.com/film/2017/dec/07/human-flow-review-ai-weiwei-migration-documentary)
+>_The technology industry, like all industries, follows cycles, and the pendulum is swinging back to the broad, empowering philosophies that underpinned the early social web. But we’re going to face a big challenge with re-educating a billion people about what the web means.”_
+ —[Anil Dash](https://anildash.com/2012/12/13/the_web_we_lost/)
 ]
 ]
 ]
@@ -3042,12 +3023,52 @@ class: document-slide
 .footer[Addressing Imbalance]
 
 ---
+
+class: tonyruth-slide black-slide
+
+background-image: URL(https://raw.githubusercontent.com/johnmaeda/designintech-2019/master/asset/image/GivingTree_1.jpg)
+background-size: cover
+
+.source[@lunchbreath]
+.footer[Addressing Imbalance]
+
+---
+
+class: tonyruth-slide black-slide
+
+background-image: URL(https://raw.githubusercontent.com/johnmaeda/designintech-2019/master/asset/image/GivingTree_2.jpg)
+background-size: cover
+
+.source[@lunchbreath]
+.footer[Addressing Imbalance]
+
+---
+
+class: tonyruth-slide black-slide
+
+background-image: URL(https://raw.githubusercontent.com/johnmaeda/designintech-2019/master/asset/image/GivingTree_3.jpg)
+background-size: cover
+
+.source[@lunchbreath]
+.footer[Addressing Imbalance]
+
+---
+
+class: tonyruth-slide black-slide
+
+background-image: URL(https://raw.githubusercontent.com/johnmaeda/designintech-2019/master/asset/image/GivingTree_4.jpg)
+background-size: cover
+
+.source[@lunchbreath]
+.footer[Addressing Imbalance]
+
+---
 class: document-slide lightgray-slide sans
 
 # 2019 #DesignInTech Open Survey Credits
 
 .small[
-Bob, rasoul, Galit Ariel, Kweewa, Joniel Franco da Silva, Sunil Malhotra, Ananya Vetaal, Max Thoeny, Murilo Bispo, Alexander Savard, Brian Ling, Martini, Micah F, Zach Hyman, Ben Faubion, Rui Coutinho, Melissa Patenaude, Cody Evol, Roel Uleners, Mercury Murphy, Natalia Favrin Keri, Bart Baekelandt, Lucian Novosel, Mike McFadden, John David "jdm" Miller, Valeska O'Leary, John Young, Andy Van Solkema, Filippo Comini, Laurence Berry, Valerie Craig, Scout Addis, Sarah Doody, Jesper Bröring, sku, Daniel Terra, Dan Birlew, Red Lemonade, musho, Olympia Datta, Pete Wendel, Christopher Hinger, Oliver Henderson, Lauren Langley, Matteo B, Laetitia Wolff, Emily Campbell, Tiya Z, Raphael Fagundes, Felipe Pires, Wilbert Baan, Alejo B. Romano, Leandro Alpi, Nils "Amuse" Sköld, Andra Oprisan, Vikram Sood, Girish Yelka, Senior UX, John Goff, rolandw, Lex Roman, Masha I., LKL, Georgi Kamov, Sahil Khan, \@kflores, Millie Lin, Nikolaus Kaiser, Connor Hill, Chino Wong, Yuki Alzona, Erin Jerri Malonzo Pangilinan, Juan, Shyn, Peter Trigar, Adam Waxman, RLA, Kara Lindstrom, Wladislav Glad, alex matzner, j.s., Cristina Kulik, JJ, SCS, Brooks, Thank you for your inspiration John Maeda!, Flo Katzenbach, A.C. from Argentina, Becki Hyde, Pete Kinser, Chaker Bejaoui, Devin Hunt, Weiwei Hsu, Julie Hadden, The Home Depot, Clint Schnee, Georg, Stu Griffiths, Christopher Schwing, Chris Barnes, Roger Zhu, Rui Eduardo, Beth Reichler, DAO, A, Sean McLeary, Kei Yumino, Ryan Connolly, Lakshmi K Ajayan, Russell Ong, Mel Choyce, EEG, Katie George, Giorgio Venturi, Chi Ryan, René Spitz, Jesse D., Jadson Dantas dos Santos, pk, Randy J. Hunt, Adam Zeiner, paul hanaoka, Robert Quintero, Sherif Tariq, Sybil Mulokwa, Juan Hidalgo, Michele Palazzo, Huxley Dias, Dominik Rymsza, uɐɥʎɐK, OTTO Williams, Kevin Meyer, Colin Stokes, Dan Parham, Rocio Lopez, Rosemary Murphy, NC, Alexandra Candelas, Erin Sparling, Vincent Bahk, PATCHI, Andrew La Monica, Jessi Rymill, Tyler Ransburgh, David Boddy, Mike Kenny, Abel Valdez, Pallavi Naik, Tom Ward, May O., donnie kim, Vini Mota, Anderson Façanha, Willem-Jan Jansen, xxx, markus nowak, Sergio RS, Pablo Zarate, Luis Madureira, Gopika Setlur, Julie Stanescu, notrevol, Antonin Pospisil, Joe Schram, Gianvito Fanelli, Marie-Anne Nonyme, Bruno Castro, Patrick de Jong, Valeska O'Leary, benjieboo, Eye on Design, Ken Rossi, Keith Instone, Murthy Gollapudi, Justin Farrugia, Pernille Yding, Olivier Heitz, KMJ, Hiroyuki Takeuchi, Daniel Harvey, Chris Rawlinson, Rich Nadworny, M.M., Gianluca Cherubin, tetsuo.11, Philipp Schaefer, Tammie Lister, Pascal Heynol, mediumstudio, Finn Birger Lie, Mallika mhatre, Selen, Snova, Holger Fricke, Nancy Tilbury, YZ, edokoa, Jason Prunty, Helmut Ramsauer with 200 other participants]
+Bob, rasoul, Galit Ariel, Kweewa, Joniel Franco da Silva, Sunil Malhotra, Ananya Vetaal, Max Thoeny, Murilo Bispo, Alexander Savard, Brian Ling, Martini, Micah F, Zach Hyman, Ben Faubion, Rui Coutinho, Melissa Patenaude, Cody Evol, Roel Uleners, Mercury Murphy, Natalia Favrin Keri, Bart Baekelandt, Lucian Novosel, Mike McFadden, John David "jdm" Miller, Valeska O'Leary, John Young, Andy Van Solkema, Filippo Comini, Laurence Berry, Valerie Craig, Scout Addis, Sarah Doody, Jesper Bröring, sku, Daniel Terra, Dan Birlew, Red Lemonade, musho, Olympia Datta, Pete Wendel, Christopher Hinger, Oliver Henderson, Lauren Langley, Matteo B, Laetitia Wolff, Emily Campbell, Tiya Z, Raphael Fagundes, Felipe Pires, Wilbert Baan, Alejo B. Romano, Leandro Alpi, Nils "Amuse" Sköld, Andra Oprisan, Vikram Sood, Girish Yelka, Senior UX, John Goff, rolandw, Lex Roman, Masha I., LKL, Georgi Kamov, Sahil Khan, \@kflores, Millie Lin, Nikolaus Kaiser, Connor Hill, Chino Wong, Yuki Alzona, Erin Jerri Malonzo Pangilinan, Juan, Shyn, Peter Trigar, Adam Waxman, RLA, Kara Lindstrom, Wladislav Glad, alex matzner, j.s., Cristina Kulik, JJ, SCS, Brooks, Thank you for your inspiration John Maeda!, Flo Katzenbach, A.C. from Argentina, Becki Hyde, Pete Kinser, Chaker Bejaoui, Devin Hunt, Weiwei Hsu, Julie Hadden, The Home Depot, Clint Schnee, Georg, Stu Griffiths, Christopher Schwing, Chris Barnes, Roger Zhu, Rui Eduardo, Beth Reichler, DAO, A, Sean McLeary, Kei Yumino, Ryan Connolly, Lakshmi K Ajayan, Russell Ong, Mel Choyce, EEG, Katie George, Giorgio Venturi, Chi Ryan, René Spitz, Jesse D., Jadson Dantas dos Santos, pk, Randy J. Hunt, Adam Zeiner, paul hanaoka, Robert Quintero, Sherif Tariq, Sybil Mulokwa, Juan Hidalgo, Michele Palazzo, Huxley Dias, Dominik Rymsza, uɐɥʎɐK, OTTO Williams, Kevin Meyer, Colin Stokes, Dan Parham, Rocio Lopez, Rosemary Murphy, NC, Alexandra Candelas, Erin Sparling, Vincent Bahk, PATCHI, Andrew La Monica, Jessi Rymill, Tyler Ransburgh, David Boddy, Mike Kenny, Abel Valdez, Pallavi Naik, Tom Ward, May O., donnie kim, Vini Mota, Anderson Façanha, Willem-Jan Jansen, xxx, markus nowak, Sergio RS, Pablo Zarate, Luis Madureira, Gopika Setlur, Julie Stanescu, notrevol, Antonin Pospisil, Joe Schram, Gianvito Fanelli, Marie-Anne Nonyme, Bruno Castro, Patrick de Jong, Valeska O'Leary, benjieboo, Eye on Design, Ken Rossi, Keith Instone, Murthy Gollapudi, Justin Farrugia, Pernille Yding, Olivier Heitz, KMJ, Hiroyuki Takeuchi, Daniel Harvey, Chris Rawlinson, Rich Nadworny, M.M., Gianluca Cherubin, tetsuo.11, Philipp Schaefer, Tammie Lister, Pascal Heynol, mediumstudio, Finn Birger Lie, Mallika mhatre, Selen, Snova, Holger Fricke, Nancy Tilbury, YZ, edokoa, Jason Prunty, Helmut Ramsauer with 200 other participants.]
 
 .footer[Credits]
 
@@ -3067,3 +3088,12 @@ This is the fifth publication of the Design In Tech report. We will post any upd
 Please report any errors to @johnmaeda on Twitter. Thank you!
 John Maeda has minor equity positions as an investor in certain companies that may be referenced in the presentation [maedastudio.com/startups](https://maedastudio.com/startups).
 ]
+
+---
+
+class: htsm-slide
+background-image: url(https://howtospeakmachine.com/wp-content/uploads/2019/03/htsmfullimage.jpg)
+background-size: cover
+
+.source[[howtospeakmachine.com](https://howtospeakmachine.com) / **Pre-order** from [Amazon](https://amzn.to/2HjDtM6) | [Barnes & Noble](http://links.penguinrandomhouse.com/type/affiliate/isbn/9780399564420/siteID/8001/retailerid/2/trackingcode/PRH30BB1D484D) | [IndieBound](http://links.penguinrandomhouse.com/type/affiliate/isbn/9780399564420/siteID/8001/retailerid/6/trackingcode/penguinrandom)]
+.footer[How To Speak Machine]
