@@ -1232,7 +1232,7 @@ class: document-slide
 [.sans[Xbox Adaptive Controller]](https://news.xbox.com/en-us/2018/05/16/xbox-adaptive-controller/) / Making gaming accessible. 
 
 .figure[
-![](https://news.xbox.com/en-us/wp-content/uploads/Xbox-Adaptive-Controller-141.png)
+![](https://raw.githubusercontent.com/johnmaeda/designintech-2019/master/asset/image/Xbox-Adaptive-Controller-141.jpg)
 .caption[via Microsoft]
 ]
 ]
