@@ -3092,7 +3092,7 @@ John Maeda has minor equity positions as an investor in certain companies that m
 ---
 
 class: htsm-slide
-background-image: url(https://howtospeakmachine.com/wp-content/uploads/2019/03/htsmfullimage.jpg)
+background-image: url(https://raw.githubusercontent.com/johnmaeda/designintech-2019/master/asset/image/htsmfullimage.jpg)
 background-size: cover
 
 .source[[howtospeakmachine.com](https://howtospeakmachine.com) / **Pre-order** from [Amazon](https://amzn.to/2HjDtM6) | [Barnes & Noble](http://links.penguinrandomhouse.com/type/affiliate/isbn/9780399564420/siteID/8001/retailerid/2/trackingcode/PRH30BB1D484D) | [IndieBound](http://links.penguinrandomhouse.com/type/affiliate/isbn/9780399564420/siteID/8001/retailerid/6/trackingcode/penguinrandom)]
