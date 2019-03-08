@@ -5,40 +5,68 @@
 :global {
 
 .cover-slide {
-  @include typography-mono;
+  @include typography-sans;
 
   background-color: $color-orange;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://raw.githubusercontent.com/johnmaeda/designintech-2019/master/asset/image/ai101.jpg');
+  background-image: url('https://raw.githubusercontent.com/johnmaeda/designintech-2019/master/asset/image/erikokawakamicover.jpg');
   background-size: cover;
-  color: $color-white;
+  color: $color-black;
 
   .byline {
+    @include typography-size(x-medium);
     display: flex;
+    font-weight: 900;
     position: absolute;
-    top: 95px;
-    left: 132px;
+    top: 115px;
+    left: 67px;
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    width: 133px;
-    height: 26px;
   }
 
+  .credit {
+    @include typography-size(xx-small);
+    display: block;
+    position: absolute;
+    top: 110px;
+    left: 1095px;
+    width:200px;
+    align-items: left;
+    color: lightgray;
+    flex-direction: row;
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
+  }
+  a {
+    color: $color-lightgray;
+    text-decoration: none;
+
+    &:visited, &:link {
+      box-shadow: none;
+
+      &:hover {
+        color: $color-orange;
+      }
+    }
+  }
   .heading {
     display: block;
     position: absolute;
-    top: 425px;
-    left: 708px;
+    top: 505px;
+    left: 35px;
     box-sizing: border-box;
     width: 336px;
-    height: 104px;
     padding: 0 30px;
 
     h1 {
-      @include typography-mono;
+      @include typography-size(large);
       margin: 12px 0 6px;
+      font-weight: 100;
       font-size: 32px;
-      line-height: 40px;
+      line-height: 45px;
     }
 
     a {

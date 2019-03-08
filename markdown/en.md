@@ -6,6 +6,8 @@ layout: true
 class: cover-slide
 
 .byline[John Maeda]
+.credit[[Cover design by Eriko Kawakami](https://erikokawakami.com)]
+
 .heading[
 # Design in Tech Report 2019
 ]
