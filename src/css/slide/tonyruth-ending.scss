@@ -1,0 +1,66 @@
+@import '../colors';
+@import '../elements';
+@import '../typography';
+
+:global {
+
+.tonyruth-ending-slide {
+  @include typography-mono;
+
+  background-color: $color-lightgray;
+  color: $color-white;
+
+  .byline {
+    display: flex;
+    position: absolute;
+    top: 95px;
+    left: 132px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 133px;
+    height: 26px;
+  }
+  .source {
+            right: calc(40% + 2rem); // Not sure
+            bottom: 1rem;
+            left: 3rem;
+            color: $color-white;
+        
+            &:before {
+              content: '';
+            }
+  }
+  .heading {
+    display: block;
+    position: absolute;
+    top: 425px;
+    left: 708px;
+    box-sizing: border-box;
+    width: 336px;
+    height: 104px;
+    padding: 0 30px;
+
+    h1 {
+      @include typography-mono;
+      margin: 12px 0 6px;
+      font-size: 32px;
+      line-height: 40px;
+    }
+
+    a {
+      display: block;
+      font-size: 11px;
+    }
+  }
+
+  .footer {
+     color: $color-white;
+  }
+
+  .remark-slide-number {
+    display: none;
+  }
+}
+
+} // :global

@@ -2996,7 +2996,7 @@ _We’re all in this together._
 
 class: document-slide
 
-# What kind of world do you want to live in? Closed? Or open?
+# What kind of world do you want to live in? Why not an **open** one?
 
 .grid.ratio-1-2[
 .group[
@@ -3009,8 +3009,7 @@ class: document-slide
 ]
 ]
 .group[
-
-![:iframe 380px, https://www.youtube.com/embed/HJb1bw7F0GE]
+![:iframe 380px, https://www.youtube.com/embed/Uxufu1H4Ngo]
 
 .small.quote[
 >_The technology industry, like all industries, follows cycles, and the pendulum is swinging back to the broad, empowering philosophies that underpinned the early social web. But we’re going to face a big challenge with re-educating a billion people about what the web means.”_
@@ -3024,42 +3023,42 @@ class: document-slide
 
 ---
 
-class: tonyruth-slide black-slide
+class: tonyruth-ending-slide black-slide
 
 background-image: URL(https://raw.githubusercontent.com/johnmaeda/designintech-2019/master/asset/image/GivingTree_1.jpg)
 background-size: cover
 
-.source[@lunchbreath]
+.source[With apologies to Shel Silverstein from @lunchbreath]
 .footer[Addressing Imbalance]
 
 ---
 
-class: tonyruth-slide black-slide
+class: tonyruth-ending-slide black-slide
 
 background-image: URL(https://raw.githubusercontent.com/johnmaeda/designintech-2019/master/asset/image/GivingTree_2.jpg)
 background-size: cover
 
-.source[@lunchbreath]
+.source[With apologies to Shel Silverstein from @lunchbreath]
 .footer[Addressing Imbalance]
 
 ---
 
-class: tonyruth-slide black-slide
+class: tonyruth-ending-slide black-slide
 
 background-image: URL(https://raw.githubusercontent.com/johnmaeda/designintech-2019/master/asset/image/GivingTree_3.jpg)
 background-size: cover
 
-.source[@lunchbreath]
+.source[With apologies to Shel Silverstein from @lunchbreath]
 .footer[Addressing Imbalance]
 
 ---
 
-class: tonyruth-slide black-slide
+class: tonyruth-ending-slide black-slide
 
 background-image: URL(https://raw.githubusercontent.com/johnmaeda/designintech-2019/master/asset/image/GivingTree_4.jpg)
 background-size: cover
 
-.source[@lunchbreath]
+.source[With apologies to Shel Silverstein from @lunchbreath]
 .footer[Addressing Imbalance]
 
 ---
