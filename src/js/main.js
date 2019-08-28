@@ -9,8 +9,8 @@ import Slideshow from './module/Slideshow'
 import '../css/main.scss'
 
 export const supportedLanguages = {
-  'en': 'English' /*,
-  'ja': 'Japanese'*/
+  'en': 'English',
+  'ja': 'Japanese'
 }
 
 const acceptLanguage = AcceptLanguage.create()
