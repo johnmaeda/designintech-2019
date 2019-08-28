@@ -6,21 +6,40 @@ layout: true
 class: cover-slide
 
 .byline[ジョン・マエダ]
+.credit[[Cover design by Eriko Kawakami](https://erikokawakami.com)]
+
 .heading[
-# Design in Tech Report 2018
-[https://designintechreport.wordpress.com](https://designintechreport.wordpress.com)
+# Design in Tech Report 2019
 ]
 
 ---
 
 class: team-slide
 
-# チーム
+# 2019 チーム
 
 .body[
 
 .section[
-## 創設メンバー
+## 貢献してくれた人々
+* ![](https://raw.githubusercontent.com/johnmaeda/designintech-2019/master/asset/image/takram.jpg)
+	Takram
+* ![](https://raw.githubusercontent.com/johnmaeda/designintech-2019/master/asset/image/ruth.jpg)
+	Tony Ruth
+* ![](https://raw.githubusercontent.com/johnmaeda/designintech-2019/master/asset/image/fatimah.jpg)
+	Fatimah Kabba
+* ![](https://raw.githubusercontent.com/johnmaeda/designintech-2019/master/asset/image/garcia.jpg)
+	Dezzie Garcia
+* ![](https://raw.githubusercontent.com/johnmaeda/designintech-2019/master/asset/image/kawakami.jpg)
+	Eriko Kawakami
+* ![](https://raw.githubusercontent.com/johnmaeda/designintech-2019/master/asset/image/ezjules.jpg)
+	Jules Ehrhardt
+* ![](https://raw.githubusercontent.com/johnmaeda/designintech-2019/master/asset/image/kat.jpg)
+	Kat Holmes
+]
+
+.section[
+## 創設チーム
 * ![](https://raw.githubusercontent.com/johnmaeda/designintechreport-2018/master/asset/image/jackie.jpg)
 	Jackie Xu
 * ![](https://raw.githubusercontent.com/johnmaeda/designintechreport-2018/master/asset/image/aviv.jpg)
@@ -34,58 +53,16 @@ class: team-slide
 ]
 
 .section[
-## レポート貢献者
+## これまでに貢献者してくれた人々
 * ![](https://raw.githubusercontent.com/johnmaeda/designintechreport-2018/master/asset/image/bon.jpg)
-	Bon Ku<br>
-	医学
+	Bon Ku
 * ![](https://raw.githubusercontent.com/johnmaeda/designintechreport-2018/master/asset/image/ling.jpg)
-	Ling Fan<br>
-	中国
+	Ling Fan
 * ![](https://raw.githubusercontent.com/johnmaeda/designintechreport-2018/master/asset/image/sunil.jpg)
-	Sunil Malhotra<br>
-	インド
+	Sunil Malhotra
 * ![](https://raw.githubusercontent.com/johnmaeda/designintechreport-2018/master/asset/image/luis.jpg)
-	Luis Arnal<br>
-	ラテンアメリカ
+	Luis Arnal
 ]
-
-.section[
-## レポート翻訳者
-* ![](https://raw.githubusercontent.com/johnmaeda/designintechreport-2018/master/asset/image/takram.jpg)
-	Takram<br>
-	日本語
-]
-
-]
-
-.footer[Welcome]
-
----
-
-class: document-slide yellow-slide
-
-# .xx-large.serif[デスクトップ向け / ベータ版リリースノート]
-
-.x-large.sans[もともとこのレポートはモバイル向けでレスポンシブな方法でのデザインを意図していたが、道半ばでコーディングに行き詰ってしまった...もしあなたがモバイルからこのレポートにアクセスしているなら（おそらくその可能性が高いだろう）、ここで引き返してほしい。これから勉強を進め、モバイル向けのバージョンも閲覧可能にする予定だ。—JM（ジョン・マエダ）]
-
-.footer[Welcome]
-
----
-
-class: overview-slide darkgray-slide sans
-
-# ようこそ
-
-.group[
-
-新フォーマットのDesign in Tech Reportへようこそ。今年のレポートでは、これまで学習したいと思っていたCSS/JSに挑戦し、フル・レスポンシブなレポートを作成に取り組んだ。その試みは部分的に成功し、このレターボックスのみのバージョンが完成した。そして、幸運なことにTakram松田氏のおかげでとても内容が改善された。
-
-Refresh Screenが現れたらウィンドウをリフレッシュしてほしい。それで動的な図が再度表示されるはずだ。Google Chromeがこのレポートにとってベストなようだが、もしこのインタラクティブな形が好みでなければ、SlideShareのバージョンをご覧いただきたい。
-
-ビデオバージョンは私の新しいYouTubeチャンネル『John Maeda is Learning（ジョン・マエダが学ぶ）』で公開予定だ。
-
-—@johnmaeda
-
 ]
 
 .footer[Welcome]
@@ -94,225 +71,59 @@ Refresh Screenが現れたらウィンドウをリフレッシュしてほしい
 
 class: overview-slide lightgray-slide
 
-# .x-large[セクション<br>概要]
+# .x-large[セクションの概要]
 
 .grid.across-2[
 .group[
-### 1) TBD = テクノロジー (T) × ビジネス (B) × デザイン (D)
+### 1) TBD = Tech × Business × Design
 
-テクノロジーとビジネス、そしてデザインは、スタートアップや企業のエコシステムの中でお互いにどのように関係しているのだろうか。
+今日のスタートアップや企業のエコシステムにおいて、テクノロジー・ビジネス・デザインはどのようにお互いに関係しているのか？
 ]
 .group[
-### 2) デザインのスケール
+### 2) デザイン-_______ 組織について
 
-ビジネスに影響を与えるために、ムーアの法則のようなスピードで企業内のデザイン機能をスケールさせるにはどうすれば良いのだろうか。
+もしデザインが流動的でデザイナーにも理解するのが難しいとしたら、それは非デザイナーにとって良いものといえるのだろうか？
 ]
 .group[
-### 3) コンピュテーショナルデザイン：<br>最初のステップ
+### 3) 人類ってヤバイ: 私たちならできる
 
-「コンピュテーショナルデザイン」とは何で、それはなぜビジネス+テクノロジーにとって重要なのだろうか。
+話題をディストピアから逸らし、だからと言ってユートピアの話をするのではなく、最も建設的に現在に目を向けさせるにはどうすればいいのか？
 ]
 .group[
-### 4) コンピュテーショナルデザイン × AI
+### 4) 3つの魅力的なトレンドの融合
 
-人工知能はデザインの未来をどのように変えるだろうか。そしてデザイナーは何を知っておくべきなのだろうか。
+私たちが感じる変化は一体何か？それはどのように私たちに感想を抱かせ、未来に興味を抱かせるのだろうか？
 ]
 .group[
-### 5) 不平等性
+### 5) ふわぁぁぁぁぁ！ AIってつまらない
 
-増大する不平等性に対し、テクノロジーがすべき役割とは何だろうか。そしてそれに対しデザイナーとしては何を気にかけるべきだろうか。
+コンピュテーションが私たちと一緒に、あるいは私たち抜きでなんでもできるとすると、後には一体何が残るのだろうか？
 ]
 .group[
-### 6) なぜインクルーシブデザインか
+### 6) 不均衡に対する取り組み
 
-TBDを考えるうえで、インクルーシブデザインをより気にかける必要があるのだろうか。そのために何ができるのだろうか。
+歴史的視点やテクノロジーのレンズの排除にはどのように取り組めばいいのだろうか？
 ]
 ]
 
-.footer[Welcome]
-
----
-
-class: document-slide x-small
-
-# Design In Tech Reportのキーポイント
-
-.stack[
-.group[
-.numeral.subhead[2015]
-
-.black.quote-list[
-* 2004年から2015年にかけ、クリエイティブ企業14社がFacebookやFlextronics、Googleといったテクノロジー企業、もしくはAccenture、Capital One、BBVAやMcKinseyといった企業に買収された。
-* コンピューティングパワー（ムーアの法則） による限界収益が逓減しはじめ、差別化要因としてのテクノロジーの影響が小さくなったことで、デザインがもたらす価値が注目されてきた。
-* 2010年以降、デザイナーによって共同設立されたスタートアップ27社が、IntuitやGoogle、Facebook、Adobe、LinkedIn、Yahooのような企業に買収された。
-* ベンチャーキャピタルから幾度となく資金調達しているトップベンチャー企業で、2013年以降に追加的に調達を行なった企業のうち5社（20%）は、デザイナーが共同設立者であることで知られている。
-* 2014年1月にKleiner Perkinsが最初のデザインパートナー、**ジョン・マエダ** を指名するまで、シリコンバレーの伝説的な『Sand Hill Road』にデザイナーはいなかった。その後まもなく、6つのベンチャーキャピタルが新たにデザインパートナーを招聘した。
-* .purple.sans[.fas.fa-chart-line[] **DESIGN DE$IGN** デスクトップに比べ、モバイルのデザインは、体験に対して新たな制約をもたらした。そして、テクノロジー愛好家でない一般消費者への橋渡しとして、デザイナーのスキルが非常に価値あるものとなった。]
-]
-]
-.group[
-.numeral.subhead[2016]
-
-.black.quote-list[
-* デザイン会社の買収が続く。2004年以降、42のデザイン会社が買収され、そしてこの年だけでその半数弱を占めている。この動きは、Accenture、Deloitte、IBMが主導している。
-* ベンチャーキャピタルにいるデザイナーが増加した。2年間で、それ以前の4年間より多い数のデザイナーがベンチャーキャピタルに入った。歴史的出来事である。
-* アンケートに答えた370人のデザイナーのうち93.5%が、テクノロジー業界のデザイナーにとって、コーディングとデータを中心とするスキルは当然の持つべき知識だと考えている。
-* トップ10のビジネススクールの100%が、学生主導のデザイン/イノベーションクラブを持つ。ハーバード・ビジネススクール（HBS）の2015年卒業の学生のうち、6～7%がプロダクトマネジメントの仕事についている。
-* デザインをスケールさせるための主要メソッドとして、デザイニングシステムやデザイナー文化が出現する。これらは、エージェンシーの活動やKarl Gerstnerのデザインプログラムにおける先駆的な活動が基礎になっている。
-* 多様性が解決すべき問題として捉えられるのではなく、多様性の包含（インクルージョン）のためのデザインが商業的な機会や文化的な責任意識となる。
-* .purple.sans[.fas.fa-chart-line[] **3種のデザイン** デザインには3つの種類がある。クラシカルデザイン、デザイン思考、そしてコンピュテーショナルデザインだ。ビジネス的な価値のほとんどは、後者2つによって作られている。]
-]
-]
-.group[
-.numeral.subhead[2017]
-
-.black.quote-list[
-* デザイナーの需要が高まっている。FacebookやGoogle、Amazonが採用を増やしていることにより、デザイナーの需要が高まっている。LinkedInによれば、その3社合計の採用数で1年間で65%増加した。
-* McKinseyとSalesforceはデザインに大きく投資しており、より多くのデザイナーを獲得している。デザインツールのスタートアップInVisionが、小規模なスタートアップ5社を買収する。
-<!-- * 4 Design Partners are elected at McKinsey & Co and IBM appoints 3 Distinguished Designers — to the highest senior levels of a corporate hierarchy. -->
-* デザインツールは、Photoshop時代の印刷物や初期Webデザインのパラダイムを飛び出し、プロトタイプ作成やプロジェクト管理、バージョン管理、インラインコーディングやオートメーションを含める方向に進化し始めている。
-* 音声およびチャットベースのインターフェースは、ビジュアル表現を必要としないメンタルモデルに根付いている。そして、それとの関連性を問わず、人工知能の技術進歩も加速している。
-* 中国のテクノロジーデザインのトレンドについての掲載が始まる。テクノロジーの原則や実践において中国のデザインが世界をリードしているが、多くの場合それは見過ごされている。
-* アンケートに答えたデザイナーの90％が、彼らにとって重要なことは、より多様なデザインチームを持つことだと答えている。彼らの最も多いリクエストは、「もっと社内で話をすべきだ」ということだ。
-* .purple.sans[.fas.fa-chart-line[] **インクルーシブデザインが始まる** インクルーシブデザインのアプローチを取り入れることにより、テクノロジー製品の潜在的な対象市場規模が広がる。インクルーシブデザインが大きな転換点を迎え始める。]
-]
-]
-]
-
-.source[[Design in Tech Reports](https://designintechreport.wordpress.com)]
-.footer[Welcome]
-
----
-
-class: document-slide
-
-# Design in Tech Reports 簡易版
-
-.stack[
-.group[
-.numeral.subhead[2015]
-
-.purple[デザインはただ美しければいいというものではない。デザインは市場適合性や有意義な結果を生みだすためのものなのだ。]
-
-> .darkgray[_DESIGNはDE$IGNだ — バウハウスの時代、さらにはそのずっと昔から、伝統的にデザインとはそういうものだった。_]
-]
-.group[
-.numeral.subhead[2016]
-
-.purple[デザインには3つの種類がある。クラシカルデザイン、デザイン思考、そしてコンピュテーショナルデザインだ]
-
-> .darkgray[_ビジネス的な価値のほとんどは後者２つが原動力となっている。一方でクラシカルデザインも緩やかに進化してきている。_]
-]
-.group[
-.numeral.subhead[2017]
-
-.purple[インクルーシブデザイン・アプローチを取り入れることで、テクノロジー製品の潜在的な対象市場規模が広がる。]
-
-> .darkgray[_インクルージョンは良いビジネス機会であり、新しく確証となる事象が出てきた。インクルーシブデザインがさらに根づくことで、より多くの事例が出るだろう。_]
-]
-]
-
-.source[Past [Design in Tech Reports](https://designintechreport.wordpress.com)]
-.footer[Welcome]
-
----
-
-class: document-slide
-
-# 2017年版#DesignInTech Reportについて
-
-.grid.ratio-1-3[
-.group[
-]
-.group[
-## 2017年版レポートについての簡単な要約
-]
-]
-
-.grid.ratio-1-3[
-.group[
-.grayscale.figure[
-![](https://designintechreport.files.wordpress.com/2017/03/screen-shot-2017-03-07-at-5-34-13-pm.png)
-.caption[Design in Tech Report 2017]
-]
-]
-.group[
-* Slideshareで80万回以上の閲覧があった。
-* ビデオ・音声版には3万件以上のアクセスがあった。
-* 昨年のレポートでは、 『*Writing and its critical importance to design (ライティングとそのデザインにとっての決定的重要性)*』 という **Fatimah Kabba** による洞察が飛び抜けて人気だった。
-* **Designintechreport.wordpress.com** という新しいページのSEOにきちんと取り組んだ。ご支援、お力添えに感謝！
-]
-]
-
-.grid.ratio-1-3[
-.group[
-<details>
-<summary>.darkgray[.fas.fa-football-ball[]]</summary>
-.grayscale.figure[
-![](https://media.giphy.com/media/atYyKKGkdjaUg/giphy.gif)
-.caption[via Giphy]
-]
-</details>
-]
-.group[
-<details>
-<summary></summary>
-.darkgray[
-## そして、言論の自由というものもある
-
-* **Statler:** #DesignInTech Report自体が良いデザイン作品とはいえないだろう
-* **Waldorf:** 一度見たことがあるが、グラフィックデザインがとてもひどかったね :-)
-* **Statler:** これがデザインというものを代表しているのが恥ずかしいよ
-* **Waldorf:** その意見に賛成だ
-]
-</details>
-]
-]
-
-.source[Twitter and Giphy]
-.footer[Welcome]
-
----
-
-class: document-slide
-
-# 2017年版#DesignInTech Reportへの有用なフィードバック
-
-## ポジティブな感想
-
-* 「 2017年版#DesignInTech Reportのおかげで、自分をデザイナー兼開発者と言ってたけどそれが変わった。」
-* 「#designintechの音声でのプレゼンテーションを@SoundCloudに入れて何度も聞くよ。」
-* 「@simplysecureorg #designintechの発表おめでとう。プライバシーやセキュリティに関する素晴らしい作品だ。」
-* 「コーディングもするデザイナーの皆さん、#DesignInTech Reportの内容を理解する絶好のタイミングですよ。」
-* 「#DesignInTechは『成長を加速させる原動力としてコンピュテーショナルデザインの枠組みを再構築する』」
-* 「デザインは美しいだけじゃダメ。関連性や有意義な結果をもたらすものなんだ。」
-
-## 建設的な指摘
-* 「『デザイナー』の前に余計な形容詞を付け加えたって、業界にとって何一つプラスにならない。」
-* 「DesignInTech Reportの文字が小さくてグレーなのは視覚障害者を排除している。」
-* 「2017を見たら『デザインは美しいだけじゃだめだ』なんて陳腐な言葉が出てきて愕然とした。」
-* 「コンピュテーショナルデザインが支配的になったら、次はユニバーサルデザインの到来になるんだろうか。」
-
-.source[via Twitter]
 .footer[Welcome]
 
 ---
 
 class: chapter-slide lightgray-slide
 
-# .mono[TBD<br>=<br>テクノロジー(T)  &times;<br>ビジネス(B) &times;<br>デザイン(D)]
+# .mono[TBD<br>=<br>テクノロジー &times;<br>ビジネス &times;<br>デザイン]
 
 .group[
-### テクノロジー業界のデザインはグローバルで急速に進化している
+### デザインは成熟期に入っている — 多少のぎこちなさは想定内。
 
-* デザインはただ美しければいいというものではない。デザインは市場適合性や有意義な結果を生むためのものなのだ。
-* デザインには3つの種類がある。クラシカルデザインと、デザイン思考、そしてコンピュテーショナルデザインだ。
-* 2017年には、クリエイティブエージェンシーやデザイナーが創業したスタートアップ、計21社が買収された。
-* アメリカのメディカルスクールでは、カリキュラムにデザイン思考が取り入れられている。
-* コンサルティング会社は単なるデザイン思考を越えようとしている。ビジネスのあり方を変えようとしているのだ。
-* 中国は、驚くベき規模と洗練性でデザイン体験をリードし続けている。
-* インドやラテンアメリカのマーケットもデザインを採り入れている。そしてそこから学ぶことはたくさんある。
-* **ジェネレーションB(older)** が、新製品や新サービスの市場機会となりつつあり、無視できなくなっている。
+* デザインには3つの種類がある。クラシカルデザイン、デザイン思考、そしてコンピュテーショナルデザインだ。
+* ここ12か月の間に、19のクリエイティブ・エージェンシーや企業の買収が行われた。
+* デザインの価値は、企業のオペレーションの他の部分と関係している。
+* 企業内において孤独になっているデザイン組織は、美学に満足する小さな世界でしかない。
+* ムーアの法則のスピードでデザインをスケールさせることは不可能だ。しかし、期待する速度よりゆっくりとなら、デザインのスケーリング自体は可能である。
+* インクルーシブデザインはデザイナーの間では広く受け入れられたが、非デザイナーにとっては商売につなげづらい考え方かもしれない。
+* 将来AIが及ぼす影響は恐怖だが、同時にそこにはクリエイティブな希望だってある。 _私たちならできる。_
 ]
 
 .footer[Technology &times; Business &times; Design]
@@ -321,14 +132,14 @@ class: chapter-slide lightgray-slide
 
 class: document-slide kinds-of-design-slide
 
-# 3つの種類のデザインがある
+# 3つのタイプのデザイン。
 
 .stack[
 .group[
 .cell-stack[
 .numeral.subhead[01]
 .small[
-完璧で、精巧で、完成されたものを作るための正しい方法が存在する。
+完璧、精巧で、完全なものを作る正しい方法が存在する。
 ]
 ]
 
@@ -336,13 +147,13 @@ class: document-slide kinds-of-design-slide
 
 ![:block classical-design]
 
-ドライバーとなるもの：産業革命、そして少なくともその前数千年における蓄積。
+原動力/ 産業革命と、それ以前の少なくとも数千年の蓄積。
 ]
 .group[
 .cell-stack[
 .numeral.subhead[02]
 .small[
-実行・実現がイノベーションのスピードをしのぐようになり、経験が重要になる。
+実行・実現がのスピードがイノベーションのそれよりも早くなり、経験が重要となる。
 ]
 ]
 
@@ -350,13 +161,13 @@ class: document-slide kinds-of-design-slide
 
 ![:block design-thinking]
 
-ドライバーとなるもの：共感を必要とする個々の顧客ニーズとの関係性の中でイノベーションを起こす必要
+原動力/ 個人消費者のニーズと関連するイノベーションの必要性は、共感を要する。
 ]
 .group[
 .cell-stack[
 .numeral.subhead[03]
 .small[
-数10億人のための、かつリアルタイムなデザインは大規模となり、TBDだ。
+何十億もの個人に向けたデザイン、リアルタイムのデザインは大規模になり、TBDになっている。
 ]
 ]
 
@@ -364,7 +175,7 @@ class: document-slide kinds-of-design-slide
 
 ![:block computational-design]
 
-ドライバーとなるもの：ムーアの法則のインパクト、モバイルコンピューティング、そして最新のテクノロジーパラダイム
+原動力/ ムーアの法則、モバイルコンピューティング、最新のテクノロジーパラダイムの影響。
 ]
 
 ]
@@ -376,1556 +187,885 @@ class: document-slide kinds-of-design-slide
 
 class: document-slide
 
-# コンピュテーショナルデザイナーとは何だろう
+# 「コンピュテーショナルデザイナー」とは？
 
 .grid.ratio-1-3[
 .group[
-.tinted.figure[
-![](https://designintech.report/wp-content/uploads/2018/03/nike_jd.png)
-.caption[via Nike]
+.grayscale.figure[
+![](https://mitpress.mit.edu/sites/default/files/styles/large_book_cover/http/mitp-content-server.mit.edu%3A18180/books/covers/cover/%3Fcollid%3Dbooks_covers_0%26isbn%3D9780262631167%26type%3D.jpg?itok=w3g5Lpfk)
+.caption[出典: MIT Press]
 ]
+
+.sans.x-small[[The Logic of Architecture (建築の論理)](https://amzn.to/2EL1lq5)]
 
 .small.quote[
-> NIKE Digitalでは、オープンソースを取り入れ、グローバル規模で動作するデジタルソリューションを構築しシェアすることで、コミュニティに貢献しています。私たちは最先端テクノロジーに投資し、React.jsやNode.js、GraphQLなど、オープンソースのライブラリ/ツールのネットワークを使用しています。これらの投資やツールにより、ウェブやネイティブのUI開発を前進させることができ、データサイエンスやEコマース機能の進化、DevOpsの洗練、そしてサービスインフラの再構築を促進できるのです。
+> 「建築の論理を用いれば、人工知能、認知科学、コンピュテーション（計算）理論の進歩という観点から、デザイン論の中心的課題を見直すことができる。」”
 
-—2017 Nike job board [archived listing](https://web.archive.org/web/20180125124622/https://jobs.nike.com/job/united-states/product-director-computational-design/824/4344159)
+—William J. Mitchell, 1990
 ]
 ]
-.grid.ratio-1-1[
+.darkgray.grid.ratio-1-1[
 .group[
-.x-medium.sans[
-コンピュテーションの理解
-]
+### コンピュテーションを理解している
 
 コードとして再現し、さらにプログラミングをする能力がある。現在時点で簡単に実現可能なものは何か、困難だが可能なのは何か、そして困難で不可能なものは何かを知っている。
 ]
 .group[
-.x-medium.sans[
-テクノロジーについて批判的に考える
-]
+### テクノロジーについて批判的に考える
 
-何が作られ、誰が作り、そしてなぜそれが作られたのかについて問いを投げかける、人間主義的なテクノロジストであろうと努めている。
+「何が作られているのか」「誰が作っているのか」「なぜ作っているのか」という問いを投げかける人間主義的なテクノロジストであろうと努めている。
 ]
 .group[
-.x-medium.sans[
-3つのデザインすベてを使用する
-]
+### 3種類のデザインすべてを使う
 
-クラシカルデザインが培ってきた豊かな歴史的資産（_形やコンテンツ_）を利用しつつ、一方では _デザイン思考で_ 組織内あるいは組織をこえてインクルーシブにリードし、チームワークを取りながら、営利活動や非営利活動を行う。
+クラシカルデザインが培ってきた豊かな歴史的資産(形 _や_ コンテンツ) を利用しつつ、一方では  _デザイン思考で_ 組織内あるいは組織をこえてインクルーシブにリードし、チームワークを取りながら、営利活動や非営利活動を行う。
 ]
 .group[
-.x-medium.sans[
-人工知能や新しいものを積極的に学ぶ
-]
+### 人工知能や新しいものを積極的に学ぶ
 
-他分野の交差を、創造性の源泉や変化を生む主要な原動力とみなしている。新たなパラダイムを取り入れ、それを深く学んでいる。バウハウス時代にフランスの詩人Guillaume Apollinaireが書いたように、.purple[「新たな人間は新しく在ることに対して勇気を持たねばならない」]のだ。
+異分野の交差を、創造性の源泉および変化を生む原動力と捉えている。新たなパラダイムを取り入れ、それらを深く学んでいる。バウハウス時代の詩人Apollinaireの言葉は―  [“新しい人間は新しくある勇気を持たねばならない”](https://books.google.com/books?id=m-kzq1JnbVoC&lpg=PA8&ots=yRm5WTf-jN&dq=New%20man%20must%20have%20the%20courage%20to%20be%20new%20apollinaire&pg=PA9#v=onepage&q=New%20man%20must%20have%20the%20courage%20to%20be%20new%20apollinaire&f=false)
 ]
 ]
 ]
 
-.source[Nike jobs.nike.com via Wayback Machine]
+.source[@mitpress]
 .footer[Technology &times; Business &times; Design]
 
 ---
 
 class: document-slide
 
-# コンピュテーショナルデザインは企業で重要な役割を担うのか
+# Coming Soon: 📘 How To Speak Machine
 
-.orange.sans[広く読まれているLeah Buleyの2016年のState of UXのエッセイには次のように述ベられている。]
-
-.darkgray.columns.across-2[
-「ユーザー体験から得られる測定可能な結果のうち、何に一番満足しているか」という質問に対し、高いインパクトがあったと答える回答者からは、「コンバージョンや顧客生涯価値において数百万ドルの増加があった」という回答があった。
-
-これに対し、あまりインパクトがなかったと答える回答者のひとりは、「自分たちは非常に早いペースで物事を進めているので、テストや結果処理に割く時間やリソースはなかった。ユーザビリティのちょっとした改善の余裕すらなかった」と答えた。
-]
-
-![:chart 300px, bar, data/state-of-ux-2016-survey.json]
-
-.source[@leahbuley / Leah Buley Co. [The State of UX in 2016](https://www.creativebloq.com/features/the-state-of-ux-in-2016)]
-.footer[Technology &times; Business &times; Design]
-
----
-
-class: document-slide
-
-# コンピュテーショナルデザイナー 対 クラシカルデザイナー
-
-.darkgray[テクノロジー業界の人々が「デザイン」について話すとき、クラシカルデザイナーとコンピュテーショナルデザイナーを十把一絡げにしてしまうという過ちを犯すことがよくある。前者のデザイナーが作るのは家庭用の木の椅子のように少数の人が使用するようなものであるのに対し、後者のデザイナーが作るものはスマートフォンアプリのように数億人が使用する可能性のあるものなのだ。]
-
-.small.sans.table.across-3[
-.th[
-]
-.medium.black.th[
-クラシカルデザイン
-]
-.medium.black.th[
-コンピュテーショナルデザイン
-]
-.lightgray.th[
-アクティブユーザー数
-]
-.td[
-数人から数百万人
-]
-.td[
-数人から数十億人
-]
-.lightgray.th[
-できあがった製品を届けるために必要な時間
-]
-.td[
-流通チャンネル経由で数週間から数ヶ月かかる
-]
-.td[
-ネットを通じて即時配信される
-]
-.lightgray.th[
-「完成」が可能かどうか
-]
-.td[
-可能。最終的な完成形が存在する
-]
-.td[
-不可能。つねに進化し続ける
-]
-.lightgray.th[
-デザイナーの自信
-]
-.td[
-絶対的で、他者による検証を必要としない
-]
-.td[
-一般的に高いが、検証や分析にはオープンである
-]
-.lightgray.th[
-製品に使用する材料
-]
-.td[
-紙や木、金属などの物質的なもの
-]
-.td[
-データやモデル、アルゴリズムなどバーチャルなもの
-]
-.lightgray.th[
-ツールを用いるスキルが根ざしているもの
-]
-.td[
-手作業および物理法則
-]
-.td[
-思考法およびコンピューター＋社会科学
-]
-]
-
-.footer[Technology &times; Business &times; Design]
-
----
-
-class: document-slide
-
-# デザイン思考をする人とは何だろう
-
-## 企業におけるデザインの進化
-
-.stack[
-.group[
-.timeline-title[大企業向けの伝統的デザインの誕生／企業アイデンティティ＋イメージや製品のスタイリング]
-
-.sans[**1950年代**] GMのCEOがHarley EarlをVPに昇格させ、初めてデザイン幹部職を置く。
-
-.sans[**1966年**] IBM社員に向けたIBMメモで、CEOのTJ Watson Jr.が事業活動にとってデザインの重要度が増していることを示す。
-]
-.group[
-.timeline-title[近代的プロダクトデザインファームの誕生／伝統的デザインからシステム＋サービスのデザインへ]
-
-.sans[**1982年**] 1982年以降に、frogとHartmut EsslingerのディレクションによってAppleのデザイン言語が形成され始める
-
-.sans[**1991年**] Davi Kelley、Bill Moggridge、Mike NutallがIDEOを共同設立することでそこに加わり、デザインの流れを変える。
-]
-.group[
-.timeline-title[「デザイン思考」とデザイン戦略の誕生／デザイナーが持つクリエイティブな問題解決スキルの活用]
-
-.sans[**2005年**] スタンフォードでHasso Plattnerデザイン研究所がスタートする。
-
-IDEOのJane Fulton Suriが『[Thoughtless  Acts? （考えなしの行動？）](https://www.ideo.com/post/thoughtless-acts)』 を出版し、デザイン研究が注目される。
-
-.sans[**2008-09年**] Roger L. MartinがCEOレベルにおけるデザイン思考についてP&GのAG Laffleyに説明、その考えは彼の著書『The Design of Business（ビジネスのデザイン）』にも示される。（SAPとP&Gは、早くからデザイン思考をエグゼクティブレベルで採用した数少ない企業である）
-]
-.group[
-.timeline-title[全体的なビジネス戦略として「デザイン思考」が主流になる／デザインの再文脈化、B（ビジネス）スクールからD（デザイン）スクールへ]
-
-.sans[**2015-16年**] Phil Gilbertが1億ドルの投資を指揮してIBMにデザインをとり戻す。
-
-Tim BrownとRoger L. MartinがHarvard Business Reviewで 「The Evolution of Design　（デザインの進化）」という導入編をスタートさせる。
-
-トップ10のビジネススクールすベてに学生主導のデザインクラブができる。
-
-.sans[**2018**] IBM Designが彼らの[Enterprise Design Thinking](https://www.ibm.com/design/thinking/) フレームワークを一般向けにオープンソース化する。
-]
-]
-
-.source[@librariobabel [Good definition of design thinking](https://twitter.com/librariofbabel/status/970373045348130817)]
-.footer[Technology &times; Business &times; Design]
-
----
-
-class: document-slide
-
-# 大手コンサルティングファームが主要M&Aの原動力となる
-
-.darkgray[
-## 2017年、クリエイティブ代理店やデザイナーの設立したスタートアップ21社が新たに買収された。
-]
-
-.timeline-list[
-* .timeline-title[2017年1-2月]
-
-	- **Idean**をCapgemini が買収
-	- **Unity&Variety**をSalesforceが買収
-	- **Sequence**をSalesforceが買収
-	- **Dribbble**をTinyが買収
-	- **DeviantArt**をWixが買収
-	- **Altitude**をAccentureが買収
-
-* .timeline-title[3月]
-
-	- **JWalk**を資生堂が買収
-
-* .timeline-title[5月]
-
-	- **The Monkeys and Maud**をAccentureが買収
-
-* .timeline-title[6月]
-
-	- **Market Gravity**をDeloitteが買収
-	- **Intrepid**をAccentureが買収
-
-* .timeline-title[July]
-
-	- **Maya**をBCGが買収
-	- **Clearhead**をAccentureが買収
-
-* .timeline-title[8月]
-
-	- **Wire Stone**をAccentureが買収
-	- **Acne**をDeloitteが買収
-
-* .timeline-title[9月]
-
-	- **Matter**をAccentureが買収
-	- **VLT Labs**をMcKinseyが買収
-	- **TandemSeven**をGenpactが買収
-
-* .timeline-title[10月]
-	- **Cooper**をDesignit/Wiproが買収
-	- **Telepathy**をServiceNow (CEO: **John Donahoe**)が買収
-	- **Brand.ai**をInVisionが買収
-	- **YARD**をKyu Collective.が買収
-
-* .timeline-title[December]
-	- **Rothco**をAccentureが買収
-]
-
-.orange.numeral.subhead[2018]
-
-.quote[
-> 私たちは、Verizonの一員となり、顧客にコネクティビティの主導権を与え、画期的なライブ・デジタル体験を作り出すことへの探求に加われることを嬉しく思います。
-
-—**Moment**（Verizonによって買収） [March 2018](http://www.momentdesign.com/what-lies-ahead-moment-joins-verizon/)
-]
-
-.source[@tberno @jcoronado1 @leahbuley @hugosarrazin @randyjhunt @scootermcdoog @ezyjules @shatzygoespro @keithinstone]
-.footer[Technology &times; Business &times; Design]
-
----
-
-class: document-slide
-
-# クラシカルデザイナーはデザイン思考を見下しがちである
-
-.large.quote[
-> 複雑でクリエイティブな問題解決のマインドセットを５つのステップにまで削減すれば、実際にはそうでなくてもデザインが簡単なことのように見える。しかし、デザイン思考コースの修了書だけではビジネスを次のAppleへと変えるには不十分である。だから、デザインプロセスの秘密を解き明かすといったものや、数百万ドルのアイデアをポストイットに書き出すといったワークショップにだまされてはいけない。デザインというものには、デザイン思考を扱う人達が宣伝するよりもずっと多くのことが含まれているのだから。
-
-—[Natasha Jen](https://www.itsnicethat.com/articles/natasha-jen-pentagram-graphicdesign-230218) on “Why Design Thinking is bullshit”
-]
-
-.source[[It’s Nice That](https://www.itsnicethat.com/articles/natasha-jen-pentagram-graphicdesign-230218) [Fortune](http://fortune.com/2018/03/06/design-leadership-ceo-thinking-business-strategy/)]
-.footer[Technology &times; Business &times; Design]
-
----
-
-class: document-slide
-
-# メディカルスクールでデザイン思考が使用されている
-
+<br />
 .grid.ratio-1-3[
 .group[
-.subhead[.far.fa-hospital[]&nbsp;.fas.fa-graduation-cap[]]
 
-.small.darkgray[
-このリストには、学生がメディカルスクールの外でデザイン思考のクラスを受講するような大学は含まれていない。また、ヘルスケアプロフェッショナルのための学校も含まれていない。例：学生がdスクールでデザイン思考のクラスを履修するスタンフォード大学や、建築学部でデザインのクラスを履修するペンシルバニア大学など。
-
-また、これはデザイングループやデザインチームを持つアカデミックなメディカルセンターや病院の一覧でもない。それらのチームの多くは人間中心のデザインを採用しているが、必ずしも学生の教育は行っていない。
+.figure[
+![](https://raw.githubusercontent.com/johnmaeda/designintech-2019/master/asset/image/190302htsm.jpg)
+.caption[via Penguin]
 ]
 ]
 
-.group[
-.sans[医学生にデザイン思考を教える正式なプログラムやクラスがあるアメリカのメディカルスクール]
-
-1. テキサス大学オースティン校Dellメディカルスクール
-2. Kaiser Permanenteスクール・オブ・メディシン（開校予定）
-3. Mayoクリニック・スクール・オブ・メディシン
-4. オクラホマ州立大学カレッジ・オブ・オステオパシーメディシン
-5. トーマスジェファーソン大学シドニー・キメル・メディカルカレッジ
-6. ブラウン大学ウォレン・アルパート・メディカルスクール
-7. ミシガン大学メディカルスクール
-8. バージニア大学医学部
-9. ホフストラ大学ホフストラ・ノースウェル・ザッカー医学院
-
-.small.quote[
-[Bon Ku](https://twitter.com/BonKu/)（医学博士、公共政策修士）
-
-私の経験では、デザイン思考とは、医師や看護師、医学生など（私自身を含めた）デザイナーでない人々に、デザイナーと仕事をするためのプラットフォームを提供するものだ。デザイン思考は、私たちに共通の言語を提供してくれる手引書だと言える。私たち健康医療に携わる者の多くは、すでにデザイン思考の要素（強調、プロトタイプ作成、検証など）の訓練をしてきているが、それらをどう呼ベばよいのかを知らないのだ。
-
-私は、デザイン思考がステップ・バイ・ステップのレシピだとは思わない。私たちは医学生に、マインドセットを作りなさい、そしてクリエイティブな筋肉を作りなさいと教えている。デザイン思考は、医療ケアにおけるより良い未来像について考え直すことを手助けしてくれるものであり、どうすればそこに到達できるかというときに、数多くのツールを提供してくれるものなのである。
-]
-]
-]
-
-.source[@bonku]
-.footer[Technology &times; Business &times; Design]
-
----
-
-class: document-slide
-
-.header[
-# コンサルティングファームは、単なるデザイン思考を越えようとしている
-
-.quote[
-この複雑な分野を単に「デザイン」と呼ぶのはあまりにもひどい。それはただ、表面的なレベルのソリューションを意味するだけのものだからだ。おそらく私たちは、このような多面的で相互に繋がった機能を説明するための新しい方法を見つけることだろう。 —[Hugo Sarrazin](https://www.mckinsey.com/business-functions/organization/our-insights/good-design-is-good-business)
-]
-]
 
 .darkgray.stack[
-.group[
-.numeral.subhead[01]
+.medium.group[
 
-.sans[**ジャーニー<br>デザイン**]
+# コンピューテーショナルデザイン ...
 
-従来の顧客（または従業員）の体験にデザイン思考を取り入れ、消費者（または従業員）の満足感、オペレーション効率、そして収益の増大につながる空間や体験を作り出すのを手助けする。
-]
-.group[
-.numeral.subhead[02]
+... ムーアの法則を動力源とする新たな未知の媒体の中で力を発揮する。
 
-.sans[**アドバンスト<br>アナリティクス**]
+... ビッグデータを生む。またそのことにより、スケールされたバイアスに対抗すべく”厚い”データが必要となる。
 
-アドバンスト・アナリティクス（人工知能を含む）とデザインが1つになることで、ソリューションの発見とデザインを特徴づける（定量・定性的）洞察の結合が促進される。そこでは、データとクリエイティビティが協同し、互いに対立することはない。
-]
-.group[
-.numeral.subhead[03]
+... 新しい種類の貴重な才能を前進させるがゆえに、ビジネスチャンスを生み出す。
 
-.sans[**新たなデザイン<br>パラダイム**]
+... 過度にテクノロジーの力を過信せず、審美的側面を重視する必要がある。
 
-顧客に新たな成長機会をもたらすデザインにおいては、企業として優れたDNAをもつことで達成可能な価値を定量化する必要性が、非常に重要なものになる。
-]
-.group[
-.numeral.subhead[04]
-
-.sans[**デザイナー<br>ハイブリッド**]
-
-デザイナーたちは、今や経営レベルと関わる問題に取り組んでいる。自らのデザイン的な思想を、ビジネス価値をもたらす定量化可能なインパクトという形で示すため、コア・アナリティクスのスキルを身につける必要がある。
-]
+... テクノロジー産業において、現在最も価値が高いデザインのタイプである。
 ]
 
-.source[@hugosarrazin [Good Design Is Good Business](https://www.mckinsey.com/business-functions/organization/our-insights/good-design-is-good-business)]
-.footer[Technology &times; Business &times; Design]
+.medium.group[
+
+# インクルーシブ <br />デザイン ...
+
+... 人々を長らく排除してきた旧体制の世界で力を発揮する。
+
+... 対象に最大限接近することで”厚い”データを作り、ビッグデータ（広がったバイアス）に抵抗する。
+
+... 不均衡と、それに影響を受けた人々の問題を解決する機会を探す。
+
+... 作り手の深みを引き出し、意義ある問題提起をする。
+
+... テクノロジー産業において、現在最も重要度が高い種類のデザインである。
+]
+]
+]
+
+.source[[howtospeakmachine.com](https://howtospeakmachine.com) / **プレオーダー** from [Amazon](https://amzn.to/2HjDtM6) | [Barnes & Noble](http://links.penguinrandomhouse.com/type/affiliate/isbn/9780399564420/siteID/8001/retailerid/2/trackingcode/PRH30BB1D484D) | [IndieBound](http://links.penguinrandomhouse.com/type/affiliate/isbn/9780399564420/siteID/8001/retailerid/6/trackingcode/penguinrandom)]
 
 ---
 
 class: document-slide
 
-# どの企業がデザインにおいて先進的と認識されているのだろうか
+# 現実から誤情報を選り分けていくことは、いつでも万人の務めである。
 
 .xx-large.quote[
-.orange[1200件を超えるアンケート回答から見た、デザインにおいて先進的と見られている企業：] Google, Microsoft, Atlassian, Airbnb, Dropbox, Amazon
+> 誤情報は修理可能な配管設備の故障とは違う。それは犯罪のように、常に監視し訂正していかなければならない社会的状況である。”
+
+—[Tom Rosenstiel](https://www.elon.edu/e-net/Article/154392), Director of the American Press Institute (2017)
 ]
 
-## 企業がデザインにおいて先進的である理由を説明するうえで、主に使われる５つの単語
-
-.x-medium.gray.sans.box-list[
-* イノベーション
-* 一貫性
-* スケール
-* シンプルさ
-* 多様性
-]
-
-.source[#DesignInTech 2018 Open Survey | 1219 samples]
-.footer[Technology &times; Business &times; Design]
-
----
-
-class: document-slide perception-of-design-slide
-
-# デザインと、そのビジネスへの影響の議論は繰返し起こる
-
-.grid.ratio-1-3[
-.irregular-small.darkgray.group[
-
-.book-grid[
-.group[
-Design for Action [HBR, 2015年9月](https://hbr.org/2015/09/design-for-action) Tim Brown and Roger L. Martin
-]
-![](https://hbr.org/resources/images/covers/BR1509_500.png)
-![](https://images-na.ssl-images-amazon.com/images/I/51U8vWR6XsL._SX373_BO1,204,203,200_.jpg)
-![](https://store.fastcompany.com/custom/assets/images/product/default/cache/FC1010_212w_263h.jpg)
-]
-
-The Empathy Economy [BusinessWeek, 2005年3月 ](https://www.bloomberg.com/news/articles/2005-03-07/the-empathy-economy) / Bruce Nussbaum .tooltip[追加情報.tooltip-text[Design thinking can create rewarding experiences for consumers -- the key to earnings growth and an edge that outsourcing can’t beat.]]
-
-The Beauty of Simplicity [Fast Company 2005年](https://www.fastcompany.com/56804/beauty-simplicity) / Linda Tischler .tooltip[追加情報.tooltip-text[Marissa Mayer, who keeps Google’s home page pure, understands that less is more. Other tech companies are starting to get it, too. Here’s why making things simple is the new competitive advantage. Google understands that simplicity is both sacred and central to its competitive advantage. Mayer is a specialist in artificial intelligence, not design, but she hits on the secret to her home page’s success: “It gives you what you want, when you want it, rather than everything you could ever want, even when you don’t.”]]
-
-Design Thinking Is A Failed Experiment. So What’s Next? [BusinessWeek 2011年](https://www.fastcodesign.com/1663558/design-thinking-is-a-failed-experiment-so-whats-next) / Bruce Nussbaum
-]
-.group[
-.black.quote[
-> ジョン・マエダは、次の３つのカテゴリーを挙げている。「クラシカルの」デザイナーは、特定の集団のための物理的オブジェクトや製品を作る（建築家や工業デザイナー、家具やグラフィックのデザイナーなどを思い浮かベればよい）、「商業的」デザイナーは、顧客が製品やサービスとどのようなやり取りを行うのかを深く掘り下げることでイノベーションを行う（ホワイトボードの周囲に群がる研究者チームや、鮮やかな色とりどりのポストイットがモザイクのように張り巡らされた様子を思い浮かベればよい）、そして「コンピュテーショナル」デザイナーは、プログラミングスキルやデータを使って数百万あるいは数十億というユーザーを同時に満足させる（AmazonやFacebookのようなテクノロジー企業を思い浮かベればよい）。
-
-—Clay Chandler [TIME](http://time.com/5180711/the-meaning-of-design-is-up-for-debate/)
-]
-
-.grid.ratio-2-1[
-.group[
-![:image 260px, https://designintech.report/wp-content/uploads/2018/03/dit_timemag.jpg]
-]
-.group[
-![:image 100px,, https://timedotcom.files.wordpress.com/2018/02/greta-cover-final.jpg]
-
-.xx-small[The Meaning of Design Is up for Debate.<br>
-And That’s a Good Thing<br>
-[TIME, 2018年3月12日](http://time.com/5180711/the-meaning-of-design-is-up-for-debate/) / Clay Chandler]
-]
-]
-]
-]
-
-.source[[#DesignInTech Chronology](https://designintechreport.wordpress.com/2015/02/01/chronology-of-designintech-from-2004-to-2014/)]
+.source[@pewresearch @elonuniversity [The Future of Truth and Misinformation Online](https://www.elon.edu/e-net/Article/154392)]
 .footer[Technology &times; Business &times; Design]
 
 ---
 
 class: document-slide
 
-# クラシカルデザイナーは緩やかに進化し始めている
+# デザインとテックの領域は初めは次のようだった ______。
 
-.stack[
+.large.quote[
+> エネルギーがあふれ出し、適応することに苦心する10代の若者のよう。
+> .orange[デザイナーと技術屋が明確に分けられていて、2つの領域が存在した。]
+> ぼんやりしていて、無計画で、デザインのことをほとんど知らないテクノロジーオタクがリードしていた。
+> .orange[視野が狭く、否定的で、象牙の塔から少しも離れようとしない人たち。 ]
+> まだしっかり定義づけできておらず、新しかった。「Webデザイン」は人気だった。
+> .orange[大きな壁に隔たれた両側。]
+> Googleはシンプルだが使いやすいインターフェイスで人気になりつつあった。
+> .orange[男性主導的で偉そう。 ]
+> “印刷かデジタルかということか？」”
+> .orange[巨大なMicrosoft、Appleが台頭する前で、Flashのサイトが最先端だった。]
+> C完全にモバイルデバイスに集中している。 
+> .orange[才能にあふれるけれどリスペクトはされていない子供達。]
+> 職人と起業家。
+> .orange[万能薬だと思われている。”]
+]
+
+.source[Design in Tech 2019 Survey question crafted by @thedezzie]
+.footer[Technology &times; Business &times; Design]
+
+---
+
+class: document-slide
+
+# Design in Tech Reportsは今年で5年目を迎えました。
+
+.darkgray.stack[
+
 .group[
+### 2018
+
+![](https://designintech.report/wp-content/uploads/2019/01/cover.jpg)
+
+.small[2018年のレポートではインクルーシブデザインの成長が、テック産業の中で端っこから中心的な話題へと拡大したことを確認した。Kat Holmesが率いるインクルーシブデザインに関するMicrosoftの先駆的な仕事は、非設計者やビジネスリーダーに採用され始めた。同時に、人工知能のデザインへの影響が機械学習の新たな前進に伴って明らかになった。ワクワクするとともに恐ろしいものでもあった。]
+]
+
+.group[
+### 2017
+
+![](https://designintech.report/wp-content/uploads/2016/03/dit2017preview.png)
+
+.small[2017年のレポートではコンピュテーショナルデザインを、加速する成長の主な原動力と捉えた。また、職場のインクルーシブな文化は @work デザイン分野でリードしたいと考えるテック企業にとって、必須であると捉えた。私たちは、新しいツールやクリエイティブなコミュニティの出現が価値の増大を生み出していると考えていた。そしてインクルーシブデザインは製品情勢の時代風潮に到達し始めたばかりだ。インクルーシブデザインのアプローチを採用することは、テック製品がリーチできる市場全体の拡大につながる。インクルーシブデザインは転換期に差し掛かっている。]
+]
+
+.group[
+### 2016
+
+![](https://designintech.report/wp-content/uploads/2016/03/2016report.png)
+
+.small[2016年のレポートでは、ベンチャーキャピタルのデザインに対する絶頂ともいえる関心と、McKinsey &  CoやAccentureのようなコンサルティング会社によるデザイン会社の買収の著しい増加を示した。デザイン業界における新たなリーダーとしてGoogleが台頭。デザインには3種類存在が存在する：クラシカルデザイン、デザイン思考、コンピュテーショナルデザイン。現在最もビジネス価値を生み出しているのは、2つ目と3つ目。]
+]
+
+.group[
+### 2015
+
+![](https://designintech.report/wp-content/uploads/2016/03/2015report.png)
+
+.small[2015年のレポートではテクノロジーに対するデザインの価値の高まりについて説明した。その要因として、モバイルデバイスとコンピューティングの大衆化を挙げた。スマートフォンのサービスが普及し誰もがアクセス可能になるにつれて、「テック主導」から「体験主導」のデジタル製品が主流になった。 
+モバイル向けのデザインは、デスクトップに比べて制限がかかることが判明。そのためテクノロジーに疎い消費者に届けるには、デザイナーのスキルが必要不可欠となった。
+]
+]
+]
+
+.source[[Design In Tech Report](https://designintech.report)]
+.footer[Technology &times; Business &times; Design]
+
+---
+
+class: document-slide
+
+# 直近12か月で新たに買収された19の企業。
+
+.grid.across-3[
+.group[
+
+### 100 💯
+
+.darkgray.x-medium[2004年以来、100を超えるデザイン関係の企業が買収されてきた。そのうち60％以上は2015年以降に買収。]
+]
+.sans.group[
+1. **Citizen** をEYが買収
+2. **Brandfirst** をDeloitteが買収
+3. **Moment** をVerizonが買収
+4. **Tonic Design** をPrintﬂyが買収<br />.sans.darkgray.x-small[_Tonicは、4年前にシリコンバレーで起きた現象の局所的事例。_]
+5. **W12** をTata Consultingが買収
+6. **General Assembly** をAdeccoが買収
+7. **Designation** をWeWorkが買収<br />.sans.darkgray.small[_WeWorkは営利目的のデザイン教育スクールを買収し、 Adeccoは予期せぬ 部外者としてプログラミング・UXスクールを買収した。_]
+8. **Sayspring** をAdobeが買収
+9. **Wake** をInVisionが買収
+10. **FRWD** をBain & Coが買収<br />.sans.darkgray.small[_Bainはプライベート・エクイティの領域でクリエイティブな能力に関心が集まった実例だ。_]
+]
+.sans.group[
+11. **designaffairs** をAccentureが買収
+12. **Adaptive Lab** をCapgeminiが買収
+13. **Universal Design Studio** をAKQAが買収
+14. **Map Project Office** をAKQAが買収
+15. **CHIEF** をByteCubedが買収<br />.sans.darkgray.small[_ByteCubedは、地方のITコンサルティングファームが、クリエイティブな能力を自社に加えようとした実例。_]
+16. **We are Vista** を ICFが買収
+17. **Argo Design** を DXC Technologyが買収
+18. **Kolle Rebbe** をAccentureが買収
+19. **Periscope** をQuad/Graphicsが買収<br />.sans.darkgray.small[_Quad/Graphicsは、印刷会社がクリエイティブな能力との統合を目指した実例。_]
+]
+]
+
+.source[@johnmaeda @tberno @jcoronado1]
+.footer[Technology &times; Business &times; Design]
+
+---
+
+class: document-slide
+
+# クリエイティブな人材に、さらなるビジネスチャンスはあるか？
+
+.darkgray.grid.across-3[
+.small.darkgray.group[
+
+.grayscale.figure[
+![](https://blog.marvelapp.com/wp-content/uploads/2016/12/digitalnation.png)
+.caption[出典： Marvell]
+]
+
+[2016 State Of The Digital Nation](https://blog.marvelapp.com/state-of-the-digital-nation-2016/) は
+Jules Ehrhardtの傑作で、 クリエイティブ産業に起こった多くの混乱を、非常に示唆に富む詳細を挙げて明らかにしている。[2018年](https://medium.com/swlh/state-of-the-digital-nation-2020-venture-road-22de4377836) 版の「帝国の逆襲」効果を読むといい。
+]
+
+.small.group[
+### クリエイティブ・キャピタルの<br>バータータイプ
+  * 株
+  * 株+現金（コスト補填のため）
+  * ロイヤルティー
+  * 利益分配
+
+### クリエイティブ・キャピタルの<br/>利点
+  * 買い手
+    * リスクの分散
+    * 製品への迅速なルート
+    * 市場への迅速なルート
+    * 外部リソースの活用
+    * VCルートの回避
+    * ステルス
+  * 売り手
+    * 自分の仕事の価値を高めるチャンス
+    * クリエイティブ層の産業モデルの出現
+    * 収益モデルの多様化
+    * 高成長アセットを掴むチャンス
+]
+.medium.sans.group[
+クリエイティブ・キャピタルのトレーディングに従事する会社は、通常のベンチャーエコシステムから疎外されている。たとえば:
+
+.orange[法律/ ] Cooley, Gunderson, .orange[マーケティングとPR/ ] WEST, Tusk, Derris, Man Made Music, .orange[ブランディング/ ] Gin Lane (Pattern Brand), Red Antler, Partners & Spade, .orange[プロダクト/ ] FKTRY, BASIC, Smart Design, Work&Co, Fuseproject, ustwo, Dynamo Partners, IDEO, Ministry Of Programming, FROG, R/GA, Pivot Ventures, Argo Design, Thinktiv,<br> .orange[フルスタック], Prehype, Bullish, Prota Ventures, Runyon, Sweet Studio.
+]
+]
+.source[[@ezyjules](www.creative-capital.info) [@fastcompany](https://www.fastcompany.com/40545905/the-cult-brand-whisperer-behind-casper-allbirds-and-birchbox) [@adweek](https://www.adweek.com/brand-marketing/meet-the-surprisingly-small-group-of-branding-shops-behind-todays-top-challenger-brands/) [@forbes](https://www.forbes.com/sites/georgedeeb/2014/07/10/the-top-5-considerations-when-trading-equity-for-services/#42e3beff5965)]
+.footer[Technology &times; Business &times; Design]
+
+---
+
+class: document-slide
+
+# 大幅な改変は別として、ツールに気を取られ過ぎないように...
+
 .darkgray[
-### デザインが現在直面している<br>重要な課題とチャレンジ トップ10
+
+>今年の回答に基づくと、これらは各カテゴリで最も一般的に使われているツールと言える。Sketchはトップを維持しているが、データを深く掘り下げるとカテゴリのいくつかで動きがあったことがわかる。たとえば、Figmaはほとんどのカテゴリでトップ5入りを果たしている。” —[UX Tools 2018](https://uxtools.co/survey-2018)
 ]
-
-1. .orange[（クラシカル）] デザインには「話し合いの場」がない
-2. .highlight[デザインとテクノロジーにおける多様性]
-3. デザインにおける倫理
-4. 教育コストとアクセスの平等性
-5. 消費者か社会的影響力の強化か
-6. 労働力の世代差
-7. デザインの環境的影響
-8. .highlight[アルゴリズムのバイアス]
-9. .highlight[広告に支えられたコンテンツモデル]
-10. .highlight[ダークUXのパターン]
-]
-.group[
-.darkgray[
-### デザインに大きな影響を与えている<br>最新動向トップ10
-]
-
-1. .highlight[人工知能と機械学習]
-2. .highlight[AR（拡張現実）]
-3. .highlight[VR（仮想現実）]
-4. .highlight[行動追跡と行動モデリング]
-5. .highlight[3Dプリント]
-6. .highlight[分散型チームとバーチャルな職場]
-7. .highlight[デザインの民主化]
-8. .highlight[アルゴリズムによるデザイン]
-9. .highlight[クラウドソーシングとオープンソース]
-10. .highlight[顔認識と音声認識]
-]
-]
-
-<br>
-
-.small.sans[.highlight[強調部分]はコンピュテーショナルデザインと対応]
-
-.source[@aiga [Design Census](https://designcensus.org)]
-.footer[Technology &times; Business &times; Design]
-
----
-
-class: document-slide
-
-# 人の動きと重要事項
-
-## #DesignInTech のスペースで取り上げるベき出来事
-
-.timeline-grid.across-8[
-* ### 2016
-
-* .timeline-title[3月] **Andrew Crow**がデザインのVPとしてStravaに加わる。
-
-* .timeline-title[5月] Google VenturesのデザインパートナーらがNew York Times（NYT）ベストセラー本『*SPRINT*』を出版。
-	- **August de los Reyes**がデザイン部門トップとしてPinterestに加わる。
-
-* .timeline-title[7月] Khoslaのデザインパートナー、Irene Auが『*Design in Venture Capital (ベンチャーキャピタルにおけるデザイン)*』を出版。
-
-* .timeline-title[8月] Kleiner Perkinsの元デザインパートナー、**ジョン・マエダ**がAutomatticのデザイン部門トップとして入社。
-
-* .timeline-title[9月] デザインリーダー、**Kristy Tillman**がSlackに加わるためにWestへ。
-	- デザインリーダー、**Leah Buley**が『State of UX in 2016 Study』を発表。
-
-* .timeline-title[10月] **Catherine Courage**がGoogleに広告・コマースUXのVPとして参加。
-
-* ### 2017
-
-* .timeline-title[2月] **Bobby Ghoshal**と**Jason Erondu**がテクノロジー業界のデザイナー向けにケイティ・ディルをフィーチャーしたポッドキャスト『[High Resolution</i>](https://www.highresolution.design/1-katie-dill/) 』をスタート。
-
-* .timeline-title[4月] Google Venturesの元デザインパートナー、**Braden Kowitz**がRange Labsを共同設立。
-
-* .timeline-title[6月] Combine VCが1200万ドルの最初の資金調達（創設者: **Adam Michela**＆**Soleio Cuervo**）。
-
-* .timeline-title[7月] Accelの元デザインパートナー、**Jason Mayden**が共同設立者兼CEOとしてSuper Heroicを披露。
-
-* .timeline-title[7月] Initialized Capitalが3度目となる1億2500万ドルの資金調達（MP: **Garry Tan**）。
-
-* .timeline-title[8月] **Kate Aronowitz**がGoogle Venturesにデザインパートナーとして参加。
-
-* .timeline-title[9月] **Randy Hunt**がArtsyにデザイン部門トップとして参加。
-
-* .timeline-title[10月] **Katie Dill**がAirbnbを離れ、Lyftのデザイン部門VPとなる。
-	- **Michael Gough**がMicrosoftを離れ、デザインのVPとしてUberに加わる。
-
-* .timeline-title[11月] Intuitが初のチーフ・プロダクトデザイン・オフィサーに**Diego Rodriguez**を指名。
-
-* .timeline-title[12月] デザインツールのスタートアップInVisionが500万ドルのデザインフォワード・ファンドを公表。
-
-* .timeline-title[12月] New Enterprise Associates（NEA）のデザインパートナー、**Albert Lee**がジェネラル・パートナーの**Dayna Grayson**と共に2017年スタートアップにおけるデザインの未来調査結果を[発表](https://twitter.com/daynagrayson/status/943173916322861057) 。
-
-* ### 2018
-
-* .timeline-title[2018 1月] **Vanessa Cho**がGVにデザインパートナーとして参加。
-	- _GVが、VCおよびサステナブル・チームとしてのデザインにおいて、明確なリーダーとして頭角を表す。_
-
-* .timeline-title[2月] Google Venturesの元デザインパートナー、**Daniel Burka**がResolve To Save Livesにデザインディレクターとして加わる。
-
-* .timeline-title[2月] **Phil Gilbert**率いるIBM Designが、IBM Cloudに[2つ](https://medium.com/design-ibm/ibm-cloud-continues-to-demonstrate-design-excellence-7a5150124136)のiFデザイン賞をもたらす。
-
-* .timeline-title[2月] デザインツールのスタートアップFigmaが、Kleiner Perkinsの**Mamoon Hamid**に率いられて2500万ドルのシリーズBを[調達](https://www.bloomberg.com/news/articles/2018-02-01/startups-try-to-chip-away-at-adobe-s-dominance) 。
-]
-
-.source[@tberno @jshoee @ezyjules @wertandcompany @johnmaeda]
-.footer[Technology &times; Business &times; Design]
-
----
-
-class: document-slide
 
 .header[
-# シリコンバレーの外側：インドとデザイン
+### 調査のキーポイント
+]
+.darkgray[
+>2017年にはリスト下位にあったFigmaが、2019年にはもっともエキサイティングなツールとして頭角を現した。”
 
-.quote[
-> 2050年までにインド経済は世界第2位になり、これを上回るのは中国だけとなるだろう。 —[世界経済フォーラム (WEF)](https://www.weforum.org/agenda/2017/10/eight-key-facts-about-indias-economy-in-2017/)
+>InVision Studioは引き続きトップに近い位置にいるが、 これは回答者の多くがまだ使ったことがない—あるいは今後の開発を待っていることを示している。”
+
+>回答者は常にFramerをデザインツールの「死ぬまでに利用してみたいリスト」にキープしているようだ。“
+]
+
+.header[
+### 調査対象のツールの相対的な人気
+]
+.darkgray.stack[
+.group[
+.small.sans[**ブレイン<br>ストーミング**]
+]
+
+.small.group[
+.sans[**ユーザー<br>フロー**]
+]
+
+.small.group[
+.sans[**ワイヤー<br>フレーム作成**]
+]
+
+.small.group[
+.sans[**プロト<br>タイピング**]
+]
+
+.small.group[
+.sans[**ハンズオン**]
+]
+
+.small.group[
+.sans[**デザイン<br>システム**]
+]
+
+.small.group[
+.sans[**モニタリング**]
+]
+
+.small.group[
+.sans[**ファイル管理**]
 ]
 ]
 
 .darkgray.stack[
 .group[
-.numeral.subhead[01]
-
-.sans[**英語を話す**]
-
-.irregular-small.quote-list[
-* 英語話者の数は1億2500万人で、これはアメリカに次ぐ規模である。
-* ナラティブを主要な文化伝承様式とする口承の伝統がある。
-* インドは多元的共存社会であり、世俗的で、驚くほど多様性がある。デザインの感性を象徴する、地域の作風を持った多民族的アート・工芸品の伝統がある。　※厳密には、統一された「インド」文化というものはなく、地域や州によってそれぞれ異なっている。
-* 多種多様な料理、言語、舞台芸術、アパレル、風習、音楽、文学、建築…
+Pencil, Paper, Whiteboard
 ]
-]
+
 .group[
-.numeral.subhead[02]
-
-.sans[**モバイル文化**]
-
-.irregular-small.quote-list[
-* インドはスマートフォンのインストールベースが中国に次いで世界で2番目に大きな国であり、その数は3億人に上る。
-* ベーシックなスマートフォン端末は50ドル未満で入手できる。
-* 1ヶ月のデータプランは2ドル未満である。
-* 2016年には、インドの人々がAndroidデバイスに費やした時間は1500億時間にもなった。
-* 70%のインド人が、地域言語（公式言語は22ある）のデジタルコンテンツの方が、英語のコンテンツより信用できると考えている。
-* オンラインユーザーの10人中9人は英語が流暢ではないが、それなりに適応している。多くが英語キーボードを使用している。母国語のスクリプトにわざわざ切り替えたりはしない。
+Sketch
 ]
-]
+
 .group[
-.numeral.subhead[03]
-
-.sans[**中国と（「対」ではない）インド**]
-
-.irregular-small.quote-list[
-* 中国とインドは、マシンパワーとマンパワーという、補完的な組み合わせになっている。中国：プロダクト / インド：サービス
-* 両国は巨大な隣国である。
-* 互いに10億を超える人口がある（両国を合わせると世界人口の36.3%になる）。
-* 両国は「その他の国々の興隆」を支えている。
-* 両国は、それぞれのガバナンススタイルを相手とは反対だとして強く主張している。中国には中央集権型の効率性があり、インドには民主的な活気がある。
+Sketch
 ]
-]
+
 .group[
-.numeral.subhead[04]
-
-.sans[**JUGAAD（ジュガール）**]
-
-.irregular-small.quote-list[
-* これはヒンディー語で次の意味を持つ。
-
-	_「限られたリソースで効率的なソリューションを即席で作り、厳しい制約に打ち勝つこと」_
-
-	（別名「MVP」）
-* 無駄遣いせず倹約する。
-* 排除ではなく包含（インクルージョン）する
-* トップダウンによる命令やコントロールではなく、ボトムアップでの参加
-* 直線的な計画ではなく、柔軟な思考と行動
+InVision
 ]
 
-.x-small[[HBR](https://hbr.org/2010/01/jugaad-a-new-growth-formula-fo) (2010) / Ravi Radjou, Jaideep Prabhu, and Simone Ahuja]
+.group[
+Zepelin
+]
+
+.group[
+Sketch
+]
+
+.group[
+Hotjar
+]
+
+.group[
+Google Drive
 ]
 ]
 
-.source[@sunilmalhotra [Indian Express](http://indianexpress.com/article/technology/india-set-to-have-530-million-smartphone-users-in-2018-study-4893159/) [Quartz](https://qz.com/972844/indias-internet-users-have-more-faith-in-content-thats-not-in-english-study-says/) [Recode](https://www.recode.net/2017/5/31/15720378/mary-meeker-india-annual-internet-trends-report-code-2017) [HBR](https://hbr.org/2010/01/jugaad-a-new-growth-formula-fo)]
+.source[@uxtoolsco [2018 Design Tools Survey](https://uxtools.co/survey-2018) surveying 2,775 designers]
 .footer[Technology &times; Business &times; Design]
 
 ---
 
 class: document-slide
 
-.header[
-# シリコンバレーの外側：ラテンアメリカとデザイン
+# 個人的に選んだデザインのスケールに役立つベストツール
 
-.quote[
-ラテンアメリカでは、世界最速でスマートフォンの採用が進んでいる。 —[Fast Company](https://www.fastcompany.com/3044662/what-latin-america-will-look-like-in-2020)
-]
-]
-
-.stack[
+.darkgray.stack[
 .group[
-.numeral.subhead[01]
+.gray.subhead[.fas.fa-chess-queen[]]
 
-.darkgray.sans[**デザインラッシュ**]
+.sans[**Figma**]
 
-.darkgray.irregular-small.quote-list[
-* ラテンアメリカには1950年代に始まる長いデザインの歴史がある。
-* .purple.sans[1950年代] - メキシコ、アルゼンチン、ブラジルが、ラテンアメリカにおける公式デザインスクールの動きを主導した。
-* .purple.sans[現在] - 活気に満ちたスタートアップ企業のエコシステム。「新興国市場のIDEO」と呼ばれる[Insitum](https://www.fastcompany.com/3041655/the-worlds-top-10-most-innovative-companies-of-2015-in-latin-)がラテンアメリカに5つのオフィスを構え、140人以上のコンサルタントを抱えている。
-* .purple.sans[未来] - 新世代のモバイルユーザーが、新たなデジタル通貨にとっての理想的環境を生み出すかもしれない。
+共同作業が簡単に<br>できるので [Figma](https://figma.com) は選びやすい。
+
+.x-small[**2018年以降KP、Greylock、Index、SequoiaでB/Cが上昇。<br /><br />]
 ]
-]
+
 .group[
-.numeral.subhead[02]
+.gray.subhead[.fas.fa-chess-knight[]]
 
-.darkgray.sans[**壁を利用するものしないもの**]
+.sans[**Framer**]
 
-.darkgray.irregular-small.quote-list[
-* 6億5000万の人々が暮らすラテンアメリカ地域では、アメリカ経済への依存度を減らす方法が模索されている。
-* [環太平洋パートナーシップ協定（TPP）](https://www.nytimes.com/2018/03/08/world/asia/us-trump-tpp-signed.html)が11カ国間で調印された。そして中国は[スタートアップ経由](https://www.bloomberg.com/news/articles/2018-03-04/chinese-startups-export-playbook-to-latin-america-for-new-riches)でこの地域とのつながりを固めつつある。
-* Ex: 例：中国のDidiがブラジルのライドシェア会社[99を買収](https://techcrunch.com/2018/01/03/didi-confirms-it-has-acquired-99-in-brazil-to-expand-in-latin-america/)。
+すばらしい。<br>そして[Framer](https://framer.com/)の<br>市場は最高だ。
 ]
-]
+
 .group[
-.numeral.subhead[03]
+.gray.subhead[.fas.fa-chess-pawn[]]
 
-.darkgray.sans[**模倣、取り込み、改良**]
+.sans[**Whimsical**]
 
-.darkgray.irregular-small.quote-list[
-* ラテンアメリカのスタートアップ・エコシステムが活発になっている。
-* スタートアップの多くは他の地域で成功したモデルをラテンアメリカの環境にカスタマイズしている。しばしばそれらオリジナルを超える機会を見つけることもある。
-* 例: [Kubo Financiero](https://www.kubofinanciero.com)はメキシコ版LendingClubで、投資に社会的責任の要素を導入した。これがメキシコのような愛国主義的な国のユーザーの共感を呼んでいる。
+ワイヤーフレームは [Whimsical](https://whimsical.co)を使えば超簡単。
 ]
-]
+
 .group[
-.numeral.subhead[04]
+.gray.subhead[.fas.fa-chess-king[]]
 
-.darkgray.sans[**信頼を得るためのデザイン**]
+.sans[**Amplitude**]
 
-.darkgray.irregular-small.quote-list[
-* 腐敗や汚職が横行している。
-* 人々と企業、政府の間では、一般的に信頼が不足している。
-* スタートアップは、素晴らしいユーザー体験を提供しながら、信頼を喚起して詐欺防止をデザインすることで、従来の産業を揺るがしている。
-* 例: [Nubank](https://www.crunchbase.com/organization/nubank) - オンラインのクレジットカード会社、そして[Enlight](https://www.crunchbase.com/organization/enlight-mexico) -メキシコのソーラーエネルギースタートアップ。
-]
-]
+[Amplitude](https://whimsical.co/wireframes/) に入っている製品分析ツールキットは 幅広く深い。
 ]
 
-.source[@luisarnal [@insitum](https://www.fastcompany.com/3041655/the-worlds-top-10-most-innovative-companies-of-2015-in-latin-) @fastcompany @bloomberg @kubofinanciero @nubankbrasil @enlightmx @techcrunch @bloomberg]
+.group[
+.gray.subhead[.fas.fa-chess-bishop[]]
+
+.sans[**Sketch.Systems**]
+
+[Sketch.systems](https://sketch.systems/)は<br>複雑な製品挙動を記号でスケッチ可能。
+]
+]
+
+.darkgray.stack[
+.group[
+.gray.subhead[.fas.fa-chess-bishop[]]
+
+.sans[**Adobe XD**]
+
+[Adobe XD](https://js.tensorflow.org/)の音声プロトタイピングモジュールは現代のツールキットの中でも歓迎すべきものだ。
+]
+
+.group[
+.gray.subhead[.fas.fa-chess-knight[]]
+
+.sans[**Treejack**]
+
+[Treejack](https://www.optimalworkshop.com/treejack_b)のような<br>情報アーキテクチャの検査機があるととても嬉しい。
+]
+
+.group[
+.gray.subhead[.fas.fa-chess-king[]]
+
+.sans[**Vue**]
+
+Evan Youとチームのメンバーたちは、[Vue](https://twitter.com/youyuxi/status/1064659533975429120?lang=en)でムーブメントを起こし自己ベストを更新した。
+]
+
+.group[
+.gray.subhead[.fas.fa-chess-bishop[]]
+
+.sans[**TensorFlow.js**]
+
+[TensorFlow](https://js.tensorflow.org/) を利用していていつも思うこと:「マジでこれ無料なのか？」
+]
+
+.group[
+.gray.subhead[.fas.fa-chess-knight[]]
+
+.sans[**Siri Shortcut**]
+
+[Siri Shortcut](https://twitter.com/lukew/status/1082698590810566656)がいかにあなたにメタアプリを動かさせるのか。 @lukew は興味深い点をついてきた。
+]
+
+]
+
+.source[@khoivinh @kellychoffman @youyuxi @lukew @johnmaeda]
 .footer[Technology &times; Business &times; Design]
 
 ---
 
 class: document-slide
 
-# シリコンバレーの外側：中国とデザイン
+# 現在最も影響力を持つデザインツールは？ Materialだ。
 
-.darkgray.small.stack[
+.grid.across-4[
+
 .group[
-.numeral.subhead[01]
-
-.medium.sans[**自動車体験**]
-
-.figure[
-![:image 220px, https://www.nio.io/prod/s3fs-public/styles/scale_width_1920_desktop_1x_/public/hero/home-es8-banner-bg.jpg]
-.caption[via NIO]
+    .orange.subhead[.fas.fa-trophy[]]
 ]
 
- [NIO](https://www.nio.com/)、[Weima](http://www.wm-motor.com/)、[Xiaopeng](https://www.xiaopeng.com/en/) 、[FF](https://www.ff.com/us/)よる新たなドライブ体験と移動体験
+.darkgray.group[
+.grayscale.figure[![](https://storage.googleapis.com/spec-host-backup/mio-design%2Fassets%2F1ZermvFYkJ-tUmPa9QL5CiWMC0SFrx67D%2Fintro-illo-system.png)]
 
-.small.subhead[デザイナーが設立した2つのスタートアップに注目]
+.sans[[**Materialのシステム**](https://material.io/design/introduction/)]
 
-1. [ShanZhai City](http://www.shanzhaicity.com/) 社会的影響を評価するビッグデータ企業。
-2. [Youzan](http://www.tmogroup.asia/sell-on-wechat-top-3rd-party-wechat-ecommerce-platforms-in-china-now/) WeChatでのオンラインショップのオープンを支援するSaaS企業。
+>Material Designは古典的な良いデザインの原則をテクノロジーと科学のイノベーションに統合させるビジュアル言語です。”
 ]
-.group[
-.numeral.subhead[02]
+.darkgray.group[
+.grayscale.figure[![](https://storage.googleapis.com/spec-host-backup/mio-design%2Fassets%2F1IZHFTcO1_beIhcV65KsiQWYKo6g1U8aG%2Fintro-illo-foundation.png)]
 
-.medium.sans[**小売体験**]
+.sans[[**Materialの根本**](https://material.io/design/foundation-overview/)]
 
-![:video video/mp4, https://udso-a.akamaihd.net/5392214352001/5392214352001_5668800512001_5668789168001.mp4?pubId=5392214352001&videoId=5668789168001]
+>Material DesignはUI、表面、コンポーネントによって表現されるクオリティを明確にします。”
 
-AlibabaのHemaとStarbucksのRoasteryには、オンライン体験とオフライン体験の間の新たな垂直統合が表現されている。
+]
+.darkgray.group[
+.grayscale.figure[![](https://storage.googleapis.com/spec-host-backup/mio-design%2Fassets%2F10hopQ2-3NS3F2-IQEXiqJBVB7CVFEjaN%2Fintro-illo-guidance.png)]
 
-関連：従業員不要の[BingoBox](http://www.scmp.com/tech/china-tech/article/2123348/unmanned-stores-china-still-working-seamless-shopper-experience)コンビニエンスストアは、スマートフォンでQRコードをスキャンすることでドアが解錠され、レジがない。
+.sans[[**Materialのガイドライン**](https://material.io/design/guidelines-overview/)]
+
+>ユーザビリティとプラットフォームガイダンスには、あなたの作ったアプリをすべてのユーザーに利用できるようにする方法が記されています。”
+
 ]
 ]
 
-.source[@ling_fan_tezign Ling Fan, CEO/Founder Tezign [The Information](https://go.theinformation.com/d34d5f937e89c84d) [Alizila](http://www.alizila.com/alibaba-tech-underpins-launch-worlds-interactive-starbucks/) [South China Morning Post](http://www.scmp.com/tech/china-tech/article/2123348/unmanned-stores-china-still-working-seamless-shopper-experience)]
+.source[@materialdesign @googledesign @google]
 .footer[Technology &times; Business &times; Design]
 
 ---
 
 class: document-slide
 
-# シリコンバレーの外側：中国とデザイン
+# アドバイス : 資金調達の世界をよく学び千里眼を持とう。
 
-.darkgray.small.stack[
+.darkgray.stack[
 .group[
-.numeral.subhead[03]
 
-.medium.sans[**AlibabaのLuban：Eコマースデザインロボット**]
+.sans[[**Internet Trends 2018**](https://www.kleinerperkins.com/perspectives/internet-trends-report-2018/) by Mary Meeker]
 
-.figure[
-![:image auto, 220px, http://image.uisdc.com/wp-content/uploads/2017/04/uisdc-ali-20170420-7.gif]
-.caption[via UISDC]
-]
+<iframe width="505" height="284" src="https://www.youtube.com/embed/HdjcdZqODoE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-* AlibabaのLubanは、2017年の光棍節(独身者の日)の間に4億のバナーを作りだし、コンバージョン率を100%上昇させた。
-* Alibabaのエコシステムには、バナーやEコマースサイトのデザイナーが100万人いる（そしてそのうち70%がLubanからの影響を受けている）。
-* 他にも[Arkie](https://Arkie.cn)や[Kuaizi](https://Kuaizi.co)など、より自動化の進んだマーケティングデザインツールが現れつつある。
-]
-.group[
-.numeral.subhead[04]
+.x-small.quote[
+[出典：TechCrunch](https://techcrunch.com/2018/05/30/internet-trends-2018/)
 
-.medium.sans[**Design & AI Report**]
+> インターネットの利用拡大: 2018年には世界人口の半数（約36億人）がインターネットにつながっているだろう。”
 
-.figure[
-![:image auto, 220px, http://image.uisdc.com/wp-content/uploads/2017/04/uisdc-ali-20170420-2.jpg]
-.caption[via UISDC]
-]
+> モバイルの使用: スマートフォンの出荷数は横ばいで、インターネットユーザーの増加も緩やかになっている。一方で、米国の成人はモバイル端末のせいで長時間オンラインに滞在するようになった。2016年は1日5.6時間だったのが2017年には5.9時間まで伸びている。”
 
-**Ling Fan**が同済大学、Tezign、AlibabaのAIデザインラボと共同で作成した[Design & AI Report](https://www.sheji.ai)をご覧いただきたい。
-]
-]
-
-.source[Ling Fan, CEO/Founder Tezign / [The Information](https://go.theinformation.com/d34d5f937e89c84d) [UISDC](http://www.uisdc.com/alibaba-luban-ai-banner) [Gale Partners](https://medium.com/@rexrothX/ai-visual-design-is-already-here-and-it-wont-hesitate-to-take-over-your-petty-design-job-934d756db82e)]
-.footer[Technology &times; Business &times; Design]
-
----
-
-class: document-slide
-
-# 若返っているのではない。歳を重ねて大胆(B(older))になっているのだ。
-
-.large.quote[
-> マーケットリサーチ会社Euromonitorの予測では、60歳以上に対象を限定した場合、世界のシニア世代による消費は2020年までに15兆円に達すると見られている。しかもこれは、世界的な高齢化がピークに達するよりもずっと早い時期での話である。ボストン・コンサルティング・グループの推定では、2030年までに、アメリカでは2008年以降の消費支出額の伸びの50%を55歳以上の人口が担うことになる。そしてその比率は、日本では67%、ドイツでは86％だ。世界でもとくに発展した経済が、もうすぐ祖父母のニーズ、ウォンツ、そしてウィムズ（気まぐれ）を中心に回るようになるといっても過言ではないのである。
-
-—[Joseph Coughlin](http://agelab.mit.edu/longevity-economy)
-]
-
-.source[[The Longetivity Economy](http://agelab.mit.edu/longevity-economy)]
-.footer[Technology &times; Business &times; Design]
-
----
-
-class: document-slide
-
-# ジェネレーションZ + ミレニアルを越えて：ジェネレーションB(older)
-
-.stack[
-.group[
-.numeral.subhead[01]
-
-.darkgray.sans[**EUの中央年齢はB(older)に**]
-
-.figure[
-![:image 280px, https://assets.weforum.org/editor/2KdV59nkmwGn68gOJ5NGuiH91Z16wz35OglbqRZuTLE.gif]
-.caption[via WEF/@aronstrandberg]
-]
-
-.small.quote[
-> 国連は、ヨーロッパ諸国の中に年齢中央値が50歳以上になる国が出始めると予測している。そこにはスペイン、イタリア、ポルトガル、ギリシャが含まれており、そのあとにドイツ、ポーランド、ボスニア、クロアチアが続く。
-
-—[世界経済フォーラム (WEF)](https://www.weforum.org/agenda/2017/11/these-animations-show-the-western-world-is-rapidly-ageing)
+> Eコマース vs レンガとモルタル: Eコマースの成長は速く、現在小売販売の13%がオンラインで行われ、貨物の輸送が急速に増加している。つまり、新たなショッピングアプリを作るビッグチャンスが到来しているということだ。
 ]
 ]
 .group[
-.numeral.subhead[02]
+.sans[[**The End of the Beginning**](https://www.ben-evans.com/benedictevans/2018/11/16/the-end-of-the-beginning) by Benedict Evans]
 
-.darkgray.sans[**アメリカもB(older)に**]
+<iframe width="505" height="284" src="https://www.youtube.com/embed/RF5VIwDYIJk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-.figure[
-![:image 280px, http://assets.pewresearch.org/wp-content/uploads/sites/12/2014/04/847889448.gif]
-.caption[via Pew Research]
+.x-small.quote[
+[出典：BenedictEvans.com](https://www.ben-evans.com/benedictevans/2018/1benedic1/16/the-end-of-the-beginning)
+
+> 地球上にいる大人の4分の3近くがスマートフォンを持っている。残りの人々の多くも数年のうちに手に入れるだろう。”
+
+> コマースはまだ、小売り消費の極少数を担っているに過ぎない。そして今後10年か20年のうちにソフトウェアとインターネットに移行していくであろう他の領域の多くは、ほとんど手つかずのままである。世界の小売り市場規模は、結局のところ25兆ドル程度なのだろう。”
+
+> 私たちはインターネット普及率の低い市場、ゆっくりとしたスピード、ほとんど何も知らない消費者、少額の資本モデルから始まった。それが今や、すべてがひっくり返ってしまった。”
 ]
-
-.small.quote[
-> 1960年から2060年まで、この国の人口ピラミッドは長方形になる。5歳未満と85歳超のアメリカ人の数がほぼ同じになるのだ。
-
-—[PEW](http://www.pewresearch.org/next-america/#Two-Dramas-in-Slow-Motion)
-]
-]
-.group[
-.numeral.subhead[03]
-
-.darkgray.sans[**スタートアップCEOもB(older)に**]
-
-.quote[
-> 米国人口が高齢化し、また55歳から64歳までの個人による新たな起業者の数が増加したことで、新規起業家に占めるこの年代の割合は、1997年のインデックスでの14.8%から、2015年のインデックスでの25.8%へと上昇した。
-
-—[Kauffman Foundation](http://www.kauffman.org/~/media/kauffman_org/research%20reports%20and%20covers/2015/05/kauffman_index _startup_activity_national_trends_2015.pdf)
-]
-
-.x-small.darkgray[_若い年代（20歳から34歳）の起業家は、2015年のインデックスでは全新規起業家の24.7%であった。_]
 ]
 ]
 
-.source[@aronstrandberg @kauffmanfdn [Monocle: Aging in Cities](https://monocle.com/magazine/the-forecast/2017/ageing-gracefully/) [1514 - 2015](https://ourworldindata.org/life-expectancy-how-is-it-calculated-and-how-should-it-be-interpreted) [PEW Research: Immigrants](http://www.pewresearch.org/fact-tank/2015/10/07/a-shift-from-germany-to-mexico-for-americas-immigrants/?utm_content=buffer3fc31&utm_medium=social&utm_source=twitter.com&utm_campaign=buffer)]
+.source[@kpcb @a16z @hasanminhaj [Supreme | Patriot Act with Hasan Minhaj | Netflix](https://www.youtube.com/watch?v=RKl_Y3EA7Sc) 👈📺 **Watch This**]
 .footer[Technology &times; Business &times; Design]
 
 ---
 
 class: chapter-slide lightgray-slide
 
-# .xx-large.mono[デザインを<br>スケールする]
+# .mono[デザイン-_______<br>組織<br>について]
 
 .group[
-### デザインの機能はムーアの法則のようにはスケールしない
+### デザインは、デザイナーと非デザイナーの両方を混乱させている。
 
-* 一般に、デザインは製品が出荷される直前にではなく、製品開発プロセスの初期に用いられる。
-* より良い製品を作り始めるための方法は、デザイナーのためのインクルーシブな文化を作ることである。手始めに、まずは彼らが価値を置いているものを聞くことだ。
-* 無意識的なバイアスは、他者を排除するステレオタイプによって強められている。すぐさまアクションを起こすには、排除があることを認識しなくてはならない。
-* デザインツールとシステムが近年変わりつつある。たくさんの新しい機能の中でも、とくに人工知能がすべてを変えそうだ。
-* 私たちはデータ視覚化と量的・質的科学の黄金時代にいる。今あるツールは、理解を必要とする人々に、それを可能にしてくれるものだ。
-* デザイナーが顧客や同僚とインクルーシブに仕事をする方法を理解するには、ユーザーリサーチや製品管理のスキルが必要不可欠だ。
+* デザインの価値は、企業運営における他の部分との関連で決まる。
+* 企業内において単独で孤立すると、デザインは美的満足というミクロワールドに留まってしまう。
+* デザインの複雑性はデザイナーの関心事であるが、組織の他のメンバーにとってはどうでもいい。
+* そこそこのアイデアを魅力的に見せるためにデザインが使われることがあまりにも多い。
+* プログラミングは、コンピュータが動く仕組みを理解することほど重要ではない。
+* 私たちは量的・質的データツールの黄金時代にいる— 理解しようと励む者にとっては。
+* デザインの成功は「最優秀助演男優/女優」賞を獲得したときだろう。
 ]
 
-.footer[Scaling Design]
+.footer[About Design-_______ Organizations]
 
 ---
 
 class: document-slide
 
-# テクノロジー業界でデザイナーとして成功するために学位は必要か
-
-.grid.ratio-4-1[
-.group[
-![:iframe 500px, https://datastudio.google.com/embed/reporting/1Eq443pLdY5weCpM40dyLIG_1BY2loCyn/page/79ZN]
-]
-.group[
-.numeral.subhead[86%]
+.header[
+# テック企業のプロデザイナーになるのに大学の学位は必要か？
 
 .quote[
-> .fg-dkgray[この数字は、現在デザインを学んでいる学生のうち、デジタルのスキルは大学での授業とは別に学んだと答えた者の割合である。
-
-—[2016](https://designintechreport.wordpress.com/2016/03/13/design-in-tech-report-2016/)
+回答者の94%が学位を持っている状況で調査を長年続けてきてわかったこと: テック産業に就職するために学位が役に立つかどうか懐疑的な人が多数派 _(ただし重要なのは、彼らは皆学位を持っているからこそ簡単に言えるのだということ)_
 ]
 ]
-]
-]
-
-.source[#DesignInTech 2018 Open Survey | 1219 samples]
-.footer[Scaling Design]
-
----
-
-class: culture-of-company-slide
-
-# あなたの会社の文化には成功のためのデザインを構築する素地があるだろうか
-
-## あなたの会社のデザイン志向はどのタイプ？
-
-.small.grid.across-5[
-.group[
-.sans[組織の設計は？]
-
-.xxx-small[
-1. 中心的なデザイン部門が1つある
-1. 複数のデザインチームがある
-1. デザインは各所に分散した専門家が行っていて、部署や部門はない
-]
-]
-.group[
-.sans[フィジカル・デジタルデバイドの管理方法は？]
-
-.xxx-small[
-1. フィジカルとデジタルのデザインチームが別々にある
-1. 異なるデザインチームは、同じ場所でまとまってオペレーションしている
-1. チームを訓練することで、より統合的・効率的にオペレーションできるようにしている
-]
-]
-.group[
-.sans[デザインチームの仕事場所は？]
-
-.xxx-small[
-1. デザインチームは本社オフィスを出て仕事をしている
-1. 会社の全オフィスにデザイナーがいる
-1. 複数機能を持った製品スタジオやサービススタジオがある
-]
-]
-.group[
-.sans[デザインは開発プロセスにフィットしている？]
-
-.xxx-small[
-1. 明確なデザインフェーズがある
-1. デザインは開発プロセスの複数の工程に組み込まれている
-1. デザインはライフサイクル全体（揺り籠から墓場まで）に組み込まれている
-]
-]
-.group[
-.sans[ユーザーリサーチを行うのはいつ？]
-
-.xxx-small[
-1. 初期の定性リサーチ
-1. 初期の定性・定量リサーチ
-1. あらゆる段階で定性・定量リサーチを行う
-]
-]
-.group[
-.sans[調査結果への対応は？]
-
-.xxx-small[
-1. 顧客が言うことを報告する
-1. 顧客が何を望んでいるのか査定する
-1. 顧客が実際に何を必要としているのかを解釈する
-]
-]
-.group[
-.sans[プロトタイプの作成はいつ？]
-
-.xxx-small[
-1. プロトタイプ作成用のフェーズが1つある
-1. プロトタイプのフェーズが複数ある場合もある
-1. 必要に応じて徹底的にプロトタイプ作成を繰り返す
-]
-]
-.group[
-.sans[プロトタイプを作成する目的は？]
-
-.xxx-small[
-1. 製品やサービス開始の実効性をチェックするためのみ
-1. 「早め」に失敗するため – パフォーマンスの悪い悪いアイデアを潰す
-1. 「早めに洗練」させるため -- ソリューションと失敗のもとに構築する
-]
-]
-.group[
-.sans[会社でデザインを主導するのは誰？]
-
-.xxx-small[
-1. マーケティングなど、各部門のトップ
-1. CDO（Chief Design Officer）
-1. 他の役員と対等な立場にあるCDO（Chief Design Officer）
-]
-]
-.group[
-.sans[デザインの決定方法は？]
-
-.xxx-small[
-1. リーダーの意見をもとに決める
-1. 半主観的な評価指標を使用して決める
-1. （デザイン指標を用いて）客観的に決める
-]
-]
-.group[
-.sans[デザインパフォーマンスの追跡方法は？]
-
-.xxx-small[
-1. デザインのパフォーマンスは追跡していない
-1. サービス開始後に顧客フィードバックをレビューしている
-1. 品質・コスト・デリバリーを評価し、サービス開始前と開始後にできるだけ厳格に追跡している
-]
-]
-.group[
-.sans[良いデザインに与えられるインセンティブは？]
-
-.xxx-small[
-1. 顧客やデザインに紐づいたインセンティブはない
-1. デザイン部門には社内の業績手当てが支給されている
-1. 役員レベルでさえも、顧客満足を追跡し、報酬を出している
-]
-]
-.group[
-.sans[デザイン関連の判断において、 あなたの組織はどれくらい肝が座っている？]
-
-.xxx-small[
-1. うちの組織は、肥大化し増え続ける製品ポートフォリオに苦しんでいる
-1. うちの組織は、プロジェクト開発の間に増え続ける製品を削るのが上手くなってきた
-1. うちの組織は、まだ満たされていないニーズを満たすための大胆で新しい製品を作ることに尽力しており、すべてが成功するわけではないということを受け入れている
-]
-]
-.group[]
-.medium.sans.bordered.box[
-[McKosmo Quiz](https://johnmaeda.typeform.com/to/PL8Esd)でタイプを判定しよう！ 判定はとても簡単だ。
-]
-]
-
-.source[@hugosarrazin [More than a feeling: Ten design practices to deliver business value](https://www.mckinsey.com/business-functions/mckinsey-design/our-insights/more-than-a-feeling-ten-design-practices-to-deliver-business-value)]
-.footer[Scaling Design]
-
----
-
-class: document-slide
-
-# 一般的にデザインはどの段階で行われるのか
-
-.grid.ratio-4-1[
-.group[
-![:iframe 500px, https://datastudio.google.com/embed/reporting/1PunZraW_b46c-weLYoUQSGG44z60rIdm/page/rZjO]
-]
-.darkgray.group[
-.numeral.subhead[2.98]
-
-この数字は、製品の着想(1)から出荷直前(10)までの1～10での段階の平均値である。
-
-.numeral.subhead[64%]
-
-これは3またはそれ以下と答えた企業の割合である。ここから、大半の企業がデザインを初期段階で使用していることがわかる。
-
-.small[サンプルの大半はアメリカの企業であるため、国による違いについてはやや信頼性が低いが参考にはなる。]
-]
-]
-
-.footer[Scaling Design]
-.source[#DesignInTech 2018 Open Survey | 1219 samples]
-
----
-
-class: document-slide
-
-# 何をするにしても、文化をぶち壊してはならない
-
-.large.quote[
-> なぜビジネスにおいて文化が大切なのだろうか。これは次のように考えれば理解しやすい。文化が強いほど、会社が必要とする企業プロセスが少なくて済む。文化が強いと、皆が正しいことをしてくれると信頼することができるのだ。そして社員は自律的に独立して行動することができる。起業家のように行動できるのである。そしてもしスピリットの部分で起業家的である会社があるならば、私たちには次の「月面着陸」のような飛躍も可能になるだろう。一方で、文化の弱い組織（そして社会）では、厳しく小うるさいルールやプロセスが山ほど必要になるのである。
-
-—[Brian Chesky](https://medium.com/@bchesky/dont-fuck-up-the-culture-597cde9ee9d4)
-]
-
-.source[@bchesky]
-.footer[Scaling Design]
-
----
-
-class: document-slide
-
-# デザイナーのためのインクルーシブな文化を作るところから始めよう
-
-<br>
-
-.stack[
-.group[
-.grid.ratio-2-1[
-.xx-large.darkgray.mono[デザイナーに対するこうしたステレオタイプに聞き覚えはないだろうか]
-]
-]
-.large.sans.group[
-.box-grid.across-2[
-.purple.box[
-デザイナーがそれをキレイにしてくれる。
-]
-.purple.box[
-デザイナーはチームを率いることができない。
-]
-.purple.box[
-デザイナーはビジネスを理解していない。
-]
-.purple.box[
-デザイナーは見栄えばかり気にしている。
-]
-]
-]
-]
-
-.footer[Scaling Design]
-.source[#DesignInTech 2018 Open Survey | 1219 samples]
-
----
-
-class: document-slide
-
-# 無意識的なバイアスは他者を排除するステレオタイプで強められる
-
-.small.purple[_デザイナーに対する認識で、正したいステレオタイプとしてどんなものがある？_]
-
-![:chart 410px, wordtree, data/stereotype.json]
-
-.footer[Scaling Design]
-.source[#DesignInTech 2018 Open Survey | 1219 samples [Darya Zabelina et al on creative mindsets](https://link.springer.com/article/10.3758/s13421-015-0569-4)]
-
----
-
-class: document-slide
-
-# デザイナーのためのインクルーシブに管理された文化を作るには
-
-<br>
-
-.stack[
-.group[
-.grid.ratio-2-1[
-.xx-large.darkgray.mono[Hey, Boss! Can you please ...（あの、ボス！お願いですから...）]
-]
-]
-.large.sans.group[
-.box-grid.across-2[
-.purple.box[
-ビジネス上の問題をはっきりさせてください。
-]
-.purple.box[
-ユーザーを支援してください。
-]
-.purple.box[
-失敗を許容してください。
-]
-.purple.box[
-共感につながる質問をしてください。
-]
-]
-]
-]
-
-.footer[Scaling Design]
-.source[#DesignInTech 2018 Open Survey | 1219 samples]
-
----
-
-class: document-slide
-
-# デザイナーの上司は皆、フィードバックを毎日を聞くようにした方が良い
-
-.small.purple[_もし「本音をぶちまける」ことができるとしたら上司になんと言う？<br>では、自分ならそれにどう返す？
-[批判](http://firstround.com/review/Give-Criticism-that-Makes-a-Difference-With-These-Tips-from-Airbnbs-Head-of-Experience-Design/)と[評価](https://medium.com/@katiemdill/to-show-recognition-try-speaking-a-different-language-2f5b0682820c)については、Katie Dillが素晴らしいヒントを提供してくれている。_]
-
-![:chart 450px, wordtree, data/hey-boss.json]
-
-.footer[Scaling Design]
-.source[@kimballscott @lil_dill #DesignInTech 2018 Open Survey | 1219 samples]
-
----
-
-class: document-slide
-
-# コンピューターにおけるビジュアル言語の基礎となるツールたち
-
-.stack[
-.group[
-.numeral.subhead[1981]
-
-.figure[
-![](https://cdn.mos.cms.futurecdn.net/d3cc904e153a5b3cc1008d057fd25a0f-650-80.jpg)
-.caption[via Quantel]
-]
-
-.small.quote[
-> Paintboxのパッケージには、専用のディスク記憶装置とライブラリ管理が付属していた。当時、大規模なハードディスクは14インチの円盤に70メガバイトを保存でき、大きさはおよそ4ラックユニット、大量の電力が必要で、費用はおよそ5000ポンドであった。
-
-—[Quantel](https://www.creativebloq.com/video-production/remembering-quantel-paintbox-712401)
-]
-]
-.group[
-.numeral.subhead[1984]
-
-.figure[
-![](http://archive.computerhistory.org/resources/still-image/Apple/Macintosh/apple.1984.102626977.lg.jpg)
-.caption[via Computer History Museum]
-]
-
-.small.quote[
-> MacPaintはビル・アトキンソンによって作成されたものである。彼はオリジナルのMacintosh開発メンバーの1人であった。彼は、失敗に終わったApple Lisa用に過去に作成したLisaSketch（別名SketchPad）を元にこれを作り上げた。そのため、もともとこれはMacSketchと呼ばれていた。彼がMacバージョンに取り掛かったのは、1983年はじめのことだった。
-
-—[The Computer History Museum](http://www.computerhistory.org/atchm/macpaint-and-quickdraw-source-code/)]
-]
-.group[
-.numeral.subhead[1989]
-
-.figure[
-![](https://winworldpc.com/res/img/screenshots/10-249b5bcef9e7cfb96dc65d245a016963-Adobe%20Photoshop%201.0.7%20-%20About.png)
-.caption[via Computer History Museum]
-]
-
-.small.quote[
-> Adobe Photoshop 1.0の最小システム要件は、ハードディスクと2メガバイトのRAMであった。グレースケールまたはカラーモニターが推奨されており、Macintosh対応のスキャナーはオプションとなっている。
-
-—[First Versions](http://www.firstversions.com/2015/07/adobe-photoshop.html)
-]
-]
-]
-
-.source[[A. Michael Noll](https://en.wikipedia.org/wiki/A._Michael_Noll) [Using Photoshop 1.0 in 2015](https://youtu.be/TtA46JT2q_0) [Source Code for Photoshop](http://www.computerhistory.org/atchm/photoshop-software-license-agreement/) @winworldpc ]
-.footer[Scaling Design]
-
----
-
-class: document-slide
-
-# プロトタイプ作成ツールはコーディングから始まり視覚的なものになった
-
-.stack[
-.group[
-.numeral.subhead[1987]
-
-.small.quote[
-> Apple Computerは、非常に変わった形のデータベースおよび管理情報プログラムを火曜日に発表する予定である。同社はこれにより、コンピューターを使いやすくするテクノロジーにおける同社の主導的立場を維持し続けられると期待している。
-
-> Hypercardと呼ばれるこの新しいソフトウェアにより、AppleのMacintoshコンピューターのユーザーは、他のファイルカードと複雑にリンク可能な、コンピューター化されたファイルカードで情報を整理できるようになる。このプログラムは、今月以降に販売されるMacintoshには無償で含まれる予定である。
-
-—[NYT](http://www.nytimes.com/1987/08/11/business/company-news-apple-to-introduce-unusual-software.html)
-]
-
-.figure[
-![](http://basalgangster.macgui.com/RetroMacComputing/The_Long_View/Entries/2010/10/23_HyperCard_files/shapeimage_2.png)
-.caption[via MacGUI]
-]
-]
-.group[
-.numeral.subhead[1990]
-
-.figure[
-![](http://lingoworkshop.com/assets/images/Director2.gif)
-.caption[via Lingo Workshop]
-]
-
-.small.quote[
-> VideoWorks（Directorの前身となる1985年のソフトウェア）には「最小128Kを備えたMacintosh」が必要であり、「VideoWorksはMacintoshの内部ドライブだけでも十分動作するが、2台目の（外部）ドライブがあれば頻繁にディスクを交換しなくて済むだろう。」
-
-—[Lingo Workshop](http://lingoworkshop.com/articles/history)
-]
-]
-.group[
-.numeral.subhead[2013]
-
-[Emily Schwartzman](http://www.emilyschwartzman.com/prototyping-tool-resource/)が当時利用可能だったプロトタイプ作成ツールの多くをロードテストし、有用な調査結果とチャートを提供する — そしてそれは、[Cooper(米デザインファーム)](https://www.cooper.com/prototyping-tools)の一般リソース（ツールキット）へと成長する。
-
-.figure[
-![](https://www.cooper.com/wp-content/uploads/2013/07/summaryChart.png)
-.caption[via Cooper]
-]
-]
-]
-
-.source[@oddowl macgui.com lingoworkshop.com]
-.footer[Scaling Design]
-
----
-
-class: document-slide
-
-# デザインのツールとシステムが近年変わりつつある
-
-.large.sans.box-grid.across-4[
-![:block gray box, 統合<br>クラウド]
-![:block gray box, レスポンシブ<br>ビルトイン]
-![:block gray box, プロジェクト<br>マネジメント]
-![:block gray box, 柔軟な<br>アノテーション]
-![:block gray box, バージョン<br>管理]
-![:block gray box, 実コード<br>への変換 ]
-![:block gray box, リアルタイム<br>コラボレーション]
-![:block orange box, 人工知能]
-]
-
-### さらにAIが発展した未来のデザインツールはおそらく…
-
-.columns.across-2[
-1. 顧客のためにモデルを構築してくれる
-1. 自動でデザインのディレクションを生成してくれる
-1. 競合する制約条件を並べ替えて優先順位をつけてくれる
-1. ROIがもっとも高いと考えられるものなどを特定してくれる
-1. デザイナーの時間を節約してくれる
-1. リスク削減のために代わりに実験してくれる
-1. 検証すべきバリエーションを多数生成してくれる
-1. 体験全体を見渡して不整合を特定してくれる
-1. すでにあるソリューションの再発明を防いでくれる
-1. 見習いレベルの仕事をなくしてくれる
-]
-
-.source[[Leah Buley: Thoughts on the Future of Design Tools](https://www.linkedin.com/pulse/thoughts-future-design-tools-from-adobe-max-leah-buley/) + @johnmaeda’s un-scientific observations]
-.footer[Scaling Design]
-
----
-
-class: document-slide
-
-# EronduのPlaybookにはスケールの最中にいるデザイナー向けQ＆Aがある
-
-## 現代のデザイナーが聞きたいことトップ15
-
-.columns.across-2[
-1. デザインに対する会社の認識を高めるにはどうすればよいですか。 [.far.fa-question-circle[]](https://askplaybook.com/as-a-manager-how-do-you-elevate-the-perception-of-design-at-a-company/answers)
-1. もっとデザイナーを雇用する必要があることを示すために、デザインの価値をどう示せばよいですか。 [.far.fa-question-circle[]](https://askplaybook.com/how-do-you-show-the-value-of-design-to-justify-hiring-more-designers/answers)
-1. 社内でのデザインに対する透明性を確立するにはどうすれば良いですか。 [.far.fa-question-circle[]](https://askplaybook.com/how-do-you-establish-more-transparency-for-design-within-a-company/answers)
-1. 会社を辞めるべき時期はどうすればわかりますか。 [.far.fa-question-circle[]](https://askplaybook.com/how-do-i-know-when-it-s-time-to-leave-my-company/answers)
-1. チームが大きくなったとき、どうすればデザイン作業の品質や一貫性を維持できますか。 [.far.fa-question-circle[]](https://askplaybook.com/as-a-team-grows-how-do-you-maintain-the-quality-and-consistency-of-its-design-work/answers)
-1. デザイン批評の時に作品をプレゼンテーションする場合、どうするのがベストですか。 [.far.fa-question-circle[]](https://askplaybook.com/what-s-the-best-way-to-present-work-during-a-design-critique/answers)
-1. チームが過去の作品や教訓を活発なレポジトリとして追跡できるようにするにはどうすれば良いですか。 [.far.fa-question-circle[]](https://askplaybook.com/how-can-a-team-keep-track-of-past-work-and-learnings-as-a-living-repository/answers)
-1. リモートのチームと一緒に仕事をするとき、お互いに効率的に協力しあうにはどうすればよいですか。 [.far.fa-question-circle[]](https://askplaybook.com/when-working-with-remote-teams-how-do-you-effectively-collaborate-with-each-other/answer/taramann)
-1. デザインが「完成した」/「正しい」ということはどうすればわかりますか。 [.far.fa-question-circle[]](https://askplaybook.com/how-do-you-know-when-a-design-is-done-or-right/answers)
-1. デザインで一般的に用いられるKPI（主要業績評価指標）は何ですか。 [.far.fa-question-circle[]](https://askplaybook.com/what-are-commonly-used-design-kpis/answer/alison-rand)
-1. バーンアウトを避けるためには何をすべきですか。 burnout? [.far.fa-question-circle[]](https://askplaybook.com/what-are-the-signs-that-you-re-about-to-burnout/answers) / [.far.fa-question-circle[]](https://askplaybook.com/what-can-you-do-after-you-burnout/answers)
-1. 面接の際、会社の文化やデザインチームについて聞くべき質問にはどのようなものがありますか。 [.far.fa-question-circle[]](https://askplaybook.com/when-interviewing-what-are-some-questions-to-ask-to-understand-the-culture-of-a-company-and-design-team/answers)
-1. 大学に行く価値はありますか。 ([college](#college))
-1. 私のスキルセットをうまく伝えるためには、デザインポートフォリオをどう作るべきですか。 [.far.fa-question-circle[]](https://askplaybook.com/how-should-i-structure-my-design-portfolio-to-best-communicate-my-skillsets/answers)
-1. 代理店、スタートアップ、大企業のどこでキャリアをスタートさせるべきですか。  [.far.fa-question-circle[]](https://askplaybook.com/how-do-i-be-a-confident-designer/answers)
-]
-
-.source[@erondu @askplaybook]
-.footer[Scaling Design]
-
----
-
-class: document-slide
-
-# 私たちはデータ視覚化 &times; 量・質的科学の新時代にいる
 
 .darkgray.stack[
 .group[
-## データサイエンティストとは
 
-[コア](https://blog.udacity.com/2014/11/data-science-job-skills.html) となるスキルセット：
-
-* プログラミングスキル
-* 統計
-* 機械学習
-* 多変数微積分と線形代数
-* データラングリング
-* データに対する直観
-* データの視覚化とコミュニケーション
-
-## OSDSM
-
-オープンソース・データサイエンス・マスター（OSDSM）のコースは、[Clare Corthell](http://datasciencemasters.org/)がまとめた素晴らしいリソース一式である。
+.sans[**デザイナーとしての経験年数は？**]
+<br>3年未満。/ 3年以上10年未満。/ 10年以上。 <br>.orange[回答者の大多数が経験者。]
+<br>
+<br>
+![:chart 250px, pie, data/typeform-2019-slice-05.json]
 ]
 .group[
-## データを説明する
 
-最前線にいるのは、[The Guardian](https://www.theguardian.com/data)、 [NYT](https://www.informationisbeautifulawards.com/news/118-the-nyt-s-best-data-visualizations-of-the-year)、Wall Street Journal（WSJ） のデータ視覚化とジャーナリズムのチームだ。
-
-.lightgray.subhead[.fas.fa-wrench[]]
-
-以下のツールは新しい方向性を示している：
-
-* [Observable](https://beta.observablehq.com/) by Mike Bostock
-* [Data Studio](https://www.google.com/analytics/data-studio/capabilities/) by Google
-* [Colaboratory](https://research.google.com/colaboratory/faq.html) by Google
-
-オープンソースのツールも存在する：
-* [D3.js](https://d3js.org) by Mike Bostock
-* [Processing](https://processing.org/) by Processing Team
-* [Zeppelin](https://opensource.com/business/16/7/3-open-source-data-visualization-tools-hadoop) by Apache
-* [DrawBot](http://www.drawbot.com/) by DrawBot Team
-]
-.group[
-## 私はもうデザインをやめたのか？
-
-![:image 0 5%,, 300px, https://designintech.report/wp-content/uploads/2018/03/maedadotpm.png]
-
-.small[_**そうではない。**私はただ、これまでの人生で私が学んできたもの、行ってきたものすべてをこうして集めているだけだだ。いつか私は空に浮かぶ大きな雲（クラウド）にアップロードされる。人々にとって素晴らしい体験をデザインするため、私はつねにインクルーシブかつ幅広く考え、仕事することを選んできたのだ。_]
+.sans[**大学の学位はテック企業で成功するために必要である**]
+「賛成」 / 「わからない」 / 「反対」<br>.orange[「反対」が「賛成」を上回り、「わからない」は<br>「反対」に偏っている。]
+![:chart 250px, pie, data/typeform-2019-slice-06.json]
 ]
 ]
 
-.source[@udacity @clarecorthell]
-.footer[Scaling Design]
+.source[@johnmaeda Survey with 2000+ respondents using @McKinsey [Good Design Is Good Business](https://www.mckinsey.com/business-functions/organization/our-insights/good-design-is-good-business)]
+.footer[About Design-_______ Organizations]
 
 ---
 
 class: document-slide
 
-# 成長のためにユーザーリサーチのスキルと原則を学ぼう
+.header[
+# 次のステップ : 今デザイナーとしてキャリアを始めるには？
 
-.stack[
+.x-medium.quote[
+全体の回答をもとに、今の産業界でデザイナーになるためのいくつかの<br>おすすめ進路をランク順で並べました。
+]
+]
+
+.darkgray.stack[
 .group[
-### 将来的に価値を持つデザイン<br>スキルトップ10
-]
-.group[]
-]
+.sans.large[エージェンシー]
 
-.stack[
-.group[
-1. テクノロジーと社会の変化に対する適応力
-2. 共感性
-3. .highlight[コミュニケーションスキル]
-4. .highlight[よい質問の投げかけ]
-5. 越境的なスキル
-6. .highlight[ストーリーテリング]
-7. .highlight[異文化スキル]
-8. .highlight[観察と傾聴]
-9. .highlight[心理学と人間行動]
-10. 複雑性を操ること
-
-.small.sans[
-<br>
-
-これらのスキルの多くは、ユーザーリサーチャーが専門知識を用いて実践しているものである。ユーザーリサーチの詳細については、[Erika Hallの著述を参照](https://www.linkedin.com/pulse/9-rules-design-research-erika-hall/)
-]
+>大体創設3年目くらいの小さなエージェンシーに入るといい。”
 ]
 .group[
-.large.quote[
-> 驚くべきことに、質的なユーザーリサーチを行なっている企業はほとんどない。
+.sans.large[スタートアップ企業]
+
+>エージェンシーはお勧めできない。スタートアップか大企業がお勧め。<br/>今の時代の製品を作ってる会社を。”
+]
+.group[
+.sans.large[大企業]
+
+>大企業に入って様々な分野があると学んでから、専門を決めて意義あるスタートアップ企業を探すといい。”
+<br/><br/>
+]
 ]
 
-.medium.quote[
-> Albert LeeとDayna Graysonによる調査では、初期段階のスタートアップで質的リサーチを行っていたのは12%、中期段階で32%、後期段階では46%であった。
 
-.sans[– [NEA Future of Design in Start-ups 2017](http://www.futureof.design)]
+.darkgray.stack[
+.group[
+.sans.large[コンサルタント会社]
+
+>3～6か月ごとに新プロジェクト = <br>新しい問題発生 = 数年で大量の問題発生 = 次に来る問題の解決方法がわかるようになっている。
 ]
+.group[
+.sans.large[フリーランス]
+
+>フリーランス！味わってみてほしい。どんなものなのかを”
+]
+.group[
+.sans.large[大学院]
+
+>どの選択でもいいが、デザインで<br/> 最高幹部の椅子に座れるなら、<br/>大学院も悪くない”
 ]
 ]
 
-.source[@aiga [Design Census 2017](https://designcensus.org) @neavc @tweetalbert @daynagrayson]
-.footer[Scaling Design]
+.source[@johnmaeda 2019 Design in Tech Survey with 200+ respondents]
+.footer[About Design-_______ Organizations]
 
 ---
 
 class: document-slide
 
-# 成長のために製品管理のスキルと原則を学ぼう
+.header[
+# McKinsey: ビジネスにおけるデザインはただの「フィーリング」にとどまらない
 
-.stack[
-.group[
-### ビジネスにおいてデザイナーが理解する必要のあるスキルトップ8
-
-1. .highlight[製品ロードマップ戦略]
-2. .highlight[企業戦略]
-3. .highlight[リテンション / エンゲージメント指標]
-4. .highlight[コンバージョン指標]
-5. .highlight[目標到達プロセス指標]
-6. .highlight[収益モデル]
-7. .highlight[財務指標（つまり売上高、利益率など）]
-8. .highlight[リソース配分]
+.darkgray[
+>財務実績の改善と最も密接な相関が見られるデザイン施策の４つのまとまりとは: 収支に対するのと同様の厳密さでデザインのパフォーマンスを査定・推進 ; フィジカルデザイン、デジタルデザイン、サービスデザインの間の組織内の壁を破壊 ; ユーザー中心デザインを全員に要求 ; エンドユーザーへの継続的なヒアリングとテストを繰り返すことで、開発のリスクを減らす。” —[McKinsey Design Index](https://www.mckinsey.com/business-functions/mckinsey-design/our-insights/the-business-value-of-design)
 ]
+]
+.darkgray.stack[
 .group[
-### 近い将来スタートアップのデザイナーに必要となるスキルトップ10
 
-1. .highlight[ビジネス]
-2. .highlight[コミュニケーション]
-3. .highlight[社交スキル / 感情知性]
-4. ライティング、 コピーライティング
-5. ARデザイン
-6. .highlight[データサイエンス]
-7. .highlight[エンドユーザーへの共感]
-8. .highlight[ファシリテーションスキル]
-9. .highlight[マネジメントスキル]
-10. .highlight[サービスデザイン]
+.sans[**組織でのデザインの決定方法は？**]
+“リーダーの意見を基に決める。” / “半主観的な評価指標を使用して決める。” / “（デザイン指標を用いて）客観的に決める。” .purple[多数派: “半主観的な評価指標を使用”] _僅差の２位: ボスが言うには・・・_
+![:chart 250px, pie, data/typeform-2019-slice-01.json]
+
 ]
 .group[
-### さらにその先においてスタートアップのデザイナーに必要とされるスキルトップ10
 
-1. ライティング
-2. 人工知能 / 機械学習
-3. データサイエンス
-4. .highlight[エンドユーザーへの共感]
-5. .highlight[ストーリーテリング]
-6. サウンドデザイン
-7. .highlight[シナリオデザイン / サービスデザイン]
-8. .bg-yellow[倫理 / バイアス]
-9. .highlight[心理学]
-10. .highlight[システムデザイン]
-]
+.sans[**会社のプロダクトポートフォリオは勇敢ですか？**]
+“私たちの会社では肥大化し続けている。” / ”私たちの会社では進歩があり、悪いアイディアを切り捨てられる。” / “私たちは大胆な製品を作り、失敗の可能性も受け入れる。” .purple[多数派: “ポートフォリオは肥大化し続けている” ]
+![:chart 250px, pie, data/typeform-2019-slice-02.json]
 ]
 
-<br>
+]
 
-.small.sans[.highlight[強調箇所]は製品マネージャーやデザインリーダー/マネージャーのスキルに対応するもの。 .highlight[強調箇所]は今日必要とされているクラシカルデザイン能力である。]
-
-.source[@neavc @tweetalbert @daynagrayson [Future of Design in Start-ups 2017](http://www.futureof.design)]
-.footer[Scaling Design]
+.source[[2018 #DesignInTech McKosmo Quiz](https://johnmaeda.typeform.com/to/PL8Esd) / @McKinsey [Good Design Is Good Business](https://www.mckinsey.com/business-functions/organization/our-insights/good-design-is-good-business)]
+.footer[About Design-_______ Organizations]
 
 ---
 
 class: document-slide
 
-# デザインをスケールするベストな方法とは？ Billの残した言葉に耳を傾けてみよう。
+.header[
+# McKinsey : デザインとは顧客と繰り返しやりとりしつつ、学び、テストし続けること。
 
-.grid.ratio-1-2[
+.darkgray[
+>最善の結果を出すためには、継続的な定量（結合分析など）と定性（民族学的インタビュー）のユーザーリサーチのブレンドが必要である。獲得した情報は市場分析グループの報告と統合すべきだ。市場分析には、競合相手の行動、新たなテクノロジーに対する特許スキャン、ファイナンスチームから警告された懸念などが含まれる。この緊張関係と相互作用なしでは、開発機能は孤立して、素晴らしくても日の目も顧客の喜んだ顔も見れない製品を生みうる。" —[McKinsey Study](https://www.mckinsey.com/business-functions/mckinsey-design/our-insights/the-business-value-of-design)
+]
+]
+
+.darkgray.stack[
 .group[
-.grayscale.figure[
-![:image 30% 0,, 400px, https://img.youtube.com/vi/Atsmy_oMLaI/maxresdefault.jpg]
-.caption[via Cooper Hewitt]
-]
 
-.darkgray.sans[1943-2012]
+.sans[**ユーザーリサーチを行うのはいつ？**]
+“初期の段階で定性リサーチを行う。” / “初期の段階で定性・定量リサーチを行う。” / “あらゆる段階で定性・定量リサーチを行う。” .purple[多数派: あらゆる段階で両方。]
+![:chart 250px, pie, data/typeform-2019-slice-03.json]
 ]
 .group[
-<br>
-<br>
 
-.grid.across-2[
-.large.quote[
-> もし、最も重要なデザイン原則があるとしたら、おそらくそれは、生活者と一緒に始めるということだろう。
-
-—Bill Moggridge
-]
-.darkgray[_IDEOの共同設立者でスミソニアン博物館クーパー・ヒューイット国立デザイン博物館のディレクターであったBill Moggridgeは、癌との闘病の末、2012年9月8日にこの世を去った。歯に衣着せぬ物言いで日常生活におけるデザインの価値を強く主張したビルは、インタラクションデザインを開拓し、ヒューマンファクターをコンピューターソフトウェアやハードウェアのデザインに統合した。_]
-]
+.sans[**調査結果への対応は？**]
+“顧客の意見を報告する。” / “顧客が何を望んでいるのか査定する。” / “顧客が実際に何を必要としているかを読み取る。” .purple[多数派: 必要なものを読み取る。]
+![:chart 250px, pie, data/typeform-2019-slice-04.json]
 ]
 ]
 
-.source[@ideo @cooperhewitt [IDEO](https://www.ideo.com/people/bill-moggridge)]
-.footer[Scaling Design]
+.source[[2018 #DesignInTech McKosmo Quiz](https://johnmaeda.typeform.com/to/PL8Esd) / @McKinsey [Good Design Is Good Business](https://www.mckinsey.com/business-functions/organization/our-insights/good-design-is-good-business)]
+.footer[About Design-_______ Organizations]
 
 ---
 
 class: document-slide
 
-# ケーススタディに見るデザインのスケール：[Automattic.Design](https://automattic.design)
+# InVisionが考えた「5段階のデザイン習熟度」は傑作。
+
+.darkgray.stack[
+.group[
+.numeral.subhead[01]
+
+.orange.sans[**プロデューサー** <br>41%]
+
+<svg height="150" width="150">
+  <circle cx="75" cy="75" r="70" stroke="#fe4d30" stroke-width="7" fill="none"/>
+</svg>
+
+デザインは画面上で発生するものだ
+
+.small[
+>この段階では、組織は早々に効率性を追求し、ビジュアルアイデンティティのガイドラインを通して一貫したストーリーを求める。しかし、プロセスや共同作業、進歩的なツールは無視する。”]
+]
+.group[
+.numeral.subhead[02]
+
+.orange.sans[**コネクター** <br>21%]
+
+<svg height="150" width="150">
+  <circle cx="75" cy="75" r="42" stroke="#fe4d30" stroke-width="7" fill="none"/>
+</svg>
+
+職場が<br>ワークショップに
+
+.small[
+>ユーザーリサーチ、ユーザーストーリー、ユーザビリティテスト、ペルソナなどもより普及している。全体的にデザインが多く話題に上る雰囲気—デザインの重要性を支持する幹部から、より顧客の利益と共感を重視する従業員まで。”]
+]
+.group[
+.numeral.subhead[03]
+
+.orange.sans[**アーキテクト** <br>21%]
+
+<svg height="150" width="150">
+  <circle cx="75" cy="75" r="42" stroke="#fe4d30" stroke-width="7" fill="none"/>
+</svg>
+
+デザインは拡大可能なオペレーション
+
+.small[
+>彼らはオーナーシップ、役割の明確化、共同説明責任、より充実したデザインの実践に関する文書をシェアした。そうして複雑な内部オペレーションの統合が可能になり、デザインが複雑なエコシステムをサポートできるようになった。”]
+]
+.group[
+.numeral.subhead[04]
+
+.orange.sans[**サイエンティスト** <br>12%]
+
+<svg height="150" width="150">
+  <circle cx="75" cy="75" r="28" stroke="#fe4d30" stroke-width="7" fill="none"/>
+</svg>
+
+デザインは仮説を<br>動力源とする
+
+.small[
+>彼らは分析、実験、ユーザーリサーチの人材募集および、特定の試みに関する成果のモニタリング・測定を洗練させてきた。また、デザインストラテジーの実践や、ビジョン展開のきっかけも有している。”]
+]
+.group[
+.numeral.subhead[05]
+
+.orange.sans[**ヴィジョナリー** <br>5%]
+
+<svg height="150" width="150">
+  <circle cx="75" cy="75" r="15" stroke="#fe4d30" stroke-width="7" fill="none"/>
+</svg>
+
+デザインとは<br>ビジネスだ
+
+.small[
+> デザインは、ビジネス戦略にユニークなレンズをもたらす。たとえば、試験的なユーザーリサーチのテクニック、製品が市場に適合するか査定するトレンド・先取り、そしてプラットフォームを越えた統一ストラテジーなどである。”]
+]
+]
+
+.source[@invisionapp [Design Maturity Model](https://www.invisionapp.com/design-better/design-maturity-model/) surveyed 2,200 design professionals]
+.footer[About Design-_______ Organizations]
+
+---
+
+class: document-slide
+
+# 聞いたことがありますか？私のお気に入りの教訓です。
+
+.darkgray[
+> 今年のレポートに着手し始めるにあたって、我々は自分たちの働きに対しより批判的にならなければならない。そしてデザイナーとしての責任と、社会に与える影響の大きさを深く自覚すべきである。” —[UX Trends 2019](https://trends.uxdesign.cc/2019)
+]
+
+.grid.ratio-1-3[
+.group[
+.numeral.subhead[2019]
+]
+
+.large.group[
+1. **誰もがリード**
+2. **デザイナーはデザインする暇がない**
+3. **デザインは世界を救いそうにない**
+
+.darkgray[
+4. 無駄を減らすためにデザインする
+5. メソッドに対する執着
+6. デザインツールはコード化すべき？
+7. 頭を柔らかくして考える
+8. オープンキッチンを活用する
+9. テクノロジーを機能させる
+]
+]
+]
+
+.source[@uxdesigncc @fabriciot @caioab [UX Trends](https://trends.uxdesign.cc/2019) curating 2,239 links with 264,016 designers]
+.footer[About Design-_______ Organizations]
+
+---
+
+class: document-slide
+
+# デザイナーは一般的に、みんなで内にこもるのが得意。
+
+.darkgray.sans[
+(👆 このことがデザイナーをほとんどの開発者と少し異なる物にする。そしてビジネスマンとは大いに異なる。)<br /><br />]
+
+.x-medium.quote[
+>最も成功しているデザインリーダーは、個々人の成長に尽力し、メンバー自身とチーム全体のスケーリングを手助けする。 彼らは組織の体制に疑問を投げかけ、成長すべく、よりヘルシーでインクルーシブなチームになるための方法を生み出そうとする。” —[Mia Blume](https://www.goabstract.com/blog/embracing-open-design-in-2019/)
+]
+.x-medium.quote[
+>デザイン業務は、中規模・大規模製品企業において不可欠になってきた。しかし、管理ツール、ワークフロー、プロセス、運営、批評、共同作業、あらゆる従業員の経験、文化的・感動的な活動、その他諸々でデザインの恩恵を受けているのは、どのような種類の組織も同じである。デザインは状況によって変動する作業で、審美的作業の発展形といえる。その究極の目的はビジネス効率を上げることである。” —[Josh Silverman](https://www.goabstract.com/blog/embracing-open-design-in-2019/)
+]
+
+.source[@mialoira @jhsilverman @goabstract [Embracing Open Design In 2019](https://www.goabstract.com/blog/embracing-open-design-in-2019/)]
+.footer[About Design-_______ Organizations]
+
+---
+
+class: document-slide
+
+# [Automattic.Design](https://automattic.design)の哲学は人間中心。
 
 .stack[
 .group[
 .numeral.subhead[01]
 
-.x-large.darkgray.sans[デザイン<br>文化]
+.x-large.darkgray.sans[デザイン文化]
 
 .irregular-small[
-.darkgray[<br>デザインを気にかけ、良きデザインが良きビジネスであるということを認識しているCEOが必要である。なぜなら、顧客がそれを求めているからだ。.fas.fa-check-square[]]
+.darkgray[<br>デザインを大切にし、良きデザインが良きビジネスであることを認識しているCEOが必要。なぜなら、顧客がそれを求めているからだ。 .fas.fa-check-square[]]
 
 .orange[_リソース_]
 
 .quote-list[
+* .purple.sans[**NEW**] [The Four Planets](https://automattic.design/2019/03/03/the-four-planets-of-design/)
 * [Stanford GSB Case Study](https://www.gsb.stanford.edu/faculty-research/case-studies/ebay-designing-culture-change-innovation-playbook)
-* [Design in Tech Reports](https://designintechreport.wordpress.com)
-* [IBM Design](https://medium.com/design-ibm/creating-a-culture-of-design-dfb9a36623b3)
+* [Design in Tech Reports](https://designintech.report)
 ]
 ]
 ]
 .group[
 .numeral.subhead[02]
 
-.x-large.darkgray.sans[デザイン<br>のタレント]
+.x-large.darkgray.sans[デザインの才能]
 
 .irregular-small[
-.darkgray[<br>デザイナーを雇用する力強いリーダーが必要である。彼らは「この人が代わりにデザインしてくれたらいいのにとあなたが思うような人で、才能を愛する人でもある」だろう。.fas.fa-check-square[]]
+.darkgray[<br>デザイナーを雇用する力強いリーダーが必要。彼らは「代わりにデザインしてくれればいいのにと思われるような人材で 、同時に他の才能を愛する人である」だろう。 .fas.fa-check-square[]]
 
 .orange[_リソース_]
 
@@ -1939,10 +1079,10 @@ class: document-slide
 .group[
 .numeral.subhead[03]
 
-.x-large.darkgray.sans[デザイン<br>リーダー]
+.x-large.darkgray.sans[デザインリーダー]
 
 .irregular-small[
-.darkgray[<br>リーダーシップを心がけ、新たなリーダーを進んで育成しようとするような、デザインのリード役が必要だ。.fas.fa-check-square[]]
+.darkgray[<br>リーダーシップがあり新たなリーダー育てることも好きな、最初のリード役が必要。]
 
 .orange[_リソース_]
 
@@ -1957,33 +1097,34 @@ class: document-slide
 .group[
 .numeral.subhead[04]
 
-.x-large.darkgray.sans[デザイン<br>システム]
+.x-large.darkgray.sans[デザインシステム]
 
 .irregular-small[
-.darkgray[<br>インクルーシブに仕事をする[コンピュテーショナルデザイナー](https://automattic.design/2018/02/09/react-components-design-and-wordpress-com-2015/)が数人必要だ。そして、[Nathan Curtis](https://medium.com/eightshapes-llc/defining-design-systems-6dd4b03e0ff6)の話を聞こう。 .fas.fa-check-square[]]
+.darkgray[<br>インクルーシブに働く[コンピューテーショナルデザイナー](https://automattic.design/2018/02/09/react-components-design-and-wordpress-com-2015/) が必要。 そして [Nathan Curtis](https://medium.com/eightshapes-llc/defining-design-systems-6dd4b03e0ff6)の話を聞こう。 .fas.fa-check-square[]]
 
-.purple[私たちのデザインシステムは *[キットのスコープ]* を提供するもので、これは *[キットのアウトプット]* としてリリースされており、 *[キットの文書サイト]* に文書化されている。これは *[人々]* によって作られたもので、 *[製品]* の製品や体験を提供することを目的としている。] [&dagger;](https://medium.com/eightshapes-llc/defining-design-systems-6dd4b03e0ff6) [&dagger;&dagger;](https://medium.com/eightshapes-llc/design-systems-intermediaries-955ef18c9409)
+.orange[我々のデザインシステムは *[kit outputs]* としてリリースされた *[kit scope]* を提供し、*[people]* によって作られた *[kit doc site]* でドキュメント化されている。*[products]* に製品と経験を供給するためである。] [&dagger;](https://medium.com/eightshapes-llc/defining-design-systems-6dd4b03e0ff6) [&dagger;&dagger;](https://medium.com/eightshapes-llc/design-systems-intermediaries-955ef18c9409)
 
 .orange[_リソース_]
 
 .quote-list[
 * [Awesome Design Systems](https://github.com/alexpate/awesome-design-systems)
 * [Adele](https://github.com/marcintreder/adele) | [DesignSystems.com](https://www.designsystems.com/)
-* [Some Needed Levity](https://twitter.com/_dte/status/966475058750173184)
+* [Karl Gerstner](https://www.lars-mueller-publishers.com/designing-programmes)
 ]
 ]
 ]
 .group[
 .numeral.subhead[05]
 
-.x-large.darkgray.sans[デザイン<br>運用]
+.x-large.darkgray.sans[デザインの運用]
 
 .irregular-small[
-.darkgray[<br>組織内サービスとして、製品管理デザインやプロジェクト管理のデザインが必要になる。だから最近、私たちはデザイン運用のための採用を実施した。.fas.fa-check-square[]]
+.darkgray[<br>製品やプロジェクト管理のデザインは、組織内サービスとして必要だろう。そして、近年はデザイン業務に人を採用するようになった。 .fas.fa-check-square[]]
 
 .orange[_リソース_]
 
 .quote-list[
+* .purple.sans[**NEW**] [Design Ops at Automattic](https://automattic.design/category/design-ops/)
 * [What is Design Ops?](https://www.linkedin.com/pulse/what-design-operations-why-should-you-care-dave-malouf)
 * [Design Ops Lenses](https://medium.com/amplify-design/the-different-lenses-of-design-operations-c29086cf907f)
 * [Holly Burroughs Cole](https://twitter.com/hollyface1975/status/971585555157934080)
@@ -1992,971 +1133,1666 @@ class: document-slide
 ]
 ]
 
-.source[[Karl Gerstner](https://www.lars-mueller-publishers.com/designing-programmes) @mialoira @nathanacurtis @marcintreder @alexjpate @daveixd @_dte @figma @hollyface1975]
-.footer[Scaling Design]
-
----
-
-class: chapter-slide lightgray-slide
-
-# .mono[コンピュテーショナル<br>デザイン：最初のステップ]
-
-.group[
-### 「アトム &times; ビット &times; 人」が大規模に展開
-
-* ローテクな従来の製造法を用いつつコンピュテーションを活用した、カスタムファブリケーションテクノロジーがより利用しやすくなってきている。
-* 音声認識テクノロジーで提供される体験の重要性が高まっている。それは、コンピューターグラフィクスにおいて、スクリーンにGUIが導入されたのと同じくらいの重要度になりつつある。
-* AR（とVR）スマートフォンや安価な周辺機器で利用可能になり、様々なアイデアや試作が模索されている。
-* 今やアメリカ人の大半が携帯電話を所有しており、そして急速にスマートフォンに乗り換えている。しかし、アメリカは1人あたりの平均モバイルデータ使用量では世界13位と遅れをとっている。
-* モバイルUXにおいてはスピードが重要なデザイン要素となる。セッションの長さは平均30秒程度で、サイト訪問者の半数以上は、読み込みに3秒以上かかると閲覧をやめてしまう。
-]
-
-.footer[Computational Design]
+.source[[2018 Design In Tech Report](https://designintech.report)]
+.footer[About Design-_______ Organizations]
 
 ---
 
 class: document-slide
 
-# 「アトム &times; ビット」はますます安価に利用・実験可能になりつつある
+# Automatticの“Four Planets(4つの惑星)”を心に留めよう。 [簡単ではない](https://automattic.design/2019/03/03/the-four-planets-of-design/)
 
-.stack[
-.group[
-.figure[
-![:image 300px, https://www.line-us.com/uploads/1/1/7/2/117239281/creative-ideas_orig.jpg]
-.caption[via Line US]
-]
-[Line US](https://Line-us.com) .darkgray[_（イギリス）_]
-]
-.group[
-.figure[
-![:image 300px, https://uploads-ssl.webflow.com/59d78963a7327a00016b071a/59dac0f7bcf399000193a32c_img_402x.jpg]
-.caption[via Mayku]
-]
-[Mayku](https://www.mayku.me/) .darkgray[_（イギリス）_]
-]
+.darkgray[
+  Concept by Adam Becker and Brie Anne Demkiw / Images by Marly Gallardo / Text by Ian Stewart]
+
+.grid.across-4[
+  .group[
+
+![](https://automatticdesign.files.wordpress.com/2019/03/planet_1-copy.jpg)
+
+.small[.sans.purple[**Planet Discovery 惑星「発見」**] <br>ここではプロダクトのランドスケープを理解し、解答が必要な本当の問題を見つける。危険はなさそうな挑戦に思えるがそれは間違いだ。軌道はすぐに減衰し、解決策を生み出す燃料は簡単になくなってしまう。忘れてはいけない — 君は実際にここで何かを造っているわけではない。燃え尽きて無になる前に情報を集め先に進むのだ。]
+  ]
+  .group[
+    ![](https://automatticdesign.files.wordpress.com/2019/03/planet_2-copy.jpg)
+
+.small[.sans.purple[**Planet Hypothesis 惑星「仮説」**] <br>ここに来たら、惑星「発見」で燃料として採掘した情報を使ってテストしよう。たくさんテストすればするほどよい。そしてさらなる惑星においてはスピードも重要だ。試作品、テストそして実践。1つのテストにこだわりすぎたり、完璧な答えを探したりしないように — 惑星「実行」へ向かう発射時限に間に合わなくなってしまう。]
+  ]
+  .group[
+    ![](https://automatticdesign.files.wordpress.com/2019/03/planet_3-copy.jpg)
+
+.small[.sans.purple[**Planet Deliver 惑星「実行」**] <br>さあ建設の時間だ。この巨大な惑星では膨大な報酬と代償の大いなる危険が待っている。軌道に入ったらすぐに光が点滅する。オゾンの匂いが漂い、壁が震え、船は今にも爆破しそうだ。ここからが本当の始まりだ — ただし、無限に続く議論の誘惑や瑣末な変更は無秩序化につながる。計画してから入り早く出てこい。君ならできる。]
+  ]
+  .group[
+    ![](https://automatticdesign.files.wordpress.com/2019/03/planet_4-copy.jpg)
+
+.small[.sans.purple[**Planet Listen 惑星「傾聴」**] <br>この星系の果ての秘密主義で資源豊富な惑星に行けるのは惑星「実行」を出発できた乗組員だけ。惑星の周りを周回するだけでは何もしていない気分になるかもしれない。しかしここで採掘される貴重な燃料は複数の調査旅行を推進できるーアイデアを生むための酸素＝使用だ。繰り返し惑星「実行」へ戻り、エネルギーをすべて抽出するのだ。その価値はある。]
+  ]
 ]
 
-.quote[
-> Line USとMaykuのデバイスは、物理世界で利用・実験可能な、低コストでありながら洗練されたコンピュテーショナルデザインツールの優れた事例である。Line USは非凡で、Maykuは昔ながらの真空成型法を使用する。
-]
-
-.small.quote[
-> デザインにおける注目すべき例としては、MoMaに加えられた[Nervous Systems](https://www.moma.org/explore/inside_out/2015/03/26/future-couture-nervous-systems-kinematics-dress/)の4Dプリントドレス、そしてどこまでも拡大し続けるMITメディアラボの[Neri Oxman](http://www.materialecology.com/news)の活動がある。3Dプリンティングにおいて注目すべき製造機械の進歩としては、材料科学者Jennifer Lewisの[Voxel8](https://www.voxel8.com/)を用いたフットウェア製造への取り組みや、Desktop Metalによる金属3Dプリントがある。
-]
-
-.source[@johnmaeda @Line_us_machine @teammayku]
-.footer[Computational Design]
+.source[[The Four Planets](https://automattic.design/2019/03/03/the-four-planets-of-design/) @adambbecker @breezyskies @marlygallardo @ianstewart [Picasso Light Paintings](Pablo Picasso)]
+.footer[About Design-_______ Organizations]
 
 ---
 
 class: document-slide
 
-# モバイル（アトム &times; ビット）は（今後）人々が物事をこなすための作法となる
-
-.stack[
-.group[
-.quote[
-> 疑問や必要性が生じた際に、電話はとりわけ信頼されているリソースである。 96%の人々がそうした物事の解決にスマートフォンを活用している。
-
-> こうしたニーズを満たすために人々が検索を活用する率は、実店舗への訪問やソーシャルメディアといった、その他のオンラインあるいはオフラインの手段に対して、少なくとも2倍は見込まれる。
-
-—Lisa Gevelber [Google](https://www.thinkwithgoogle.com/consumer-insights/mobile-search-consumer-behavior-data/)
-]
-
-.figure[
-![:image 0 10%,, 230px, https://www.thinkwithgoogle.com/_qs/images/T_YTfVgBw6V5ec8xryQjWtfCS7c=/113/width-2000/how-needs-were-addressed-chart.png]
-.caption[via Google]
-]
-]
-.group[
-![:iframe 450px, http://www.pewinternet.org/chart/mobile-phone-ownership/iframe/]
-
-.small.darkgray[—[PEW](http://www.pewinternet.org/chart/mobile-phone-ownership/)]
-]
-.group[
-.quote[
-アメリカ人の大半（95%）が今では何らかの携帯電話を所有している。アメリカ人のスマートフォン所有率は現在77%で増加傾向にある。ピュー研究所が2011年にスマートフォンの所有率を初めて調査したときはわずか35%であった。
-
-—[PEW Research Center](http://www.pewinternet.org/fact-sheet/mobile/) (2018)
-
-.subhead[.fas.fa-random[]]
-
-.small.quote[
-オープンソース書体の「[Inter UI](https://rsms.me/inter/)」は、モバイルデバイスで文字を読むのに適した書体だと言われている。
-
-モバイルによる事前注文の[実現](http://www.businessinsider.com/starbucks-attempts-to-fix-mobile-ordering-review-2017-8)で課題を抱えることになったが、デザインをうまく修正 することだろう。
-]
-]
-]
-]
-
-.source[@google @pewresearch @rsms]
-.footer[Computational Design]
-
----
-
-class: document-slide
-
-# モバイルによって私たちがデジタル上で過ごす時間は長くなり、データ使用量も増加する
-
-.grid.ratio-1-2[
-.group[
-.quote[
-> モバイルはかなり中毒性が高い。アメリカでは他のメディアよりも多くの時間がモバイル上で費やされている。
-
-> モバイルに費やされる時間が急増する一方で、他のメディアに費やされる時間は緩やかに減少している。
-
-—[Luke Wroblewski](https://twitter.com/lukew/status/956940234901544960)
-]
-
-.quote[
-> フィンランドでの1ヶ月あたりの個人のモバイルデータ平均使用量は10.95GBである。これにラトビアの8.21GB、オーストリアの6.28GB、スウェーデンの4.38GB、 デンマークの4.37GBが続いている。
-
-> アメリカは2.67GBで13位である。
-
-—[OECD](http://www.oecd.org/sti/broadband/broadband-statistics/)
-]
-]
-.group[
-.bordered.figure[
-![](https://pbs.twimg.com/media/DUe8EgfU0AAmsYJ.jpg:large)
-.caption[via @lukew]
-]
-]
-]
-
-.source[@lukew @emarketer @OECD]
-.footer[Computational Design]
-
----
-
-class: document-slide
-
-# モバイルUXには、より高い性能基準が要求される
-
-.grid.ratio-1-1[
-.group[
-.subhead.numeral[19秒]
-
-.quote[
-> .large[3G通信でモバイル用ウェブページの読み込みにかかる平均時間]
-
-—[Google](https://www.thinkwithgoogle.com/intl/en-154/insights-inspiration/research-data/need-mobile-speed-how-mobile-latency-impacts-publisher-revenue/)
-]
-]
-.group[
-.subhead.numeral[53%のユーザー]
-
-.quote[
-> .large[モバイルで読み込みに3秒以上かかるサイトの閲覧をやめる割合]
-
-—[Google](https://www.thinkwithgoogle.com/data-gallery/detail/mobile-site-abandonment-three-second-load/)
-]
-]
-.group[
-.subhead.numeral[35%のサイズ縮小]
-
-.quote[
-> .large[「Guetzli」という新しいオープンソースエンコーダーは、JPEGの35%サイズ縮小を達成]
-
-—[The Verge](https://www.theverge.com/2017/3/17/14957272/google-jpeg-encoder-new-guetzli-smaller-faster)
-]
-]
-.group[
-.subhead.numeral[30秒]
-
-.quote[
-> .large[スマートフォンでのセッションの半数以上は30秒以下である]
-
-—[@lukew](https://twitter.com/lukew/status/938095211619655680?lang=en)
-]
-]
-]
-
-.source[@lukew [Marissa Mayers’ early contribution to design was key](https://maeda.pm/2018/01/13/speed-is-a-key-design-attribute/) [Pinterest](https://medium.com/@Pinterest_Engineering/driving-user-growth-with-performance-improvements-cfc50dafadd7)]
-.footer[Computational Design]
-
----
-
-class: document-slide
-
-# 現在の携帯電話はマイクの他にも多数のセンサーを内蔵している
-
-.stack[
-.group[
-2018年現在、[Android Docs](https://source.android.com/devices/sensors/sensor-types)には、Androidのセンサータイプとして9つの基本センサーがリストアップされ いる。さらに、複数の基本センサーによるシステムとして構成されている「複合センサー」タイプが5つある。ここには2つのセンサーが記載されていない。それはマイクと可視光カメラだが、現代のスマートフォンでこの2つを搭載していないものはまずない。
-
-ちなみに、BMW 5シリーズの車には100以上のセンサーが搭載されている。センサーはデータを提供し、 ソフトウェアは体験を提供する。
-
-.quote[
-> Sensors provide data,<br>software provides experiences.
-
-—[Qualcomm](https://www.qualcomm.com/news/onq/2014/04/24/behind-sixth-sense-smartphones-snapdragon-processor-sensor-engine) (2014)
-]
-]
-.group[
-### Androidの基本センサー
-
-.listicle[
-* 加度センサー
-* 周囲温度センサー
-* 磁界センサー
-* ジャイロスコープ
-* 心拍センサー
-* 照度センサー
-* 近接センサー
-* 圧力センサー
-* 相対湿度センサー
-]
-
-### Androidの複合センサー
-
-.listicle[
-* 直線加速度センサー
-* モーショントリガー
-* ステップ検知センサー
-* 歩数計
-* 傾き検出センサー
-]
-
-### デバイス上のその他のセンサー
-
-.listicle[
-* 距離カメラ、IRカメラ、心拍、指紋
-]
-]
-.small.darkgray.group[
-Nintendo Switchでは、これまでとは異なるフォームファクターがデザインに取り入れられており、これ よって新しい種類の体験が生み出されている。
-
-.figure[
-![:image 0 50%, auto, 150px, https://www.nintendo.com/switch/etRgxnAu0zRX4bmWnt9K628wG7YQUI6t/images/switch/buy-now/bundle_gray_console.jpg]
-.caption[Nintendoより]
-]
-
-Snapchat Spectaclesは、それがいかに注意を集めるのに失敗したかと言う点で多くの注目を集めることなったが、これは賢明なデザインの探索と言えるだろう。
-
-.figure[
-![:image 0 60%, auto, 150px, https://images-na.ssl-images-amazon.com/images/I/71ob6XrmubL._SL1500_.jpg]
-.caption[Amazonより]
-]
-
-.fab.fa-youtube[] Relevant SNL sketches: [Alexa](https://www.youtube.com/watch?v=YvT_gqs5ETk) [Glasses](https://youtu.be/huIPadEfD3E?t=24s)]
-]
-
-.source[[Quora](https://www.quora.com/How-many-sensors-are-in-a-new-BMW) [Android Privacy Issues](https://www.theverge.com/2018/3/7/17091104/android-p-prevents-apps-using-mic-camera-idle-background) [iOS Privacy Issues](https://www.wired.com/story/ios-11-privacy-security-settings/)]
-.footer[Computational Design]
-
----
-
-class: document-slide
-
-# 会話型デザインに向けて
+# アドバイス 1: 「最優秀助演男優/女優」賞の獲得がゴールだ。
 
 .large.quote[
-> 会話は新しいインターフェイスではない。最古のインターフェイスである。会話は人間が互いにやり取りする方法であり、そこには数千年という歴史がある。私たちは、デジタルシステムを簡単で直感的に使え るものにするため、それと同じ原則を使えるようにすべきだ。最終的に、機械が私たちのルールに沿って動作するようにすることで、それを実現しなくてはならない。
-
-—[Erika Hall](https://abookapart.com/products/conversational-design)
+>Regina King, .orange[Jennifer Connelly,] Catherine Zeta-Jones, .orange[Mo’Nique,]  Cate Blanchett, .orange[Rachel Weisz,] Jennifer Hudson,<br /> .orange[Tilda Swinton,] Penélope Cruz, .orange[Renée Zellweger,] Melissa Leo, .orange[Octavia Spencer,] Anne Hathaway, .orange[Lupita Nyong’o,] Patricia Arquette, .orange[Alicia Vikander,] Viola Davis, .orange[Alison Janney,] Benicio del Toro, .orange[Jim Broadbent,] Chris Cooper, .orange[Tim Robbins,] Morgan Freeman, .orange[George Clooney,] Alan Arkin, .orange[Javier Bardem,] Heath Ledger, .orange[Christoph Waltz,] Christian Bale, .orange[Christopher Plummer,] Christoph Waltz, .orange[Jared Leto,] J.K. Simmons, .orange[Mahershala Ali,] Sam Rockwell 上記は皆、2000年から現在までのアカデミー賞受賞者である。しかし彼らは『最優秀主演男優/女優』ではない。それぞれの年に選ばれた『最優秀助演男優/女優』である。”
 ]
 
-.source[@mulegirl [Conversational Interfaces](https://abookapart.com/products/conversational-design)]
-.footer[Computational Design]
+.source[[maeda.pm](https://maeda.pm/2018/09/20/designintechs-goal-best-supporting-actor-actress/)]
+.footer[About Design-_______ Organizations]
 
 ---
 
 class: document-slide
 
-# 会話型デザインは議論するに値する
+# アドバイス 2: デザイナーのボスはみんな惑星「傾聴」を訪れるべき。
 
-.stack[
-.group[
-.quote[
-> 音声を用いることで、機械とのインタラクションを私たちが人間とコミュニケーションする方法に近づけることができる。今ではアプリケーションが人間に合わせなければならなくなった。その逆ではない。
+.small.orange[上司に対して「歯に衣着せず物申せる」としたら、何を言いますか？]
 
-—[Khoi Vinh](https://www.subtraction.com/2017/08/29/finding-a-voice-for-design-in-voice-uis/)
-]
-]
-.group[
-.quote[
-> iOS9、iOS10、iOS11のSiriによる _「1リットルは38.1液量オンスです」_の音声。
+![:chart 450px, wordtree, data/hey-boss.json]
 
-![:audio audio/mpeg, http://machinelearning.apple.com/images/journals/siri-voices/ios9-005.mp3]
-![:audio audio/mpeg, http://machinelearning.apple.com/images/journals/siri-voices/ios10-005.mp3]
-![:audio audio/mpeg, http://machinelearning.apple.com/images/journals/siri-voices/ios11-005.mp3]
-
-—[Apple Machine Learning](https://machinelearning.apple.com/2017/08/06/siri-voices.html)
-]
-]
-.group[
-.cell-stack[
-.group[
-.bordered.figure[
-![:image 60px, auto, https://cdn.shopify.com/s/files/1/0051/7692/products/aba-cover-25_100x@3x.png]
-]
-]
-.group[
-.quote[
-> 『[_Conversational Design(会話的デザイン)_](https://abookapart.com/products/conversational-design
-)』は、デザインリーダーでユーザーリサーチの第一人者、そして著者でもある**Erika Hall**が今月出版した書籍である。
-]
-]
-]
-
-.quote[
-> [Typeform](https://www.typeform.com/blog/human-experience/cui/)による散文×チャットのインターフェース 、体験デザインにおける注目すべき取り組みであり、読んで、 見て、やり取りするだけの価値がある。
-]
-]
-]
-
-<br>
-
-.stack[
-.group[
-.quote[
-SONOSは「[Sonos One](https://www.sonos.com/en-us/alexa-on-sonos)」で音声アシスタント領域に参入した
-]
-
-![:image 0 0, 80%, 200px, https://www.sonos.com/on/demandware.static/-/Library-Sites-SonosLibrary/default/dwc433b879/pages/alexa-on-sonos/one-feature.png]
-]
-.group[
-.quote[
-> 音声認識では、音声をテキストに変換し、そのテキストに自然言語処理を施したうえで、そこにどのよう なコマンドが含まれているかを解釈する。.highlight[2012年以降、こうしたタスクのエラー率は、およそ1/3程度あったものが5%以下にまで減少した。]
-
-—[Benedict Evans](https://www.ben-evans.com/benedictevans/2017/2/22/voice-and-the-uncanny-valley-of-ai)
-]
-]
-.group[
-.subhead[.fab.fa-youtube[]]
-
-.listicle[
-* [ The Science of Talking with Computers](https://www.youtube.com/watch?v=yxxRAHVtafI)
-* [ DAVID Miami / BK Spot](https://vimeo.com/223731156)
-* [Infinite Looping Voice Assistants](https://www.youtube.com/watch?v=vmINGWsyWX0&feature=youtu.be)
-* [Billy Bass Alexa](https://www.youtube.com/watch?v=x4W8aKLS2zI&feature=youtu.be)
-]
-]
-]
-
-.source[@sonos @khoi @benedictevans @mulegirl @typeform @arrelid]
-.footer[Computational Design]
+.source[[The Four Planets](https://automattic.design/2019/03/03/the-four-planets-of-design/) [2018 Design In Tech Report](https://designintech.report)]
+.footer[About Design-_______ Organizations]
 
 ---
 
-class: document-slide
 
-# ウェブにおける音声認識 / 合成の能力が向上している
-
-.stack[
-.group[
-.numeral.subhead[2012]
-
-.quote[
-> この仕様は、ウェブ開発者が音声認識や音声合成をウェブページに組み込めるようにするためのJavaScript APIを定義するものである。これにより、開発者はスクリプトで音声合成を出力できるようになり、フォーム入力に音声認識を使用したり、連続的なディクテーションや操作をすることができるようになる。このJavaScript APIでは、ウェブページから起動やタイミング、また結果や選択肢をコントロールすることが可能になる。
-
-—[W3C](https://w3c.github.io/speech-api/speechapi.html)
-]
-]
-.group[
-.numeral.subhead[2018]
-
-```
-var recognition = new SpeechRecognition();
-```
-
-.quote[
-> Web Speech APIでは、2つの異なる機能、つまり音声認識と音声合成（text to speechとも呼ばれる）が提供される。これらは、アクセシビリティや制御の仕組みについての可能性を広げるものである。
-
-—Mozilla [Using the Web Speech API](https://developer.mozilla.org/en-US/docs/Web/API/Web_Speech_API/Using_the_Web_Speech_API)
-]
-
-.lightgray.subhead[.fab.fa-codepen[]]
-
-[Listen](https://codepen.io/jakemhiller/pen/ECAcz) [Talk](https://codepen.io/matt-west/pen/wGzuJ) [Colors](https://codepen.io/rodriguesmarcos/pen/BFwCa) [Map States](https://codepen.io/nickforddesign/project/full/XVkvqe/)
-
-.lightgray.subhead[.fas.fa-random[]]
-
-[Google Experiments](https://experiments.withgoogle.com/voice) with [ Mystery Animal](https://mysteryanimal.withgoogle.com/) [Meme Buddy](https://memebuddy.chat/)
-]
-]
-
-.source[@codepen @jakemhiller @matt-west @rodriguesmarcos @nickfordesign @michaelarestad ]
-.footer[Computational Design]
-
----
-
-class: document-slide
-
-# AR（拡張現実） / VR（仮想現実）にも関心を寄せるべきだ。
-
-.quote[
-> 私たちは、製造業における熟練労働者不足の原因であるスキルギャップを埋めるのに、 ARテクノロジーが役立つと考えている。ARによって、高度なスキルが必要な仕事をより多くの労働者ができるようになり、作業パフォーマンスも改善されると考えられる。私たちはこれに伴って産業の生産性が向上し、最終的には賃金上昇につながるだろうと楽観的にみている。  —[HBR](https://hbr.org/2017/03/augmented-reality-is-already-improving-worker-performance)
-]
-
-.stack[
-.group[
-![:iframe 315px, https://www.youtube.com/embed/ET2CKUqdPCo]
-
-[Zach Lieberman](http://thesystemis.com) and collaborators
-]
-.group[
-![:iframe 315px, https://www.youtube.com/embed/_jJxuWSVme8?start=16]
-
-[Project iCan](https://project-ican.com) ドラえもん どこでもドア
-]
-]
-
-.source[@zachlieberman @zappyzappy7 @google [Mobile AR Design](https://www.blog.google/products/google-vr/best-practices-mobile-ar-design/) [ARtists at Work](http://www.bbc.com/news/technology-41524550)]
-.footer[Computational Design]
-
----
 
 class: chapter-slide lightgray-slide
 
-# コンピュテーショナル<br>デザイン：人工知能
+# .mono[人類ってヤバイ:<br>私たちならできる]
 
 .group[
-### AIはインクルーシブデザインが得意ではない。なぜなら私たちもそれが得意ではないからだ。
+### 実は … 私たち人間はとんでもなくすばらしい！
 
-* アンケートに回答したデザイナーの88%は、ビジュアルデザイナーがAIに取って代わられるには少なくとも5年以上かかると考えている。AIは今でもすでに多くのことができる。
-* AIによるビジュアルアートの創作は、1960年代よりベル研究所のA.M.ノルらによって行われており、さらに言えばマルセル・デュシャンにまで遡ることができる。
-* AIは、人間が実際にやる必要のないような、うんざりさせられる作業をすることにおいては非常に優れている。たとえば画像コントラスト調整や、不鮮明な線の修正、画像スタイルの変更などである。
-* AIとデザインの実験的試みを融合させることにおいては、Googleが飛び抜けて先行している。それは、マーティン・ワッテンベルグやフェルナンダ・ビエガスなど、彼らが獲得した素晴らしいタレントのおかげである。彼らは当初、IBMでデータビジュアライゼーションを発展させ、その代表的なものが[Many Eyes](http://www.bewitched.com/manyeyes.html)である。
-* それまでの活動や実践をトレーニングデータに変換し、学習させた「公平」に見えるアルゴリズムをAIに実行させたとき、その結果が思いがけないものになることがある。しかし、そのトレーニングデータに刻み込まれているのは、私たちの長い排除の歴史なのである。
+* AIが未来に与える影響を恐れる声もあるが、クリエイティブな希望もある。
+* コンピューテショナルデザイナーはテクノロジーとその人類への影響を批判的に考える。
+* デザインは難しいものをシンプルにする。そしてシンプルなものを記憶に残るものにする。
+* 今現在ディストピアや危機がどんなに叫ばれようとも私はノイズの代わりにメッセージを聞き取りたい。
+* 私はFred Kofmanの教義「Player versus Victim」をサブスクライブしてるので決して楽天家ではない。
+* それでもどこかで「イエス・ウィ・キャン！」と聞こえたような気がした。
+
 ]
-.footer[Computational Design: **AI**]
+
+.footer[Awesome Humans: Yes We Can]
 
 ---
 
 class: document-slide
 
-# AIがビジュアルデザイナー取って代わるのはいつか
+.header[
+# すばらしい人間たちが、テクノロジーをもっとすばらしく再形成する。
+]
 
-.grid.ratio-4-1[
+.darkgray.stack[
 .group[
-![:iframe 500px, https://datastudio.google.com/embed/reporting/12-32pCFgiUYURfdw3rQeBRLcnPw0k8M_/page/rZjO]
-]
-.darkgray.group[
-.numeral.subhead[5]
+.orange.numeral.subhead[01]
 
-アンケートに回答したデザイナーの88％が、AIがビジュアルデザイナーの多くに取って代わるようになるまでにこれ以上の年数がかかると答えている。
+[.sans[Xboxの拡張コントローラー]](https://news.xbox.com/en-us/2018/05/16/xbox-adaptive-controller/) / ゲームの楽しみが広がる。 
 
-.numeral.subhead[35%]
-
-アンケート回答者のうち、この割合のデザイナーが、それには10年以上かかると考えている。
+.figure[
+![](https://raw.githubusercontent.com/johnmaeda/designintech-2019/master/asset/image/Xbox-Adaptive-Controller-141.jpg)
+.caption[出典： Microsoft]
 ]
 ]
+.group[
+.orange.numeral.subhead[02]
 
-.source[#DesignInTech 2018 Open Survey | 1219 samples]
-.footer[Computational Design: **AI**]
+[.sans[Lyra]](https://www.getlyra.com/) / 自閉症の子どもたち向け対話アプリの記号。
+
+<iframe width="505" height="284" src="https://www.youtube.com/embed/nd89-QX5Hps" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+]
+]
+
+.source[@davidalankennedy @microsoft [Xbox Holiday 2018 ad](https://www.youtube.com/watch?v=v70Fu2WU8-w) [Making Of](https://www.youtube.com/watch?v=ypnHZrw4UXs) @catnoone]
+.footer[Awesome Humans: Yes We Can]
 
 ---
 
 class: document-slide
 
-# AIはアートスクールで学ぶようになり、その成績は向上している
-
-.stack[
-.group[
-<details>
-<summary>
-.small.quote[Input Image —[Max-Planck Institute](http://webdav.tuebingen.mpg.de/pixel/enhancenet/)]
-</summary>
-
-.figure[
-![](http://webdav.tuebingen.mpg.de/pixel/enhancenet/files/eagle-nn.jpg)
-.top.caption[via Max-Planck Institute]
+.header[
+# すばらしいアーティストが不可解なモノを活用する。
 ]
+
+.darkgray.stack[
+.group[
+.orange.numeral.subhead[03]
+
+[.sans[Zach Lieberman]](https://twitter.com/zachlieberman/status/1093435280835649537?s=20) / MuDAによる吊下げメソッド。
+<details><summary>📱</summary>
+![:tweet 1093435280835649537]
 </details>
-]
-.group[
-<details>
 
-<summary>
-.small.quote[Generated Image —[Max-Planck Institute](http://webdav.tuebingen.mpg.de/pixel/enhancenet/)]
-</summary>
+<iframe width="505" height="284" src="https://www.youtube.com/embed/ET2CKUqdPCo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+]
+
+.group[
+.orange.numeral.subhead[04]
+
+[.sans[Project Alias]](http://bjoernkarmann.dk/project_alias) / オープンソースGoogle Assistantの口枷。
 
 .figure[
-![](http://webdav.tuebingen.mpg.de/pixel/enhancenet/files/eagle-pat.jpg)
-.top.caption[via Max-Planck Institute]
+![](http://bjoernkarmann.dk/wp-content/uploads/2018/12/alias_selected-12.jpg)
+.caption[出典： Bjørn Karmann]
 ]
-</details>
-]
-]
-
-.stack[
-.group[
-.figure[
-![](http://workflow.arts.ac.uk/artefact/file/download.php?file=274733&view=43511)
-.top.caption[via UAL]
-]
-
-.small.quote[
-ピエト・モンドリアンの『Composition With Lines』（1917年）に似たセミランダムな画像を生成するために、デジタルコンピューターとマイクロフィルムプロッターが使用された。コンピューター生成による画像を正しく同定できた参加者は28％だけで、59％はコンピューター生成による画像を好んだ。二項検定を行ったところ、これら2つの選択比率には、チャンスレベルと比較して統計的に有意な差（5%水準）が見られた。
-
-—[A. Michael Noll](http://tdecamillophillips1.workflow.arts.ac.uk/mondrian-experiment-a-michael-noll) (1966)
-]
-]
-.darkgray.group[
-.purple[
-### AI関連の用語を含むGitHubレポジトリの数
-]
-
-.numeral.subhead[94,681]
-
-.large[機械学習]
-
-.numeral.subhead[28,189]
-
-.large[ディープラーニング]
-
-.numeral.subhead[10,544]
-
-.large[人工知能]
 ]
 ]
 
-.source[March 9, 2018 GitHub search / Psychology Record / Max-Planck Institute @ual]
-.footer[Computational Design: **AI**]
+.source[[2018 Design In Tech Report](https://johnmaeda.github.io/#57) @alexislloyd @zachlieberman @bjoernkarmann]
+.footer[Awesome Humans: Yes We Can]
 
 ---
 
 class: document-slide
 
-# AIに代替させたいデザインワーク（ねえAIデザイナーさん、代わりに＿＿＿してよ）
+.header[
+# 最善のために戦うときは、全員参加で。
+]
 
-.stack[
+.darkgray.stack[
 .group[
-<details>
-<summary>
-.medium[ウォーターマークを消去 [*](https://research.googleblog.com/2017/08/making-visible-watermarks-more-effective.html)]
-</summary>
-
 .figure[
-![](https://4.bp.blogspot.com/-XPKnwJ-x9Y0/WZTJtk9VMYI/AAAAAAAAB9U/p4xomyw24C8T9oFRG68Osbix18Wt59zFACLcBGAs/s640/f7.png)
-.caption[via Google]
+![:image 0 50%, auto, 500px, http://www.pewinternet.org/wp-content/uploads/sites/9/2018/09/PI_2018.09.27_teens-and-cyberbullying_0-01.png]
+.caption[出典： Pew]
 ]
-</details>
-<details>
-<summary>
-.medium[スタイルを再合成 [*](https://github.com/nvidia/fastphotostyle)]
-</summary>
-.figure[
-![](https://github.com/NVIDIA/FastPhotoStyle/raw/master/teaser.png)
-.caption[via NVIDIA]
-]
-</details>
-<details>
-<summary>
-.medium[表情を変更 [*](https://research.fb.com/bringing-still-photos-to-life-and-3d-photography-to-your-phone/)]
-</summary>
-.figure[
-![](https://research.fb.com/wp-content/uploads/2017/11/siggrapha11.png?w=1024)
-.caption[via Facebook]
-]
-</details>
 ]
 .group[
-<details>
-<summary>
-.medium[コントラストを完璧に [*](http://news.mit.edu/2017/automatic-image-retouching-phone-0802)]
-</summary>
+.orange.numeral.subhead[05]
+
+[.sans[Squadbox]](http://news.mit.edu/2018/using-friends-to-fight-online-harassment-0405) / 協働アンチハラスメントツール。
+
 .figure[
-![](https://media.wired.com/photos/5984b64c2181bc3f8bcacd7a/master/w_1598,c_limit/MIT-Instant-Retouch-TA.jpg)
-.caption[via MIT]
+![](http://news.mit.edu/sites/mit.edu.newsoffice/files/styles/news_article_image_top_slideshow/public/images/2018/MIT-CSAIL-PhD-student-Amy-Zhang-Squadbox_0.jpeg?itok=acSD6SvU)
+.caption[出典： MIT]
 ]
-</details>
-<details>
-<summary>
-.medium[バリエーションを生成 [*](https://junyanz.github.io/BicycleGAN/)]
-</summary>
-.figure[
-![](https://junyanz.github.io/BicycleGAN/index_files/results_matrix.jpg)
-.caption[via UC Berkeley / Adobe]
-]
-</details>
-<details>
-<summary>
-.medium[デッサンを修正 [*](https://www.blog.google/topics/machine-learning/fast-drawing-everyone/)]
-</summary>
-.figure[
-![](https://storage.googleapis.com/gweb-uniblog-publish-prod/original_images/AutoDraw_1.gif)
-.caption[via Google]
-]
-</details>
 ]
 ]
 
-<br>
-
-## Facebook： 偽ニュースを見抜く10のコツより
-
-.large.quote[
-> **写真に注意しましょう。** 多くの場合、偽ニュースには加工された画像やビデオが使用されています。場合によっては、写真は本物だけれども、別の文脈で撮影されたものであるということもあります。写真や画像を検索すれば、その出所を検証することができるでしょう。
-
-—[Facebook Help Center](https://www.facebook.com/help/188118808357379)
-]
-
-.source[@facebook @google @nvidia @MIT]
-.footer[Computational Design: **AI**]
+.source[@johngreen @pewinternet @mit @amyxzh Kaitlin Mahar]
+.footer[Awesome Humans: Yes We Can]
 
 ---
 
 class: document-slide
 
-# AIがつくれるのは画像だけではない
-
-.grid.ratio-1-2[
-.group[
-### AIによるデザイン
-
-.small.quote-list[
-* AIによるスポット広告のデザイン
-
-	—[AdAge](http://adage.com/article/creativity/check-commercial-mccann-japan-ai-creative-director/304320/)
-
-* AIで衣装を完全にフィットさせる
-
-	—[Quartz](https://qz.com/1090267/artificial-intelligence-can-now-show-you-how-those-pants-will-fit/)
-
-* AIに他人がプレイする様子を見せ、ゲームエンジンをデザインする
-
-	—[Georgia Tech](http://gvu.gatech.edu/index.php?q=ai-uses-less-two-minutes-videogame-footage-recreate-game-engine)
-
-* AIによるウェブサイトのデザイン
-
-	—[WIRED](https://www.wired.com/story/when-websites-design-themselves/)
-
-* AIを用いたStitch Fix社によるブラウスのデザイン
-
-	—[WSJ](https://www.wsj.com/articles/next-top-fashion-designer-a-computer-1489323600)
-
-* AIによる複雑な機械部品のデザイン
-
-	—[Technology Review](https://www.technologyreview.com/the-download/610193/this-ai-software-dreams-up-new-designs-for-3-d-printed-parts-before-your-eyes/)
+.header[
+# すばらしい人々はクリエイティブな勇気で文化を改変。
 ]
-]
+
+.darkgray.stack[
 .group[
+.orange.numeral.subhead[06]
+
+[.sans[Purl]](https://www.pixar.com/sparkshorts) / 8分間観る価値がある。
+
+<iframe width="505" height="284" src="https://www.youtube.com/embed/B6uuIHpFkuo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+]
+
+.group[
+.orange.numeral.subhead[07]
+
+[.sans[Canvas]](https://www.kickstarter.com/projects/canvasfilm/canvas-animated-short-film) / Pixarのアニメーターのインディーズ映画。
+
 .figure[
-![](http://www.kramweisshaar.com/media/.versions/projects/breeding_tables/KRAM_WEISSHAAR_BREEDINGTABLES_MANUFACTURING_ASSEMBLY.w2710.jpg)
-.caption[Kram / Weisshaar]
+![](https://www.syfy.com/sites/syfy/files/styles/1720xauto/public/frank_e._abney_-_canvas_character_images.png?timestamp=1528219335)
+.caption[出典： SyFy]
 ]
 
-.darkgray[AIによるテーブルのデザイン [Kram / Weisshaar](http://www.kramweisshaar.com/projects/breeding-tables) (2003)]
-]
+### Frank Abneyのフィルム製作に一緒に参加しよう！
+
+_[Abneyの新作への出資](https://twitter.com/iFrankAbney/status/1101896913786294277?s=20)はまだ間に合います。 Kickstarterで私と一緒にエグゼクティブプロデューサーレベルになりましょう！_]
 ]
 
-.source[@weisshaar]
-.footer[Computational Design: **AI**]
+.source[Regina Dugan @pixar @iFrankAbney @robcabrera @calexity]
+.footer[Awesome Humans: Yes We Can]
 
 ---
 
 class: document-slide
 
-# AIを恐れずに学べ。
-
-.grid.ratio-4-1[
-.group[
-![:iframe 475px, https://www.youtube.com/embed/wvsE8jm1GzE?start=4]
-]
-.group[
-.numeral.subhead[80]
-
-[createwith.ai](http://createwith.ai)は、徳井直生によりキュレーションされた事例集である。
-
-オープンソースの[deeplearn.js](https://deeplearnjs.org)は、機械学習をウェブで試すことができるライブラリである。
-]
+.header[
+# システムは大規模なすばらしいデザインの実践を実現させることができる。
 ]
 
-.small.darkgray[Martin Wattenberg, Daniel Smilkov, Fernanda Viegas [Teachable Machine](https://teachablemachine.withgoogle.com)]
-
-.source[@google @naotokui]
-.footer[Computational Design: **AI**]
-
----
-
-class: document-slide
-
-# AIを全力で阻止しようとするのが人間というものだ
-
-.stack[
+.darkgray.stack[
 .group[
+.orange.numeral.subhead[08]
+
+[.sans[Humaaans]](https://www.humaaans.com/) / イラストライブラリをミックスしマッチ。
+
 .figure[
-![](https://cdn.technologyreview.com/i/images/aifooling2.jpg)
-.caption[via Technology Review]
+![](https://uploads-ssl.webflow.com/5bff8886c3964a992e90d465/5c0061a47aefa4500f0f42d1_rotating-mixing-optimized.gif)
+.caption[出典： Humaaans.com]
 ]
 
-.quote[
-> イヌを車に変えたいのであれば、ピクセルを1つ変えればいい。
-
-—[Technology Review](https://www.technologyreview.com/the-download/609263/how-do-you-turn-a-dog-into-a-car-change-a-single-pixel/)
-]
 ]
 .group[
-.quote[
-> 2017年3月28日、インターネットサービスプロバイダ（ISP）が顧客のオンラインでの活動を追跡・販売することを合法とする法案が議会を通過した。これはつまり、あなたが検索するもの、買うもの、読んだり言ったりしたことが企業に収集され、あなたの意に反して使用される可能性があるということである。
+.orange.numeral.subhead[05]
 
-> .button[[このボタン](http://makeinternetnoise.com/index.html)]をクリックすると、あなたのブラウザは受動的ににランダムなサイトをタブに読み込み始めるようになる。これを実行したままにして、彼らのデータベースをノイズまみれにしよう。この作業が済んだらブラウザは終了すること。
+[.sans[Cloudflare Color]](https://cloudflare.design/color/) / 自由なカラーツールへアクセス。
 
-—[makeinternetnoise.com](http://makeinternetnoise.com/index.html)
-]
+<details><summary>🗺</summary>
+![:tweet 1089906399902138368]
+</details>
 
-.grid.ratio-1-1[
-![](https://res.cloudinary.com/made-com/image/upload/c_fill,h_723,w_965/v1/images/talentlab/competitions/2181/5c7baaef-60d4-4331-8aa6-43980be93797.jpg)
-
-.group[
-<br>
-
-.small.quote[
-> 機械から隠れるには？ますます透明的になる時代において自分を隠す方法。
-
-—[ANTFC version alpha*](https://www.made.com/talentlab/entry/antfc-version-alpha/)
-]
-]
+.figure[
+![](https://cdn-images-1.medium.com/max/2600/1*t6P2qBDRIZZ4SWKyohwEzw.png)
+.caption[出典： Medium]
 ]
 ]
 ]
 
-.source[@techreview @wired @madedotcom]
-.footer[Computational Design: **AI**]
-
----
-
-class: document-slide unintended-consequences-slide
-
-# 私たちの作ったものが今、意図しない結果を生んでいる
-
-.small.stack[
-.group[
-.purple.uppercase.sans[**2015年 7月**]
-
-.quote[
-**Google**が黒人を「ゴリラ」と誤ってタグ付けし、アルゴリズムの限界が露わになった [WSJ](https://blogs.wsj.com/digits/2015/07/01/google-mistakenly-tags-black-people-as-gorillas-showing-limits-of-algorithms/)
-]
-]
-.group[
-.purple.uppercase.sans[**2016年 6月**]
-
-.quote[
-**Airbnb**の多くの顧客が人種差別に不満を持っている [The
-Economist](https://www.economist.com/blogs/gulliver/2016/06/unwelcome-homes)
-]
-]
-.group[
-.purple.uppercase.sans[**2016年 8月**]
-
-.quote[
-アジア人顔フィルタがなぜ問題なのかを**Snapchat**が理解していないのは明白だ [Wired](https://www.wired.com/2016/08/snapchat-anime-filter-yellowface/)
-
-**Nextdoor**はどのようにして人種差別的投稿を75％も減少させられたのか [Fusion](https://splinternews.com/how-nextdoor-reduced-racist-posts-by-75-1793861389/)
-]
-]
-.group[
-.purple.uppercase.sans[**2016年 9月**]
-
-.quote[
-**Airbnb** CEO：偏見や差別があってはならない
-Discrimination Have No Place Here [Time](http://time.com/4484113/airbnb-ceo-brian-chesky-anti-discrimination-racism/)
-]
-]
-]
-
-## 新しく必要な言説が現れつつある
-
-.small.stack[
-.group[
-.purple.uppercase.sans[**2017年 4月**]
-
-.quote[
-『**Tragic Design**（邦題：悲劇的なデザイン）』 by Jonathan<br>
-Shariat and Cynthia Saucier
-]
-
-![:image 60%, 150px, https://uploads-ssl.webflow.com/58ad136f39a496034da02679/59505fd4e77d092b5c336da9_lrg.jpg]
-]
-.group[
-.purple.uppercase.sans[**2017年 10月**]
-
-.quote[
-**Technically Wrong** by<br>
-Sara Wachter-Boettcher
-]
-
-![:image 60%, 150px, https://images-na.ssl-images-amazon.com/images/I/81Kfo6AQtzL.jpg]
-]
-.group[
-.purple.uppercase.sans[**2018年 1月**]
-
-.quote[
-**Automating Inequality** by<br>
-Virginia Eubanks
-]
-
-![:image 60%, 150px, https://images-na.ssl-images-amazon.com/images/I/518W3CnvqgL._SX324_BO1%2C204%2C203%2C200_.jpg]
-]
-.group[
-.orange[**Kat Holmes**のインクルーシブデザインに関する新しい本が出版予定 ]
-]
-]
-
-.source[From last year’s Design in Tech Report]
-.footer[Computational Design: **AI**]
+.source[@pablostanley @mrmrs_ [@raquel](https://medium.com/@raquel/a11y-roundup-week-2-96a24584c75b)]
+.footer[Awesome Humans: Yes We Can]
 
 ---
 
 class: document-slide
 
-# デザインは長い間、社会的責任について問うてきた
-
-.xx-large.quote[
-> 「皆のためのデザイン」は、人間の多様性や社会的包括、平等のためのデザインである。
-
-—[EIDDストックホルム宣言](http://dfaeurope.eu/what-is-dfa/dfa-documents/the-eidd-stockholm-declaration-2004/) (2004)
+.header[
+# 人間の創作力（Human Inventiveness = HI）は<br>やっぱり「フォント」スティックですばらしい
 ]
 
-.source[@alicerawsthorn Victor Papanek [Design for the Real World (1971)](http://www.nytimes.com/2011/05/16/arts/16iht-design16.html)]
-.footer[Computational Design: **AI**]
+.darkgray.stack[
+.group[
+.orange.numeral.subhead[06]
+
+[.sans[Braille Neue]](http://brailleneue.com/) / 視覚と触覚のハイブリッドによる点字。
+
+![](http://brailleneue.com/image/braille_neue_system.png)
+![](http://brailleneue.com/image/wip/braille_neue_standard.png)
+
+]
+
+.group[
+.orange.numeral.subhead[07]
+
+[.sans[Sans Forgetica]](https://sansforgetica.rmit/) / 並外れて記憶に残りやすい便箋。
+
+<details><summary>📺</summary>
+<iframe width="505" height="284" src="https://www.youtube.com/embed/PO2Eo6D5tNQ?start=18" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</details>
+
+.figure[
+![](https://designmodo.com/wp-content/uploads/2018/10/forgetica.jpg)
+.caption[出典： designmodo]
+]
+]
+
+]
+
+.source[@rmit @designmodo @brailleneue @cecile_rainon _"H.I." means "Human Intelligence"_]
+.footer[Awesome Humans: Yes We Can]
 
 ---
 
-class: chapter-slide lightgray-slide
+class: document-slide
+
+.header[
+#  ジェネレーションZ &times; 中国人のスゴさは計り知れない。
+]
+
+.darkgray.stack[
+.group[
+.orange.numeral.subhead[08]
+
+<details><summary>📺 .sans[[1兆の10乗](https://twitter.com/badt_boi_/status/1080159842168438785?lang=en)]
+</summary>
+![:tweet 1080159842168438785]
+</details>
 
 .large[
-# 不平等性
+>Siri、1兆の10乗はいくつ？”]
 ]
 
 .group[
-### AIはデジタルデバイドを拡げるだけだろう
+.orange.numeral.subhead[09]
 
-* テクノロジーの世界では不平等から目を背けるのは容易いことだ。テクノロジーライフで得られる特権は、楽しく自己充足のあるものだからだ。
-* テクノロジー業界のデザイナーは、自分たちがマイノリティ集団に属しており、より広範な消費者市場とは乖離があることを簡単に忘れてしまいがちである。
-* だから、現在つくられているものを特に必要としていない「リアルな」人々と繋がるためのシンプルで強力な方法は、テクノロジーバブルから脱却することである。最終的には、それが全ての人々のためのデザインやものづくりに繋がるのだ。
-* テクノロジー業界のデザイナーの大半は、自社単独で仕事をしているわけではないことを認識している。これは、シリコンバレーのようなハブの外部に、仕事がより均等に分散する時代になりつつあることを意味している。
-* Automattic社でのデザインにおいて不可欠なことは、WordPressがすべての人々にとって良いデザインであるという世界を想像することである。そして、私たちは現在、新たなレベルのインクルーシブデザインをリモートワークでどのように達成するかを模索している。
+<details><summary>📺 .sans[[腕相撲と支払いシステムの融合](https://twitter.com/paulmozur/status/1081464633838338048?lang=en)]
+</summary>
+![:tweet 1081464633838338048]
+</details>
+
+.large[
+>賭けてもいいが 📱💰 腕相撲では 💪 絶対負けないぜ！”]
+]
 ]
 
-.footer[Inequality & Skills Gap]
+.source[@badt_boi @paulmozur]
+.footer[Awesome Humans: Yes We Can]
 
 ---
 
 class: document-slide
 
-# 私たちはインターネットで失われつつある自由を求めている
+.header[
+# テクノロジーのスーパーパワーはスゴイことにも利用される。
+]
 
-.grid.ratio-2-1[
+.darkgray.stack[
 .group[
-.large.quote[
-> 私たちは、スティーブン・ジョンソンが「インターネット2」 と呼んだ段階にいる。「インターネット1」は、オープンな ネットワーク、オープンなプロトコル、オープンなシステムだった。インターネット2は、閉じられたプラットフォー ムで、それが市場をますます支配するようになり、私たちのコンテンツや私たち自身を所有し、支配するようになっている。私たちは、「インターネット3」に向かわなくてはならない。そこは私たちが自らのコントロールを取り戻した場所である。そしてそれは、とっくにそうあるべきなのだ。
-
-—[Fred Wilson](http://avc.com/2018/01/owning-yourself/)
+.grayscale.figure[
+![:image 0 50%, auto, 450px, http://www.pewinternet.org/wp-content/uploads/sites/9/2019/01/PI_2019.01.16_Facebook-algorithms_0-014.png]
+.caption[出典： Pew]
 ]
 ]
 .group[
-### 米FCCがネットの中立性撤廃を採決
+.orange.numeral.subhead[10]
+
+[.sans[Bushwick Analytica]](https://twitter.com/tegabrain/status/1084852692990808064?s=20) /子供たち .purple[**による**] ターゲットを絞った広告。
+<details>
+<summary>
+.medium[月曜は学校を休みにする。]
+</summary>
+.figure[
+![](https://payload.cargocollective.com/1/10/351441/13631624/Screen-Shot-2018-12-30-at-2.00.42-PM_1916_1340_c.jpg)
+.caption[出典：Bushwick Analytica]
+]
+</details>
+<details>
+<summary>
+.medium[地球温暖化はジョークなんかじゃない]
+</summary>
+.figure[
+![](https://payload.cargocollective.com/1/10/351441/13631624/Screen-Shot-2018-12-30-at-2.02.08-PM_1914_1914.jpg)
+.caption[出典：Bushwick Analytica]
+]
+</details>
+<details>
+<summary>
+.medium[動物の住処を守ろう]
+</summary>
+.figure[
+![](https://payload.cargocollective.com/1/10/351441/13631624/Screen-Shot-2018-12-24-at-7.56.35-AM_1074.jpg)
+.caption[出典：Bushwick Analytica]
+]
+</details>
+.large[
+>…ブッシュウィック公立図書館で行われている一連のワークショップでは地元の中学生を招きデータドリブンの広告を利用してターゲット層へ向けたキャンペーンを行います。” —[@tegabrain](https://twitter.com/tegabrain/status/1084852692990808064?s=20)]
+]
+]
+
+.source[@pewresearch @tegabrain @fastcompany @nintendo]
+.footer[Awesome Humans: Yes We Can]
+
+---
+
+
+
+class: chapter-slide lightgray-slide
+
+# .mono[三つの魅力的な<br />トレンドの融合<br /><br /> .medium[特別出演: Tony Ruth]]
+
+.group[
+### 私が注目している一連の物事3つ
+
+1. クリティカルなものづくり: _実用性あるいは優位性の観点から熟慮された製品、サービスの構築。_
+  * 🙌 便利
+  * 😎 カッコいい
+
+2. 私を信じて/誰を?: _クラウドベースのシステムはプライバシーを諦めることで我々の生活を便利にした。そうだろう？_
+  * 🛡 防御
+  * ⚔️ 攻撃
+
+3. 懐古主義: _中には、良い方法を提示しても古いやり方が常にベターだということがある。_
+  * ✍️ ハンドクラフト
+  * 🏁 スピードクラフト
+
+]
+
+.footer[Three Tasty Trend Mixes]
+
+---
+
+class: tonyruth-slide black-slide
+
+background-image: URL(https://raw.githubusercontent.com/johnmaeda/designintech-2019/master/asset/image/Useful_Cool.jpg)
+background-size: cover
+
+
+.source[@lunchbreath]
+.footer[Three Tasty Trend Mixes]
+
+---
+
+class: document-slide
+
+#  クリティカルなものづくり: 🙌 **便利** あるいは 😎 **カッコいい**
+
+.quote[最近のテクノロジーは、便利で良いものよりもクールで良いものを作る方がずっと上手くなっている傾向にある。<br>一体どうしてだろう？]
+
+.stack[
+.group[
+
+.white.subhead[.x-large[🙌]]
+
+.sans[**便利** とは、ある特定の問題あるいは一連の複数の問題の解決を意味する。ただし、テクノロジーでは100％すっきり解決というわけにはいかないこともある。]
+
+1. 食事配達オンデマンド [Munchery](https://techcrunch.com/2019/01/21/munchery-shuts-down/)
+2. 駐車場オンデマンド [Luxe](https://www.reuters.com/article/us-startups-ondemand/valet-parking-startup-luxe-latest-casualty-of-on-demand-bust-idUSKCN1BN134)
+3. 配達代行オンデマンド [Shyp](https://techcrunch.com/2018/03/27/on-demand-shipping-startup-shyp-is-shutting-down/)
+4. 洗濯代行オンデマンド [Washio](https://techcrunch.com/2016/08/30/washio-on-demand-laundry-service-shuts-down-operations/)
+5. 掃除代行オンデマンド [Homejoy](https://www.forbes.com/sites/ellenhuet/2015/07/23/what-really-killed-homejoy-it-couldnt-hold-onto-its-customers/)
+
+.orange.small.sans[ベンチャー・キャピタルの支援を受けた上記のスタートアップ企業は現在すべて閉鎖している。]
+]
+.group[
+
+.white.subhead[.x-large[😎]]
+
+.sans[**カッコいい** とは、「すごい！」と思わせる要素を持っていること。中には以下のカテゴリーに収まらない技術もある。
+]
+
+1. ロボット
+2. VR
+3. 音声
+4. AR
+5. .highlight[AI]
+
+.small.sans[.highlight[ハイライト]箇所は特別セクション「ふわぁぁぁぁぁ。A.I.ってつまらない」でも取り上げます。そこでは、興味深い「便利」🙌なことをいくつか紹介します。]
+
+]
+]
+
+<br>
+
+.source[@laurensmiley [The Shutin Economy, 2015](https://medium.com/matter/the-shut-in-economy-ec3ec1294816)]
+.footer[Three Tasty Trend Mixes]
+
+---
+
+class: document-slide
+
+.header[
+# 😎 **カッコいい** ロボット（1942年～）
+
+.darkgray[
+> 1) ロボットは人間に危害を加えてはならない。またその危険を看過することによって、人間に危害を及ぼしてはならない。2) ロボットは人間に与えられた命令に服従しなくてはならない。ただし、与えられた命令が第一法則に反する場合はこの限りではない。3) ロボットは前掲の第一法則、第二法則に反するおそれのない限り、自己を守らなければならない。” —[Isaac Asimov](https://theconversation.com/after-75-years-isaac-asimovs-three-laws-of-robotics-need-updating-74501)
+]
+]
+
+.darkgray.stack[
+.group[
+.gray.numeral.subhead[1968]
+
+.sans[MIT AI Lab / Minsky Tentacle Robot (1968)]
+
+<iframe width="505" height="284" src="https://www.youtube.com/embed/JuXQPdd0hjI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+]
+
+.group[
+.black.numeral.subhead[2018]
+
+.sans[Boston Dynamics / Parkour Atlas 2018]
+
+<iframe width="505" height="284" src="https://www.youtube.com/embed/LikxFZZO2sk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+]
+
+]
+
+.source[@conversationus @mit @bostondynamics]
+.footer[Three Tasty Trend Mixes]
+
+---
+
+class: document-slide
+
+.header[
+# 😎 **カッコいい** VR _Réalité Virtuelle_ (1938年〜)
+
+.darkgray[
+> 本物の錬金術師は皆、演劇が幻であるのと同様に、錬金のシンボルが幻だということを知っている。...キャラクター、物体、イメージ、そして演劇のバーチャルリアリティを構成する一般的もの全ての中で発展する世界と、純粋なフィクションおよび幻想の世界の狭間に存在するアイデンティティの表現...。” —[Antonin Artaud](https://fabbula.com/artaud/)
+]
+]
+
+.darkgray.stack[
+.group[
+.gray.numeral.subhead[1990]
+
+.sans[VPL / Jaron Lanier Data Glove and Eye Phone (1990)]
+
+<iframe width="505" height="284" src="https://www.youtube.com/embed/E1q9zDSAQEw?start=10" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+]
+
+.group[
+.black.numeral.subhead[2019]
+
+.sans[Facebook / Oculus Rift (2019)]
+
+<iframe width="505" height="284" src="https://www.youtube.com/embed/5n048FBpS48?start=4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+]
+
+]
+
+.source[@thekinolibrary @facebook @oculus]
+.footer[Three Tasty Trend Mixes]
+
+---
+
+class: document-slide
+
+.header[
+# 😎 **カッコいい** 音声 (1952年〜)
 
 .quote[
-> ネットの中立性に関する連邦通信委員会（FCC）の採決がようやく連邦官報で公表された。連邦官報は、政府のすべての行政活動についての公式記録である。この瞬間は非常に重要だ。なぜなら、インターネットの未来のための次なる戦いがここからはじまるからだ。
-
-—[Washington Post](https://www.washingtonpost.com/news/the-switch/wp/2018/02/22/the-fccs-net-neutrality-rules-will-die-on-april-23-heres-what-happens-now/?utm_term=.ccec9d04532b)
-]
+> 建築の学生は本質的に触知に優れている人間だ — 手作業だけでなく、フィジカル、グラフィカルなものの顕在化に慣れている。また、そういうもので遊ぶことにも慣れている。” —[Nicholas Negroponte](http://radical-pedagogies.com/search-cases/a13-architecture-machine-group-media-lab-massachusetts-institute-technology-mit/)
 ]
 ]
 
-.source[@swissmiss]
-.footer[Inequality & Skills Gap]
+.gray.stack[
+.group[
+.gray.numeral.subhead[1982]
+
+.sans[MIT Architecture Machine Group / Put-That-There (1982)]
+
+<iframe width="505" height="284" src="https://www.youtube.com/embed/CbIn8p4_4CQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+]
+
+.group[
+.black.numeral.subhead[2018]
+
+.sans[2019 Lexus ES / with Amazon Alexa  <br>(2018)]
+<iframe width="505" height="284" src="https://www.youtube.com/embed/MneX34h9aPQ?start=18" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+]
+
+]
+
+.source[[Bell Labs Audrey](http://www.bbc.com/future/story/20170214-the-machines-that-learned-to-listen) @mit @bostondynamics @lexus @amazon [Knight Rider Trailer (1982)](https://www.youtube.com/watch?v=oNyXYPhnUIs)]
+.footer[Three Tasty Trend Mixes]
 
 ---
 
 class: document-slide
 
-# 私たちは完全に繋がっているが、アルゴリズムによって分断されている
+.header[
+# 😎 **カッコいい** AR (1985〜)
 
-.grid.ratio-1-1[
-.group[
-.xx-large.quote[
-> 民主党フィードと共和党フィード： リベラルなFacebookと保守的なFacebookを横に並べて見比べてみて
-
-—[WSJ](http://graphics.wsj.com/blue-feed-red-feed/)
+.quote[
+>究極のインターフェースは何かを考えるにあたってアーティストとミュージシャンを研究することにした。ツールと最善の関係を築いている人々だ。すなわちそうした人々と交流することで、 芸術と技術の実験（E.A.T.）運動やコンピューターアートの先駆的作品に出会うことができた。" —[Myron Krueger](http://mycours.es/gamedesign2016/files/2016/09/What-should-you-wear-to-an-Artificial-Reality-Myron-Krueger.pdf)
 ]
 ]
+
+.darkgray.stack[
 .group[
+.gray.numeral.subhead[1985]
+
+.sans[U of Conn / Myron Krueger Videoplace (1985)]
+
+<iframe width="505" height="284" src="https://www.youtube.com/embed/YyIWzapmOLI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+]
+
+.group[
+.black.numeral.subhead[2018]
+
+.sans[Microsoft / Hololens Mixed Reality (2018)]
+
+<iframe width="505" height="284" src="https://www.youtube.com/embed/eqFqtAJMtYE?start=38" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+]
+
+]
+
+.source[[Interaction Design Foundation](https://www.interaction-design.org/literature/article/augmented-reality-the-past-the-present-and-the-future) Myron Krueger @microsoft]
+.footer[Three Tasty Trend Mixes]
+
+---
+
+class: tonyruth-slide black-slide
+
+background-image: URL(https://raw.githubusercontent.com/johnmaeda/designintech-2019/master/asset/image/Handcraft_Speedcraft.jpg)
+background-size: cover
+
+.source[@lunchbreath]
+.footer[Three Tasty Trend Mixes]
+
+---
+
+class: document-slide
+
+# 懐古主義: 👋 **ハンドクラフト** と 🏁 **スピードクラフト**
+
+.stack[
+.group[
+
+.gray.numeral.subhead[2010]
+
 .large.quote[
-### 2017年の注目ブログ記事
+>ソフトウェア産業は工芸の伝統を受け入れる態勢が整っている。”
 
-F Facebook<br>
-–[John Gruber](https://daringfireball.net/2017/06/fuck_facebook)<br>
-
-Quitting Facebook<br>
-–[Heinrich Hartmann](http://heinrichhartmann.com/blog/2017/12/31/Quitting-Facebook.html)<br>
-
-Facebook you *(bleep)*<br>
-–[Brad Frost](http://bradfrost.com/blog/post/facebook-you-needy-sonofabitch/)
-]
-
-.x-medium.quote[
-> _最近、「〇〇をやめることにした」のような類似投稿が主要なソーシャルネットワークの多くでなされている点に注意_
+.x-medium[—[Your Life In 2020 for Forbes](https://www.forbes.com/2010/04/08/john-maeda-design-technology-data-companies-10-keynote.html#13c132c96eeb)に向けた拙稿(2010)]
 ]
 ]
-]
+.darkgray.group[
+.numeral.subhead[2016]
 
-.source[@heinrichhartman @daringfireball @brad_frost]
-.footer[Inequality & Skills Gap]
+.sans[**クラフト・ソフトウェアの10の価値観** by Nick Francis]
 
----
-
-class: document-slide
-
-# #DesignInTechは世界的現象であり、シリコンバレーだけにとどまるものではない
-
-![:image 480px, https://designintech.report/wp-content/uploads/2018/03/ditsurveymap.jpg]
-
-.source[#DesignInTech 2018 Open Survey | 1219 samples]
-.footer[Inequality & Skills Gap]
-
----
-
-class: document-slide
-
-# このアメリカ地図上での#DesignInTechの分布は意外ではない
-
-![:image 480px, https://designintech.report/wp-content/uploads/2018/03/usmap_designintech_new.jpg]
-
-.source[#DesignInTech 2018 Open Survey | 1219 samples]
-.footer[Inequality & Skills Gap]
-
----
-
-class: document-slide
-
-# しかし、より綿密に広範に見ると、不平等が潜んでいることがわかる
-
-![:iframe 480px, http://eig.org?embedEIG2017=1&eigmap2017=nationalzipsEIG2017]
+1. プロセスを楽しむ
+2. 最高の材料だけを使用する
+3. 「計測不能」なものに投資する
+4. 利益を副産物と考える
+5. 価値観にこだわる
+6. 意見を持つ
+7. 簡単に満足しない
+8. 顧客を選ぶ
+9. 「より多く」ではなく、「より良く」作る
+10. 持続可能な方法で成長する
 
 .small.quote[
-—[EIG](http://eig.org?embedEIG2017=1&eigmap2017=nationalzipsEIG2017) _This Mapbox wouldn’t embed_
+>利益は真のミッションの副産物であるため、製品の品質と完全性を維持できる程度に成長すればよい。 ビジネスの基盤を強化し、未来の持続可能性への道を構築するための成長が、常に偉大なのである。” —[Nick Francis](https://qz.com/715291/farm-to-keyboard-why-software-is-the-next-craft-industry/)
+]
+]
 ]
 
-.source[@NewsHour @albertocairo / Janitors at Two Top Companies, Then and Now [NYT](https://www.nytimes.com/2017/09/03/upshot/to-understand-rising-inequality-consider-the-janitors-at-two-top-companies-then-and-now.html)]
-.footer[Inequality & Skills Gap]
+.source[@nickfrancis @helpscout [Farm to keyboard: why software is the next “craft” industry](https://qz.com/715291/farm-to-keyboard-why-software-is-the-next-craft-industry/) via QZ [@hunterwalk](https://twitter.com/hunterwalk/status/1099099259859660800?s=11)]
+.footer[Three Tasty Trend Mixes]
 
 ---
 
 class: document-slide
 
-# おめでとう！ あなたは極めてスキルの高い5%のコンピューターユーザーだ。
+# 👋 **ハンドクラフト** とスタートアップ業界は共存できる。
 
-.grid.ratio-1-2[
-.group[
+.large.quote[
+>かつての私のようにGumroadの実際の「小ささ」を思い愕然とする代わりに、クリエーターの忠誠心はより強くなっている。<br>それは好きなもので生計を立てるために皆がひとつになろうという感覚だ。
 
-<br>
-<br>
+間もなくWordPress方式で製品全体をオープンソース化する予定だ。誰もがGumroadの自分だけのバージョンを展開して好きなように変更を加えつつ私たちの仲介なしで好きなコンテンツを販売する。”
+
+—[Sahil Lavingia](https://medium.com/@shl/reflecting-on-my-failure-to-build-a-billion-dollar-company-b0c31d7db0e7), Founder & CEO Gumroad
+]
+
+.source[@shl @gumroad [Reflecting on My Failure to Build a Billion-Dollar Company](https://medium.com/s/story/reflecting-on-my-failure-to-build-a-billion-dollar-company-b0c31d7db0e7)]
+.footer[Three Tasty Trend Mixes]
+
+---
+
+class: document-slide
+
+# 👋 人間主義、美、地球に対する畏敬としての **ハンドクラフト**
 
 .quote[
-> 先進33ヵ国において、コンピューター関連の高い能力を持つ人は人口の5％にすぎない。また、中程度に複雑度のタスクを完了することができる人は全体の3分の1しかいない。このシンプルな事実から何が分かるだろうか。それは、あなた方がエリート層を対象にデザインしていない限りは、あなた方はユーザーに含まれないということだ。
+>修復は作品の目に見える有意義な箇所といえる。 作品を新たな芸術的領域へと詩的に変容させ、導くのだ。” <br>—[RISD Museum](https://risdmuseum.org/exhibitions-events/events/repair-work-re-visioning-process)]
+.darkgray.stack[
+.group[
+.figure[
 
-—Jakob Nielsen [NNG](https://www.nngroup.com/articles/computer-skill-levels/)
+![:image 0 50%, auto, 460px, https://risdmuseum.org/sites/default/files/styles/scaled_1324_w/public/card2_final_.jpg]
+.caption[Luli Heinz via RISD Museum]
+]
+]
+]
+
+.source[@risdmuseum [Repair as Metaphor](https://www.risd.edu/news/stories/repair-as-metaphor/) @rhodri [Oil Lamp Repair](https://twitter.com/rhodri/status/1076964860704055297)]
+.footer[Three Tasty Trend Mixes]
+
+---
+
+class: document-slide
+
+# 👋 **ハンドクラフト** によって、我々はモノに喜びを再発見し続けてきた。
+
+.grid.ratio-1-3[
+.group[
+.darkgray[
+>土器は非常に耐久性が高いが、誤った使い方をしたり落としたりすると簡単に壊れてしまう。この際樹脂の塗料を接着剤として使用するのが長年のやり方の基礎となっているが、日本の職人は修理箇所に金粉を混ぜた塗料を用いて外見を変えることで、新たな価値を生み出した。「金」の塗料による修復は、茶の湯に使用された陶磁器とも密接な関わりがある。” —[Smithsonian](https://www.si.edu/Exhibitions/Golden-Seams-The-Japanese-Art-of-Mending-Ceramics-4567) (2008)
 ]
 ]
 .group[
 .figure[
+
+![:image 0 50%, auto, 500px, https://d7hftxdivxxvm.cloudfront.net/?resize_to=width&src=https%3A%2F%2Fartsy-media-uploads.s3.amazonaws.com%2FHejoTLRBixJtj5Dw_a1WqA%252FFS-7376_10.jpg&width=800&quality=80]
+.caption[SI Freer|Sackler 17thc]
+]
+]
+]
+
+.source[@artsy [Kintsugi](https://www.artsy.net/article/artsy-editorial-centuries-old-japanese-tradition-mending-broken-ceramics-gold) [Golden Seams: The Japanese Art of Mending Ceramics](https://www.si.edu/Exhibitions/Golden-Seams-The-Japanese-Art-of-Mending-Ceramics-4567)]
+.footer[Three Tasty Trend Mixes]
+
+---
+
+class: document-slide
+
+# 🏁 **スピードクラフト** は利用可能なサービスであるための基本。
+
+.grid.ratio-1-1[
+.group[
+.gray.numeral.subhead[2015]
+
+.large.quote[
+>広告をブロックするのみならず、JavaScript自体を無効化する人が、今は少数ながら着実に増えている。” —[Klint Finley](https://www.wired.com/2015/11/i-turned-off-javascript-for-a-whole-week-and-it-was-glorious/)
+]
+]
+
+.group[
+.numeral.subhead[2018]
+<br />
+.quote[
+> トップ50のサイトの平均ロード時間は、トラッカー付きで9.46秒、トラッカーなしで2.69秒だった。” —[Pingdom](https://royal.pingdom.com/trackers-impact-performance/)
+]
+
+.quote[
+> EU一般データ保護規則（GDPR）があるため、USA TodayはEUユーザーのために別バージョンのウェブサイトを運営することに決めた。このバージョンはトラッキングスクリプトと広告がすべて削除されている。サイトのスピードは非常に速そうだったので、パフォーマンスの監査をしてみた。ジャンクがないだけでインターネットはこんなにも速くなるのか！ 🙄 5.2MB → 500KB。” —[Marcel Freinbichler](https://twitter.com/fr3ino/status/1000166112615714816?s=20)
+]
+]
+]
+
+.source[@wired @pingdom @fr3ino @chriscoyier @mediatemple [NYT 09](https://www.nytimes.com/2009/05/10/business/10ping.html)]
+.footer[Three Tasty Trend Mixes]
+
+---
+
+class: document-slide
+
+# 🏁 **スピードクラフト** は実践 &times; 実践の中で学べるアートだ。
+
+.grid.ratio-1-1[
+
+.darkgray.group[
+
+
+> ウェブサイトの速度を上げるためには多くのことを知る必要がある。しかし自分がウェブパフォーマンスをケアするエキスパートになる必要はないし、自分のウェブサイトの速度を上げるために変更を加えるエキスパートである必要もない。”
+
+.sans[—Chris Coyier on [ウェブパフォーマンスの簡単な改善法](https://mediatemple.net/blog/tips/low-hanging-fruit-web-performance/) <br />]
+
+1. リクエストを減らす
+2. アセットを最適化する
+3. Mgzip形式で圧縮しているか確認
+4. ブラウザキャッシュを活用しているか確認する
+5. CDNを使う
+6. Lazy LoadとDefer Loadを活用
+7. レスポンシブイメージを使う（少なくとも適切なサイズにする） 
+8. フォントに気をつける
+9. 良いホスト / HTTP2 / PHP7
+10. **ターボリンク** 👉👉👉👉👉
+]
+
+.darkgray.small.group[
+.figure[
+![](https://camo.githubusercontent.com/a9098e08c266f53bec1998d2cb1d11815c11145c/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f747572626f6c696e6b732d646f63732f696d616765732f747572626f6c696e6b732e676966)
+.caption[GitHub via 37signals]
+]
+
+>Turbolinks®で、ウェブアプリケーションのナビゲーション速度を上げることができます。クライアント側のJavaScriptフレームワークを複雑にすることなく、シングルページアプリケーションの快適なパフォーマンスをお楽しみください。HTMLを使って、サーバー側の表示とページへのリンクをいつも通りレンダリングしてください。リンクをたどると、ターボリンクが自動的にそのページをフェッチしてから、<body>でスワップし<head>をマージします。すべての行程がフルページのロードにかかるコストに悩まされることなく完了します。” —[turbolinks](https://github.com/turbolinks/turbolinks)
+]
+]
+
+.source[@chriscoyier @mediatemple @37signals]
+.footer[Three Tasty Trend Mixes]
+
+---
+
+class: document-slide
+
+# 🏁 **スピードクラフト** には _こんまり_ メソッドのようなモダニストの感覚が必要。
+
+.grid.ratio-1-1[
+
+.group[
+
+![:tweet 1100659638444277760]
+]
+.group[
+
+.quote[
+> 上位100万のサイトで、最大800のオリジンがスクリプトの実行時間全体の最大65%を占め、上位100のエンティティがすでに最大59％を占めている。サードパーティによるスクリプトの実行は今日のWebの大部分である。十分な情報に基づいて選択することが重要なのである。”
+—[Patrick Hulce](https://github.com/patrickhulce/third-party-web)
+<br />
+
+.sans[全てのWeb Filler]
+
+.figure[![](https://github.com/patrickhulce/third-party-web/raw/master/by-category.png)
+.caption[GitHub / Patrick Hulce]
+]
+]
+]
+]
+
+.source[@addyosmani @patrickhulce]
+.footer[Three Tasty Trend Mixes]
+
+---
+
+class: document-slide
+
+.header[
+
+# 予想 : さらに変化するだろう。永遠に。特にテクノロジーは。
+
+]
+
+.large.quote[
+> 変わってゆくのが嫌でも、<br/> 不適切な状態でいるのはもっと嫌だろう。”
+
+—[Eric Shinseki](https://en.wikipedia.org/wiki/Eric_Shinseki)
+]
+.large.quote[
+> 現在頼りにしているフレームワークやツールを絶対的に信じ込むのは危険である。Bootstrap、Bower、Brunch、 Grunt、Gulp、Node、Require、React、Sassといったツールは、フォント要素、フレーム、レイアウトテーブル、スペーサー画像などよりも将来重要な意味を持つようになるだろう。”
+
+—[Andy Clarke](https://stuffandnonsense.co.uk/blog/designing-your-website-like-its-2018)
+]
+
+.source[@wikipedia @stuff_nonsense @malarkey]
+.footer[Three Tasty Trend Mixes]
+
+---
+
+class: document-slide
+
+.header[
+
+# 省察: 人間らしいやり方は存続するだろう。我々次第だが。
+
+]
+
+.large.quote[.orange[ソフトウェア産業は、工芸の遺産を受け入れる態勢が整っている。2020年までにソフトウェアは家内産業に回帰し、多くの人がカスタムメイドのアプリケーションを作るだろう。現在の工業化したマイクロソフト的、大量生産・分配モデルをしのぐようになるはずだ。] それは感情や誠実が注がれた手によるものづくりという、より大きな世界的動きの一端を担うだろう。<br><br>
+我々は集団の匿名性を受け入れて満足するというよりもオーサーシップの価値を再発見するだろう。ブランドへの信頼を通したプロダクトへの直接的でない結びつきに頼る代わりに個人を信頼することを改めて学び直すと言ってもよいかもしれない。<br />
+
+—[2020年について執筆した拙稿（2010）](https://www.forbes.com/2010/04/08/john-maeda-design-technology-data-companies-10-keynote.html#50b4c9126eeb)
+]
+
+.source[@johnmaeda]
+.footer[Three Tasty Trend Mixes]
+
+---
+
+class: tonyruth-slide black-slide
+
+background-image: URL(https://raw.githubusercontent.com/johnmaeda/designintech-2019/master/asset/image/Defense_Offense.jpg)
+background-size: cover
+
+.source[@lunchbreath #DesignInTech]
+.footer[Three Tasty Trend Mixes]
+
+---
+
+class: document-slide
+
+# 私を信じて 🤷‍♀️🤷‍♂️ **防御** or 🛡️️⚔️ **攻撃**
+
+.x-medium.quote[
+> 良い（電気）柵が良い隣人を作る。” —私の言葉
+]
+
+
+.stack[
+.group[
+
+.white.subhead[.x-large[🤷‍♀️🤷‍♂️ ]]
+
+.sans[何の行動も起こさないのがデフォルトの **防御**]
+
+1. デフォルトのDNS
+2. デフォルトのネットワーク
+3. デフォルトのブラウザ
+4. デフォルトのメッセージング
+5. デフォルトのソーシャルメディア
+6. デフォルトの法規制
+7. デフォルトのウォールド・ガーデン
+
+]
+.group[
+
+.white.subhead[.x-large[🛡⚔️]]
+
+.sans[行動を起こすには **攻撃** ゲームが必要]
+
+1. [Cloudflare 1.1.1.1](https://www.cloudflare.com/learning/dns/what-is-1.1.1.1/)のようなプライバシー指向のDNSを使う。
+2. ISPに監視されないように、[VPNを設定する](https://medium.freecodecamp.org/how-to-set-up-a-vpn-in-5-minutes-for-free-and-why-you-urgently-need-one-d5cdba361907)。
+3. [Brave](https://www.oreilly.com/ideas/the-coming-era-of-privacy-by-default-brave-and-the-basic-attention-token)を使ってネットにアクセスするか、[Firefox extensions](https://blog.mozilla.org/firefox/facebook-container-extension/)を手に入れる。
+4. 機密性の高いメッセージを[Telegram](https://www.businessinsider.com/encrypted-secure-messaging-apps-2018-5)経由で送信。
+5. ソーシャルメディアの利用を[自制](https://www.npr.org/2018/05/25/614075065/tristan-harris-what-is-the-cost-of-infinite-distractions)する。
+6. UX全体に関しては[GDPR](https://www.fastcompany.com/90171699/what-is-gdpr-and-why-should-designers-care) が効果的。
+7. いくつかのオプション:
+	* [WordPress](https://wordpress.org/)のようなオープンソースを使用。
+	* 自分のデータに[移動度](https://datatransferproject.dev/)があることを確認する。
+	* 37のシグナルが [FBフリー](https://m.signalvnoise.com/become-a-facebook-free-business/) であり[Mediumフリー](https://m.signalvnoise.com/signal-v-noise-exits-medium/)になった。
+
+]
+]
+
+.source[@oreilly @mozilla @npr @37signals @wordpress [von Clausewitz](http://www.answers.com/Q/Who_said_the_best_offense_is_a_good_defense) / rel: [Motherboard](https://motherboard.vice.com/en_us/article/kzp7ny/tractor-hacking-right-to-repair) via @ben_fry]
+.footer[Three Tasty Trend Mixes]
+
+---
+
+class: document-slide
+
+# 「信用を託す」デザインは現在さまざまな形を取っている。
+
+.quote[
+> [Data Permissions Catalogue](https://catalogue.projectsbyif.com) はさまざまなデータ共有活動のパターンを収集している。それはユーザーの承諾を得ることから個人情報へのアクセスや第三者とのデータ共有を要求することまで多岐にわたる。”
+]
+
+.darkgray.stack[
+.group[
+.numeral.subhead[01]
+
+.sans[[利用規約](https://catalogue.projectsbyif.com/patterns/terms-and-conditions)]
+
+<br />
+<br />
+![](https://catalogue.projectsbyif.com/images/terms-and-conditions.svg)
+
+]
+
+.group[
+.numeral.subhead[02]
+
+.sans[[多要素認証を使用した<br>テキストメッセージ](https://catalogue.projectsbyif.com/patterns/multi-factor-using-text-message)]
+
+![](https://catalogue.projectsbyif.com/images/multi-factor-with-text-message.svg)
+]
+
+.group[
+.numeral.subhead[03]
+
+.sans[[ジャスト・イン・タイムの承認](https://catalogue.projectsbyif.com/patterns/just-in-time-consent)]
+
+<br />
+
+![](https://catalogue.projectsbyif.com/images/just-in-time-consent.svg)
+]
+
+.group[
+.numeral.subhead[04]
+
+.sans[[近接シェアリング](https://catalogue.projectsbyif.com/patterns/proximity-sharing)]
+
+<br />
+
+![](https://catalogue.projectsbyif.com/images/proximity-sharing.svg)
+
+]
+]
+
+.source[[@projectsbyif](https://www.projectsbyif.com/)]
+.footer[Three Tasty Trend Mixes]
+
+---
+
+class: document-slide
+
+# 🛡️️⚔️ 最近の **攻撃** 戦略は場合によっては 🙀 **反社会的** にもなる。
+
+.grid.ratio-2-1[
+
+.group[
+.figure[![](https://techcrunch.com/wp-content/uploads/2019/02/Onavo-Protect-Android.png)
+.caption[via TechCrunch]
+]
+]
+.quote.group[
+> 2013年にFacebookは2億ドル（報告値）でOnavoを買収した。スマホ上での人々の行動に関する情報をVPNアプリで収集するためだ。
+
+Facebookは密かにOnavoのコードを別の目的に利用している。TechCrunchによるとFacebookは米国とインドの13-35歳のユーザーに月最大20ドルのギフトカードを支払い、Facebook Researchというアプリをダウンロードさせていた。VPNとルートネットワークアクセスを引き渡させ、彼らのモバイルデータをすべて監視できるようにするためである。”
+
+—[Josh Constine](https://techcrunch.com/2019/02/21/facebook-removes-onavo/) 2019年2月21日
+]
+]
+
+.source[@joshconstine @techcrunch [Facebook admits 18% of Research spyware users were teens, not <5%](https://techcrunch.com/2019/02/28/facebook-research-teens/)]
+.footer[Three Tasty Trend Mixes]
+
+---
+
+class: document-slide
+
+# データプライバシーの専門家Dr. Latanya Sweeneyは予測済み。
+
+.grid.ratio-2-1[
+
+.group[
+.gray.large[
+プライバシーと匿名性の崩壊と、政府のアクセス要請に対する透明性の必要 [2011年11月11日](https://www.eff.org/files/filenode/igf-privacy-surveillance-160.pdf)
+世界最大のテック企業がデータプライバシー権で落第点 [2015年11月3日](https://www.theguardian.com/technology/2015/nov/03/data-protection-failure-google-facebook-ranking-digital-rights)
+Cambridge  Analyticaスキャンダル、 3つのパラグラフに要約 [2018年3月20日](https://www.theatlantic.com/technology/archive/2018/03/the-cambridge-analytica-scandal-in-three-paragraphs/556046/)
+ネット中立性が公的に廃止。国民への影響は？ [2018年6月11日](https://www.nytimes.com/2018/06/11/technology/net-neutrality-repeal.html)
+人気動画アプリTikTokが子どものプライバシー保護法違反で罰金 [2019年2月27日](https://www.axios.com/tiktok-app-record-ftc-fine-childrens-privacy-6b839017-8882-4ec7-8037-ba041b866860.html)
+]
+]
+.group[
+.figure[![](https://harvardmagazine.com/sites/default/files/styles/4x3_main/public/img/article/0809/0909_39_1_0.jpg)
+.caption[ハーバードマガジン]
+]
+
+[インターネット時代におけるプライバシーの崩壊](https://harvardmagazine.com/2009/09/privacy-erosion-in-internet-era) 2009年9月9日
+
+.darkgray[
+>プライバシーの問題が深刻さを増している主な要因は、ディスクストレージのチープさにある。人々はデータを収集することはできるが、捨てることはできないのだ。データ共有のポリシーもあまり望ましくない。結果的にしばしばデータが流出し他のデータとリンクされてしまう。” —Latanya Sweeney教授]
+]
+
+
+]
+
+.source[@axios @harvard [Future of Privacy Forum](https://fpf.org/wp-content/uploads/The-Re-identification-of-Governor-Welds-Medical-Information-Daniel-Barth-Jones.pdf)]
+.footer[Three Tasty Trend Mixes]
+
+
+---
+
+class: document-slide
+
+# 倫理的デザインが当たり前になるとき、世界は変わる。
+
+>製品に関して疑問に思うような決定を下す企業の [例](https://www.nytimes.com/interactive/2018/12/10/business/location-data-privacy-apps.html?smid=tw-share) を[挙げる](https://gizmodo.com/facebook-was-fully-aware-that-tracking-who-people-call-1830884585)のは簡単だ。データとプライバシーに関わる分野では特にそうだ。倫理的デザインの道が選択されない理由は様々だろうが、共通している要因が1つある。マネージャー、エンジニア、そして/あるいはデザイナーといった、それぞれの選択に置いて決断をした人がいるということだ。” —[Holly Habstritt Gaal](https://spreadprivacy.com/ethical-by-design/)
+
+.small.sans.table.across-3[
+.medium.th[
+[.orange[Holly Habstritt Gaalのフレーム]](https://spreadprivacy.com/ethical-by-design/)
+]
+.medium.black.th[
+問題点
+]
+.medium.black.th[
+解決策
+]
+.medium.lightgray.th[
+管理方法の明確化
+]
+.td[
+>手遅れになるまで、トラッキングされていることに気づけない。”
+]
+.td[
+>ユーザーが自分のデータを常に自分で管理できるような、明確な予測を設定する。”
+]
+.medium.lightgray.th[
+保護されている？ いない？
+]
+.td[
+>プライバシーの機能は見つけにくい。”
+]
+.td[
+>プライバシー重視を体現する機能を紹介。”
+]
+.medium.lightgray.th[
+積極的な自衛
+]
+.td[
+>お気に入りのサイトがプライバシー保護を怠っているかもしれない。”
+]
+.td[
+>自動でトラッカーをブロックして他のサイトから透明で誠実にする。そうすることで安心してサイトを訪れることができる。”
+]
+.medium.lightgray.th[
+自分の居場所の共有
+]
+.td[
+>個人の居場所は個人的なものだが、結果を出すためには重要だ。”
+]
+.td[
+>自分の位置情報をいつ・どうやって提供するか決められるようにし、必要なくなったら削除できるようにする。”
+]
+.medium.lightgray.th[
+プライバシーをわかりやすく
+]
+.td[
+>ネットプライバシーは複雑で難しい。”
+]
+.td[
+>誰でも利用できる学習システムを構築。”
+]
+]
+
+.source[@duckduckgo @habber @mariesakdale [Ethics Frameworks](https://mkdale.github.io/ethics-frameworks/) [@blprnt](https://twitter.com/blprnt/status/1099813895248756736?s=20) [@gchaslot](https://algotransparency.org/) ]
+.footer[Three Tasty Trend Mixes]
+
+---
+
+class: document-slide
+
+# アドバイス: 「View Source」は常にオープンソースを要求する。サポートすべし！
+
+.grid.across-3[
+.group[
+![](https://qph.fs.quoracdn.net/main-qimg-01a1c88586621b0ff339400dd8d848cf.webp)
+
+.medium.quote[
+>universeという単語は古フランス語のuniversに由来し、universはさらにラテン語のuniversumに由来する。 universumは『全部合わせて』『すべてを含んだ』『全体の』『共同体の』『全般的な』という意味を持ち、文字通りひとつに（uni）作り替える（verse）ことを指す。” —[Omeir Fawaz](https://www.quora.com/Whats-the-origin-of-the-word-universe)
+]
+]
+
+.sans.darkgray.group[
+
+.center[
+![:image 100px, 100px, https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Firefox_Logo%2C_2017.svg/1024px-Firefox_Logo%2C_2017.svg.png]&nbsp;&nbsp;&nbsp;&nbsp;
+]
+
+最も人気のオープンソースプロジェクト _(カッコ内はプログラムの行数):_
+
+1. [Mozilla Firefox](https://www.openhub.net/p/firefox) _(36,890,150)_
+2. [Apache HTTP Server](https://www.openhub.net/p/apache) _(1,485,841)_
+3. [MySQL](https://www.openhub.net/p/mysql) _(3,727,649)_
+4. [Apache Subversion](https://www.openhub.net/p/subversion) _(685,470)_
+5. [PHP](https://www.openhub.net/p/php) _(3,672,605)_
+6. [Linux Kernel](https://www.openhub.net/p/linux) _(17,592,787)_
+7. [Bash](https://www.openhub.net/p/bash) _(224,324)_
+8. [Firebug](https://www.openhub.net/p/firebug) _(464,800)_
+9. [Git](https://www.openhub.net/p/git) _(450,340)_
+10. [Ubuntu](https://www.openhub.net/p/ubuntu) _(600,461)_
+]
+
+.darkgray.group[
+
+.sans.medium[オープンソースのソフトウェアがより機密性が高いのはなぜだろうか？]
+
+.small[.orange[答え: そんなことはない。] [“オープンソースのソフトウェアは行動やセキュリティが疑わしい場合に監査・修正される。”](https://www.infoworld.com/article/2985242/why-is-open-source-software-more-secure.html) 我々が使っているソフトウェアのコンパイラが知らないコードを有しうるという議論は健在だ。現在コンピュータに埋め込んでいるチップも同様に[問題を抱えている可能性がある](https://www.bloomberg.com/news/features/2018-10-04/the-big-hack-how-china-used-a-tiny-chip-to-infiltrate-america-s-top-companies) 。]
+
+.darkgray.subhead[.medium[オープンソースをオープンに。]]
+.small.quote[
+>その週の会議の間私はより良い名称を考え、 .orange[‘open source software.’] という用語を思いついた。理想的ではないが十分良いと感じた。Eric Drexler、Mark Miller、Todd  Andersonは気に入ってくれたが、 マーケティングと広報に携わる友人は、 .orange[「オープン」]という言葉は使い古され、誤用されているのでもっといい言葉があるといった。理屈では彼は正しかった。しかしより良いアイディアが思いつかずこのまま採用することにした。 後になって思えばEric Raymondに提案してみるべきだった。しかしその頃私は彼のことをよく知らなかったので間接的な戦略を取ったのである。” —[Christine Peterson](https://opensource.com/article/18/2/coining-term-open-source-software) _「オープンソース」という用語を作るにあたり_
+]
+
+
+]
+]
+
+.source[@bdopenhub @infoworld @reddit daemonpenguin]
+.footer[Three Tasty Trend Mixes]
+
+---
+
+class: document-slide
+
+# アドバイス: 中国人のジャック・マーの言葉を聴け — いつでも刺激を与えてくれる。
+
+.x-large.quote[
+> 明日に精通している者はいない。<br />
+いるのは昨日に精通している者だけだ。
+
+悪を行わないだけでは不十分だ。<br />
+世界のために善を行え。”
+
+—[Jack Ma](https://www.youtube.com/watch?v=8r_fxDoG1Ak&feature=youtu.be) WEF 2019
+]
+
+.source[@wef]
+.footer[Three Tasty Trend Mixes]
+
+---
+
+class: chapter-slide lightgray-slide
+
+# .mono[ふわぁぁぁぁぁ！A.I.ってつまらない]
+
+.group[
+### AIはますますポピュラーなトピックになってきた — 恐ろしいと感じることも多い。
+
+* 中国は大規模なデザイン・エクスペリエンスにおいてトップに躍り出た。その高い水準に皆が驚愕している。
+* 大半のデザイナーは5年以内にビジュアルデザイナーがAIに代替する時代がくると信じている。
+* デザインには3つのタイプがある。クラシカルデザイン、デザイン思考、そしてコンピュテーショナルデザインだ。
+* コンピュテーショナルデザイナーはコードやネットワークの次元でコンピュテーションを理解する。
+* コンピュテーショナルデザイナーはテクノロジーとテクノロジーが人々に与える影響について、批判的に考えている。
+* コンピュテーショナルデザイナーはAIをツールのひとつととらえており、新しいアイディアを共に構築するために活用する。
+]
+
+.footer[Yaaaaaaaaawn! Boring AI]
+
+---
+
+class: document-slide
+
+background-image: URL(https://raw.githubusercontent.com/johnmaeda/designintech-2019/master/asset/image/ai101sm.jpg)
+
+# 膨大なAI関連の資料にも喜びを見出すことはできなかった。<br>つまりもう無理だ。
+
+
+.source[200 references to AI advancements left on the cutting room floor incl [@spencerchen](https://twitter.com/spencerchen/status/865030965403320320?s=20) [@lufertec](https://twitter.com/lufertec/status/866323703721861120?s=20)]
+.footer[Yaaaaaaaaawn! Boring AI]
+
+---
+class: document-slide
+
+# Dr. Kate Crawfordが述べてきたことはどれもタイムリーだ。
+
+.darkgray.stack[
+.group[
+>私たちの多くは、オンラインでの活動が記録され分析されているだろうと予測している。それでも実際に暮らしている物理的な空間は別だと思っているだろう。データブローカー産業に携わる人々はそのようには考えない。彼らにとっては道を歩くという行動ですられっきとしたデータであり、捕捉し、分類し、搾取する対象なのである。デジタルとフィジカルの間に存在するずれは、プライバシーの問題だけにとどまらない。倫理や権力といった深刻な問題にも関わってくるのである。” <br>—[出典：SciAm, 2014](https://www.scientificamerican.com/article/when-big-data-marketing-becomes-stalking/)
+]
+.group[
+>プラットフォームは、利用規約をインフォームド・コンセントに相当すると考えるのではなく、ユーザーが実験的パネルに参加するか否かを選択できるオプトインの設定を提供すべきである。オプトインしなければ、参加を強制されることはない。このようなプラットフォームですでに存在する数々のプライバシー設定と似たようなものかもしれない。プラットフォームはさらに細かい選択肢を与え、デザイン・ユーザビリティ研究から心理学・行動学的実験まっで、どのようなリサーチならユーザーが参加してくれるかを特定することもできる。” <br>—[出典：The Atlantic, 2014](https://www.theatlantic.com/technology/archive/2014/07/the-test-we-canand-shouldrun-on-facebook/373819/)
+]
+]
+
+.darkgray.stack[
+.group[
+>もしもあなたが「システムのバイアスは、不道徳な正義のシステムや予測警備を通して広まる可能性がある」というような考え方をしていないとすれば、ヒストリカルなデータに基づいてシステムをデザインしてしまい上記のバイアスを長期化させてしまうだろう。
+
+この問題に対処するには、技術的な修復だけでは決して十分ではない。ただ数字を微調整して、システムの不平等とバイアスを取り除くといった話ではないのである。” —[出典：Wired, 2017](https://www.wired.com/story/why-ai-is-still-waiting-for-its-ethics-transplant/)
+]
+.group[
+>バイアスをすばやく修復できる技術は存在しない。どうしても特効薬のような解決策があると考えたくなるだろう。たとえばアルゴリズムを少しだけ書き換えたり、あるいは、別の種類のトレーニングデータセットを使ったり、特殊な方法でシグナルをブーストさせたりなど。ここに潜む問題は、人間のデータは作られてきたという社会的・歴史的な事柄を、深く掘り下げようとしていないところにある。” <br>—[出典：Microsoft, 2018](https://www.microsoft.com/en-us/research/blog/keeping-an-eye-on-ai-with-dr-kate-crawford/)
+]
+]
+
+.source[@katecrawford @quartz [Tech companies just woke up to a big problem with their AI](https://qz.com/1316050/tech-companies-just-woke-up-to-a-big-problem-with-their-ai/)]
+.footer[Yaaaaaaaaawn! Boring AI]
+
+---
+
+class: document-slide
+
+# AIの恐怖はすぐにやって来る。そして対策も現在進行中である。
+
+.darkgray.stack[
+.group[
+.sans[**Google I/O 2018 — Duplex は 😎カッコいい を 😱不気味 にする**]
+
+.quote[
+> Googleの新たな恐るべき人工知能の機能を目の当たりにし、人々はロボットによる乗っ取りやAIの悪用といった懸念を抱いた。多くの評論家が、Duplexは奇妙なだけでなくまったくもって倫理に反していると仄めかした。そして、人工知能の受け入れと使用を認めるかという問題は重要な局面に差し掛かっている可能性を指摘しているのである。” —[The Independent](https://www.independent.co.uk/life-style/gadgets-and-tech/news/google-duplex-why-explained-controversy-objections-ai-artificial-intelligence-robot-a8347566.html)
+]
+
+<iframe width="505" height="284" src="https://www.youtube.com/embed/ogfYd705cRs?start=2149" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>]
+.group[
+
+.sans[[**ブラックボックスを開けずに行う反事実的な説明： 自動決定とGDPR**](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3063289) by Sandra Wachter / Brent Mittelstadt / Chris Russell]
+
+>自動化された決定の説明は、アルゴリズムシステムがどのように機能するかに関する概要の説明を持ち出す必要はない。
+そのような詳細な説明は非常に重要な意味を持ち、追求されるべきものであるが、原則的にはブラックボックスを開けることなく説明することが可能である。説明を単に理解する手段としてではなく、データ主体の行動を助ける手段と見なせば、サポートしたい特定の目標や行動に合わせて、説明の範囲と内容を正確に判断できるだろう。
+
+[反事実](https://www.wired.co.uk/article/ai-bias-black-box-sandra-wachter) はアルゴリズムの内部状態や論理を伝える必要なしに、その決定を導く外部の事実への依存を説明する。つまり結果として、反事実は説明の困難さに対する現在の技術的限界を迂回した最低限の解決策としての機能を果たしているのである。一方で、透明性と他者の権利や自由（例: プライバシー、企業秘密など）をうまく両立させることができる。”
+]
+]
+
+.source[@indendent @ssrn @wired [2018 Was the Year That Tech Put Limits on AI](https://www.wired.com/story/2018-was-year-tech-put-limits-on-ai/)]
+.footer[Yaaaaaaaaawn! Boring AI]
+
+---
+
+class: document-slide
+
+# David Bowieは90年代にインターネットのコンピュテーションを正しく理解していた。
+
+.grid.ratio-1-2[
+.group[
+.large.quote[
+>僕たちは恐ろしくも刺激的なものを目の当たりにしている…。着陸したばかりのエイリアンだ。”
+—David Bowie 1999 [BBC](https://www.youtube.com/watch?v=FiK7s_0tGsg)]
+
+.x-small.quote["そう、僕はもっと具体的な話をしているんだ。コンテンツの状況は、現時点で僕らが想像できるようなものとはまったく異なるものになる。.orange[ユーザーとプロバイダーがより親密にコミュニケーションを取るようになり– 人々が持っている「メディアとはこういうものだ」という概念は打ち壊されるだろう。] それはあらゆる形で起こるだろう。ビジュアルアートの世界でも。自分たちの行動や成果に対し先見の明がある、デュシャンのような人々が起こした今世紀初頭のブレークスルーみたいなものがね。 .orange[作品は観客がいて、彼ら自身が解釈を加えることによって初めて完成するという考えがある。芸術作品とは、その中間のグレーゾーンのことだ。] そんなグレーゾーンの真ん中こそが、21世紀の行く先なんだろう。”]
+]
+.group[
+<iframe width="656" height="370" src="https://www.youtube.com/embed/FiK7s_0tGsg?start=645" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+]
+
+]
+
+.source[@bbc]
+.footer[Yaaaaaaaaawn! Boring AI]
+
+---
+
+class: document-slide
+
+# AIは模倣の芸術品を作れる。しかし偉大なアーティストは単に模倣するだけではいられない。
+
+.grid.small.across-3[
+.group[
+.sans.darkgray.x-small[Carl Vondrick (2016) / MIT CSAIL]
+<iframe width="323" height="182" src="https://www.youtube.com/embed/Pt1W_v-yQhw?start=22
+" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<details><summary>🤖💬</summary>
+.sans.dark-gray.x-small[Synthesia: Native Dubbing Demo (2018)]
+<iframe width="323" height="182" src="https://www.youtube.com/embed/PhZpnDqNNmY?start=32
+" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</details>
+
+.medium.quote[
+>機械学習がひとつの産業を生み出すことになるとは思わない。むしろ多くの小さな、しかしインパクトの強いサブ産業を生み出す手助けをするのだろう。これらのサブ産業を作る人々はおそらく機械学習のアルゴリズムを新しく考え出すのではなく、もっとクリエイティブに機械学習を使うはずだ。” —[@hardmaru](https://twitter.com/hardmaru/status/1095515753992867840?s=20)
+]
+
+]
+
+.group[
+
+.sans.purple.x-small[Twitterでクイックスキャンすれば解決するかも。]
+
+<details><summary>@quasimondo / Sotheby's Auction</summary>
+![:tweet 1093883448815771648]
+</details>
+<details><summary>@dh7net / Arts Experiments</summary>
+![:tweet 1100023596821422085]
+</details>
+<details><summary>@kikko_fr / Varied Fonts</summary>
+![:tweet 1095603397179396098]
+</details>
+<details><summary>@cogconfluence / Met GAN </summary>
+![:tweet 1093161004534501377]
+</details>
+<details><summary>@carlvondrick / Colorize + Tracking </summary>
+![:tweet 1012022960767418368]
+</details>
+<details><summary>@OpenAI / Text Gen </summary>
+![:tweet 1096092704709070851]
+</details>
+<details><summary>@hardmaru on Damien Henry/ Dance </summary>
+![:tweet 1075270779179196417]
+</details>
+<details><summary>@hardmaru / Reinforced learning </summary>
+![:tweet 1049817185055436800]
+</details>
+<details><summary>@samim / Face editing </summary>
+![:tweet 1098568819281399808]
+</details>
+]
+
+.darkgray.medium.group[
+
+.sans.orange.x-small[皆オンラインで現実に疑問を投げかけるのが大好き。]
+
+[whichfaceisreal.com](http://www.whichfaceisreal.com/)
+[thispersondoesnotexist.com](https://thispersondoesnotexist.com/)
+[thiscatdoesnotexist.com](https://thiscatdoesnotexist.com/)
+[thisrentaldoesnotexist.com](https://thisrentaldoesnotexist.com/)
+[thiswaifudoesnotexist.com](https://www.thiswaifudoesnotexist.net/)
+[thiswaifuiseditableinrealtime.com](https://twitter.com/halcy/status/1101959161187889153?s=20)
+[this3dobjectisnnotreal.com](https://www.youtube.com/embed/mfx7uAkUtCI?start=42)
+[thisnewspaperarticleisnotreal.com](https://www.theguardian.com/technology/2019/feb/14/elon-musk-backed-ai-writes-convincing-news-fiction)
+[thisemojiisnotreal.com](https://arxiv.org/pdf/1611.02200.pdf)
+[thiszebraisahorseandviceversa.com](https://cdn-images-1.medium.com/max/1600/1*HaExieykcOT5oI2_xKisrQ.png)
+[thisfakepersonishotornot.com](https://boingboing.net/2019/02/27/this-website-is-a-hot-or-not-f.html)
+
+<details><summary>👩‍🎨👨‍🎨</summary>
+.sans.x-small[Neeyellow Drawings via YouTube]
+<iframe width="323" height="182" src="https://www.youtube.com/embed/3zpDquQIAKc?start=17
+" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+.x-small[GANがこれを書いたのか? けどもっと重要なことは、前はアーティストが仕事を奪うことを我々は恐れなかったことを覚えています... **我々は、アートを学んだのに仕事ができないことを恐る。** _だから我々は [AIが模倣アートできる](https://arxiv.org/abs/1706.07068) ことを恐れるのだ...ふーむ。_]
+</details>
+
+]
+]
+
+.source[@alexislloyd @gwern @halcy _plus twitter handles above_ and [@jonathan_hui](https://medium.com/@jonathan_hui/gan-some-cool-applications-of-gans-4c9ecca35900)]
+.footer[Yaaaaaaaaawn! Boring AI]
+
+---
+
+class: document-slide
+
+# AIも人間も、互いのウソを暴くのが大好き。
+
+.darkgray.grid.ratio-1-1[
+.group[
+### 人間 vs AI
+[AIが作った偽の画像を見破る方法 ](https://medium.com/@kcimc/how-to-recognize-fake-ai-generated-images-4d1f6f9a2842) by Kyle McDonald
+
+.small[
+1. ストレートヘアが絵の具っぽい
+2. テキストが読めない
+3. 背景が非現実的
+4. アシンメトリー
+5. 歯がおかしい
+6. 髪がボサボサ
+7. ステレオタイプではないジェンダー公開の仕方
+8. ひし形のノイズ
+9. 虹色のにじみ 
+10. 片方ないイヤリング
+11. 絵画調のレンダリング
+]
+]
+
+.group[
+### AI vs 人間
+
+[Adobeが機械学習を使って、フォトショップ加工された画像の特定を容易にした。](https://www.theverge.com/2018/6/22/17487764/adobe-photoshopped-fakes-edit-spotted-using-machine-learning-ai) by James Vincent
+.figure[
+![](https://cdn.vox-cdn.com/uploads/chorus_asset/file/11581871/Screen_Shot_2018_06_22_at_12.37.09_PM.png)
+.caption[出典：Vox]
+]
+
+.small.quote[
+>新たな報告書は、3種類の一般的な画像改ざんを特定するために、機械学習がどのように使われるのかを提示した。画像改ざん方法の1つ目はスプライシング。異なる2つの画像の断片をつなぎ合わせる。2つ目はクローニング。画像の中の物体をコピペする。3つ目は削除。物体が完全になくなるように編集する。” —[The Verge](https://www.theverge.com/2018/6/22/17487764/adobe-photoshopped-fakes-edit-spotted-using-machine-learning-ai)]
+]
+]
+
+.source[@kcimc @theverge @jjvincent]
+.footer[Yaaaaaaaaawn! Boring AI]
+
+---
+
+class: document-slide
+
+# AIの力を得た人間は私たちと現実の両方を消して何を手に入れる?
+
+.darkgray.grid.ratio-1-1[
+
+.group[
+### AI vs 背景
+
+[画像の背景を除去](https://www.remove.bg/) by remove.bg
+
+.figure[
+![](https://www.remove.bg/images/samples/combined/s1.jpg)
+.caption[remove.bg]
+]
+]
+
+.group[
+### AI vs 前景
+
+[Deep Angelは、写真から物体を消去する人工知能だ。 ](http://deepangel.media.mit.edu/) <br>by MIT Media Lab
+
+.figure[
+![](http://deepangel.media.mit.edu/static/img/digg.png)
+.caption[出典：Digg / Deep Angel / Wikimedia Commons]
+]
+]
+
+]
+.source[@mattgroh @medialab @digg @remove_bg]
+.footer[Yaaaaaaaaawn! Boring AI]
+
+---
+
+class: document-slide
+
+# AIの「うげっ」な部分をたくさん見てきたので 🎉「AIすげー！」な瞬間もいくつか紹介。
+
+.darkgray.stack[
+.group[
+
+.sans[🎉 [Microsoft Excelに、撮影したスプレッドシートの画像をインポートできるようになる](https://www.theverge.com/2019/3/1/18246429/microsoft-excel-covert-photos-data-tables-editable-table-ai-feature) by Tom Warren]
+
+<details><summary>📱📸</summary>
+![:tweet 1101542213027328000]
+</details>
+]
+
+.group[
+
+.sans[🎉 [2つの新アプリで音声にもっとアクセスしやすくなる](https://www.blog.google/outreach-initiatives/accessibility/making-audio-more-accessible-two-new-apps/) by Brian Kemler]
+<iframe width="505" height="284" src="https://www.youtube.com/embed/jLCwjIaPXwA?start=51" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+.small.quote[
+>世界保健機構（WHO）の推測では、2055年までに聴覚障碍者は9億人にのぼるという。Live Transcribeはろう者と難聴者が日常生活のコミュニケーションでより独立できるよう手助けするポテンシャルを秘めている。ディミトリは愛する者とより近しくなることができた。彼は今、家族の助けなしで6歳になる孫である双子の女の子と簡単にコミュニケーションが取れるようになった。” —[Google](https://www.blog.google/outreach-initiatives/accessibility/making-audio-more-accessible-two-new-apps/)]
+
+]
+]
+
+.source[@mattboggie @tomwarren jjvincent @theverge @primer_ai @google]
+.footer[Yaaaaaaaaawn! Boring AI]
+
+---
+
+class: document-slide
+
+# これからはもっと影響力の大きな 🎉 「AIすげー！」の実例も。
+
+.darkgray.stack[
+.group[
+
+.sans[[🎉 AIはWikipediaが見逃していた40,000人もの優秀な科学者を発見した。](https://www.theverge.com/2018/8/8/17663544/ai-scientists-wikipedia-primer) by James Vincent]
+.figure[
+![](https://images.ctfassets.net/ek6qkphcgu1d/4LCX1RT3fOMIcWguwS2Qwc/bde17e4287311523e68be17f2eb5ae1d/Quicksilver_1.png)
+.caption[出典：Primer.ai]
+]
+
+.small.quote[
+> たとえばカナダ人のロボット工学者 Joelle Pineauを挙げたい。彼は人工知能に科学的厳密性をもたらし、現在はFacebookのAI研究所の所長を務めている。あるいはMITの有名な機械工学部の新たな長となったEvelyn Wangを挙げたい。太陽光と砂漠の風から飲料水を抽出する装置の開発は彼女の功績だ￥。数日前に私がこの文章を執筆したとき、どう考えても注目すべき彼らについて書かれた英語版Wikipediaの記事はなかった。” —[Primer](https://primer.ai/blog/quicksilver)]
+]
+
+.group[
+
+.sans[[🎉 .orange[**シンプルな**] アルゴリズムが、何千件もの大麻に関する有罪判決を取り消す手助けに。](https://qz.com/1560417/san-franciscos-code-for-america-program-to-expunge-8000-weed-convictions/) by Jenni Avins]
+
+.figure[
+![](https://mondrian.mashable.com/uploads%252Fcard%252Fimage%252F778232%252F59331778-3fb6-410e-af5a-1606a07a93a4.png%252Ffit-in__1200x9600.png?signature=sUYXEXS60zc5FbpDG9uSIDjUrNg=&source=https%3A%2F%2Fblueprint-api-production.s3.amazonaws.com)
+.caption[出典：Mashable]
+]
+
+.small.quote[
+>人が書いた文章は人の心を打つ。『私は昔小さな間違いを犯しました。そしてそのことが頭から離れません。私は子どもたちを育てるために仕事が必要です。両親の面倒を見るために仕事が必要です』。人間のやり方だと、この問題をクローズアップしてみたときには、それは道徳的な要請になってしまうのだ。” —[Jennifer Pahlka](https://mashable.com/2018/05/26/code-for-america-clear-my-record-marijuana-convictions-california/#eU3pvv2akaqd) 出典：Mashable]
+
+]
+]
+
+.source[@jjvincent @theverge @primer_ai @jenniavins @mashable @pahlkadot]
+.footer[Yaaaaaaaaawn! Boring AI]
+
+---
+
+class: document-slide
+
+# Nicholas Negroponteと彼のチームは未来を感知し、そしてそれが実現した。
+
+.grid.ratio-1-1[
+.group[
+![](https://instagram.fbos1-2.fna.fbcdn.net/vp/5b1c2174ddf58d537eeafd11c8caa32c/5D1DA1F3/t51.2885-15/e35/52416053_567236050421564_5307351942558690465_n.jpg?_nc_ht=instagram.fbos1-2.fna.fbcdn.net)
+]
+.group[
+.x-medium.quote[
+> あなたの設計方法論に従うと同時に、会話の特異性を見分けて同化できる機械を想像してみてほしい。あなたの行動を観察した後、同じマシンがあなたの会話パフォーマンスの予測モデルを構築することができる。そのようなマシンは、予測モデルを使用して、あなたの個人的な行動や会話の特異性と調和した方法であなたに反応することで、対話を強化することができる。” —[Nicholas Negroponte](https://howtospeakmachine.com/2018/11/25/my-badass-former-boss-nicholas-negroponte/), The Architecture Machine (1967)]
+]
+]
+
+.source[[howtospeakmachine.com](https://howtospeakmachine.com)]
+.footer[Yaaaaaaaaawn! Boring AI]
+
+---
+
+class: document-slide
+
+# アドバイス: コンピュテーションと **共に** やっていこう。立ち止まるな。好奇心を持て。
+
+.grid.ratio-1-1[
+.group[
+.figure[
+![](https://cdn-images-1.medium.com/max/1600/1*Pl-eb5RjVYyHuaKZmQR1lQ.gif)
+.caption[出典：Alibaba]
+]
+.quote.medium[
+>Lubanはすでに高度なデザイナーのレベルを達成していると言われている。毎秒数十のソリューションを提供し、毎秒8000の異なるバナーをデザインすることができる。これらすべての能力は、人工知能技術によるものである。” —[Alibaba Cloud](https://www.alibabacloud.com/blog/alibaba-luban-ai-based-graphic-design-tool_594294)]
+]
+
+.group[
+
+.subhead[.medium[新しいAutomatticのデザイン実験]]
+
+.small.quote[
+>コンピュテーショナルデザインシステムの価値は、デザイナーの代替ではなくデザイナーの時間を削るワークフローを支援することにある。デザイナーは画面上のピクセルをプッシュやバナー広告のカットではなく、デザインを見直して一番クリエイティブなものを選択するのに時間をさけるようになる。さらに即時性のある価値として .orange[デザイン効率とスピードの上昇]も挙げられる。デザイナーは、システムの改良や、クリエイティブな問題の解決、そしてブランド+製品全体の品質向上に時間を割くことができるようになったのである。” —[Jeff Ong](https://automattic.design/2019/03/06/automating-asset-creation/)
+
+.figure[
+![](https://automatticdesign.files.wordpress.com/2019/03/cascade_lo_whitebg.gif)
+.caption[出典：Automattic Design]
+]
+
+]
+]
+
+]
+
+.source[@alibabagroup @automatticdsgn @lightricks @swishapp_ [Swish Video Ad Maker](https://www.swishvideoapp.com/product-inner/)]
+.footer[Yaaaaaaaaawn! Boring AI]
+
+---
+
+class: htsm-slide
+background-image: url(https://howtospeakmachine.com/wp-content/uploads/2019/03/htsmprism1200window.jpg)
+background-size: cover
+
+# .white[アドバイス: 機械と会話 **しつつ** 人間とも会話するのがより良い未来だ。]
+
+
+.source[[howtospeakmachine.com](https://howtospeakmachine.com) / **プレオーダー** [Amazon](https://amzn.to/2HjDtM6) | [Barnes & Noble](http://links.penguinrandomhouse.com/type/affiliate/isbn/9780399564420/siteID/8001/retailerid/2/trackingcode/PRH30BB1D484D) | [IndieBound](http://links.penguinrandomhouse.com/type/affiliate/isbn/9780399564420/siteID/8001/retailerid/6/trackingcode/penguinrandom)]
+.footer[How To Speak Machine]
+
+---
+class: chapter-slide lightgray-slide
+
+# .mono[不均衡に対する取り組み]
+
+.group[
+### 始めるなら今だ。
+
+Kat Holmesが[Mismatch](https://amzn.to/2C0fpdG)で提示したフレームワークは、ここ数十年の技術の進歩によって生み出された不均衡を改善するために役立つだろう。
+
+**排除を認識する。**
+
+>偏見を持って問題を解決しようとしたときに、排除が起こる。排除をチャンスと考え、新たなアイディアやインクルーシブデザインを創造しよう。”
+
+**人間の多様性から学ぶ。**
+
+>人間は多様性に適応する真のエキスパートだ。インクルーシブデザインは、プロセスの最初から人々を中心に据えている。人々の斬新で多様な視点が物事の本質を見抜く鍵となるのである。”
+
+**ひとりのための解決が、多くの人の解決につながる。**
+
+>誰もが能力を持つが、その能力には限界がある。障碍者のためのデザインは、結果として人々全体に恩恵をもたらすデザインとなるだろう。制約があるのはすばらしいことだ。”
+
+]
+
+.footer[Addressing Imbalance]
+
+---
+
+class: document-slide
+
+# Macはテクノロジーの不平等に対する最初の取り組みだった。
+
+.large.quote[.orange[
+> Macintoshは、かつてコンピューターを恐れ不信感を抱いていた人々も含めた、非プログラマーのユーザー向けにデザインされている。] そのためにはマッキントッシュアプ​​リケーションは学び易くそして使い易いものであるべきだろう。人々がアプリケーションをより快適に感じられるよう、アプリケーションは彼らに新しいものを学ぶことを強制するのではなく、彼らが既に持っているスキルの上に構築されるべきである。ユーザーはコンピュータの制御を感じるべきであり、これは応答性、許容性、および一貫性という3つの品質を具現化するアプリケーションで達成される。
+” <br>—[Inside Macintosh (1985), Human Interface Guidelines](http://www.weihenstephan.org/~michaste/pagetable/mac/Inside_Macintosh.pdf)]
+
+.source[@apple @scientiffic]
+.footer[Addressing Imbalance]
+
+---
+
+class: document-slide
+
+# 世界のコンピューターユーザーの95%が、最高レベルから排除されている。
+
+.grid.ratio-1-2[
+.group[
+
+.large.quote[
+> 未来はすでにやって来ている — まだ平等に分配されていないだけだ。” —[William Gibson](https://quoteinvestigator.com/2012/01/24/future-has-arrived/)
+]
+
+.quote[
+> 3の豊かな国々で、高度なコンピューター関連スキルを持っている人々はたったの5％である。そして中程度の複雑なタスクをこなせる人々はたったの3分の1である。この単純な事実が示していることは何だろうか？ それは、エリート向けにデザインしているのでなければ、デザイナー自身は製品の「ユーザー」に含まれないということだ。” —Jakob Nielsen [NNG](https://www.nngroup.com/articles/computer-skill-levels/)
+]
+
+
+]
+.group[
+.grayscale.figure[
 ![](https://media.nngroup.com/media/editor/2016/10/20/computer-skill-levels-by-country.png)
 .caption[Nielsen-Norman Group]
 ]
@@ -2964,497 +2800,284 @@ class: document-slide
 ]
 
 .source[The Distribution of Users’ Computer Skills: Worse Than You Think [NNG](https://www.nngroup.com/articles/computer-skill-levels/)]
-.footer[Inequality & Skills Gap]
+.footer[Addressing Imbalance]
 
 ---
 
 class: document-slide
 
-# デジタルデバイドは貧困や不平等と関連しているだろうか
+# テクノロジーの排除に関連してより深刻な種類の排除が存在。
 
-.subhead[.fas.fa-quote-left[]]
-
-.stack[
+.darkgray.stack[
 .group[
-.quote[
-> 都市の貧困は固有の課題であるが、歴史的には貧困率は都市部よりも農村部で高かった。実際、1950年代から1960 年代にかけての農村部の貧困レベルは、都市部のそれの2倍以上であることも多かった。
-
-> 1. 貧困は農村部に多い
-> 2. 新しい仕事の大半は農村部にはない
-
-> 農村部のアメリカ人の多くがなぜいつまでも不況が終わらないと考えているかを理解するのは簡単であ る。なぜなら、彼らにとって不況は終わっていないのだ。
-
-—[PBS](https://www.pbs.org/newshour/nation/six-charts-illustrate-divide-rural-urban-america)
-]
-]
-.group[
-![:iframe 400px, https://datawrapper.dwcdn.net/If6Qe/4/]
-]
-.group[
-![:iframe 400px, https://datawrapper.dwcdn.net/YFJz6/3/]
-]
-]
-
-.source[@TechJobsTour @smithmegan @lepitts]
-.footer[Inequality & Skills Gap]
-
----
-
-class: document-slide
-
-# 不均衡を気にかけよというわけではない。しかし、その存在は感じとるべきだ。
-
-.grid.ratio-1-2[
-.group[
-.subhead[.fas.fa-quote-left[]]
-
-.large.quote[
-> 私は児童難民だった。私はキャンプでの生活がどのようなものか知っている。私は人間性を奪われたのだ。
-
-—[Ai Weiwei](https://www.theguardian.com/film/2017/dec/07/human-flow-review-ai-weiwei-migration-documentary)
-]
-]
-.group[
-![:iframe 380px, https://www.youtube-nocookie.com/embed/DVZGyTdk_BY?rel=0&amp;showinfo=0&amp;start=5]
-
-.small.quote[
-> 国外追放された中国のコンセプチュアル・アーティストであるAi Weiweiは、移民および21世紀の移民環境を題材に、野心的で人道的であり、多分に衝撃的なシネエッセイを製作した。
-
-—[The Guardian](https://www.theguardian.com/film/2017/dec/07/human-flow-review-ai-weiwei-migration-documentary)
-]
-]
-]
-
-.source[@aiww]
-.footer[Inequality & Skills Gap]
-
----
-
-class: document-slide
-
-# 不平等はイノベーションを妨げる、だから全力でAIに打ち勝たなくてはならない。
-
-.stack[
-.group[
-.x-medium.quote[
-> 場所が分断されたものになればなるほど、イノベーションから遠ざかるだろう。
-
-—[Richard Florida](https://www.citylab.com/equity/2017/08/the-complex-relationship-between-innovation-and-economic-segregation-in-cities/537270/)
-]
-]
-.group[
-.x-medium.quote[
-> AIは世界規模の経済格差について考え直す機会を私たちに与えてくれている。
-
-—Kai-Fu Lee [NYT](https://www.nytimes.com/2017/06/24/opinion/sunday/artificial-intelligence-economic-inequality.html)
-]
-]
-.group[
-.x-medium.quote[
-> 社会に浸透する不平等が人工知能を問題に直面させる。
-
-—Kate Crawford [NYT](https://www.nytimes.com/2016/06/26/opinion/sunday/artificial-intelligences-white-guy-problem.html)
-]
-]
-]
-
-.source[@richard_florida David Byrne [TR](https://www.technologyreview.com/s/608580/eliminating-the-human/) [NESTA](https://www.nesta.org.uk/sites/default/files/the_future_of_skills_employment_in_2030_0.pdf)]
-.footer[Inequality & Skills Gap]
-
----
-
-class: document-slide
-
-# 不平等に対するソリューションはおそらく、分散型か「リモート」ワークだ。
-
-.grid.ratio-1-2[
-.group[
-.numeral.subhead[638]
-
-.x-medium.darkgray[
-現在、リモートワークの機会が得られる企業はこれだけ存在する
-]
-
-Remotive.ioの「[リモートワーカーを雇用する企業一覧](https://docs.google.com/spreadsheets/u/1/d/1TLJSlNxCbwRNxy14Toe1PYwbCTY7h0CNHeer9J0VRzE/htmlview?sle=true)」より
-]
-
-.orange.xxx-small.sans[
-Bench, 100Starlings, 2600Hz, 33 Sticks, 3DprinterOS, 3nder, 3SMobile, 4 Ventos, 42Floors, 45royale, Acceleration Partners, Accella, Accounto Technology, Action Verb, Actionable.co, ActiveProspect, Actyx, AddStructure, AdEspresso, AgentFire, AgileBits, Aha!, AirTreks, Alaris Prime, AlchemyTec, Alegion, AltSchool, AmaZix, Ameego, Antavo, AppendTo, Araize, Arkency, Art & Logic, Articulate, Artisanal Code, Inc., AsmallOrange, Assemble, Assembled Brands, Attentiv, Aurity, Auth0, Automattic, Avaaz, Axelerant, Azumio, BacklotCars, Balsamiq, Band Industries, Baremetrics, Barrel, Basecamp, Basho, Basho Technologies, Batchbook, BeBanjo, BetterDoctor, Beutler Ink, Big Universe, Big Wheel Brigade, BioTrust Nutrition, Bithive, Bitnami, Bitovi, Black Pixel, BloodHub, Blossom, Bluespark Labs, Bonfire, BookingSync, BrainCheck, BrandBastion, Brave-software, BriteCore, Buffer, Bugcrowd, Bugfender, BuySellAds, Cadasta, CafeMedia, Camplight, Canonical, Carbon Black, Cargobase, CarriersEdge, Cartstack, Casumo, Catalyze, Cesanta, ChartMogul, Chaser, Chef, Chess.com, Ciao Bambino!, CircleCI, Citrusbyte, Civic Actions, Clerky, Clevertech, Close.io, Cloudpeeps, Cloudstitch, Clustree, Codeable, Codebusters, CodeControl, CodePicnic, Codeship, Cohesive Networks, Coinbase, Collab. Drug Discovery, CollabNet, Collabora, Collage.com, Compose, CompuCorp, Conferize, Continu, ConvertKit LLC, Conveyal, Copass, Copyblogger (source), CoreData, Corgibytes, Countly, Covenant Eyes, Cozy Cloud, Crew, Crive, CROmetrics, Crossover, Crowd Valley, Crowdstrke, Cubspot, Cucumber, Cuddli, Curoverse, Cyanna Education, DataCite e.V., Datadog, Dataquest, DataStax, DealDash, Dealer Inspire, Deekit, Deeson, Demio, DesignLab, Dgraph, Diacode, Digital Ocean, Dimanex, Dito, Divio, Divshot, DNSimple, Docker, doctorSIM, DoInbound, Doist, DojoMadness, Domino Data Lab, doopoll, Dotsub, Doximity, DramaFever, DRONAMICS, DroneDeploy, Duck Duck Go, Eaternity, Edify, Edison Nation, Eet.nu, Eezy, ElasticSearch, ElevenYellow, EngageTech, Enjin, Envato, Erply, Estately, Etsy, EveryoneSocial, Exposure Ninja, Eyeo, Fastly, Fatura Simples, Findify, Fire Engine RED, Five Q, Fleep, Fleetio, Flight Vector, Flockler, Flood IO, Flow, Focus Asia, Fog Creek Software, Folarium Technomedia, Follow Up Boss, Fonoma, Forest Admin, FormAssembly, Formstack, Fortumo, Forward Financing, Founder Centric, Foundersuite.com, Foundr Magazine, Four Kitchens, fournova, FoxAndSheep, Foxio, FRSH, Fuel Made, FullStack, Funding Gates, Funnely, Futurelytics, G2i, GatherContent, General Assembly, Genuitec, GetFileCloud, GetIncredibles, Ghost, Giant Swarm, GigaOM, GigSalad, Gigster, Gistia, Gitbook, GitHub, GitLab, GitPrime, Gitter, GlueNetworks, GMB Fitness, Go Fish Digita, GOFAR, GoHiring, Goodway Group, GrabCAD, Gradle, GrantStreet, Grape.io, GrapheneDB, Grasswire, Graylog, Greenback Tax Services, Gridium, Groove, GuardTime, Hanno, Harvest, hashi Corp, Hasura, Haystack, Hazelcast, HE:labs, Health Leads\xe2\x80\x99, Healthfinch, Heap, Heetch, Help Scout, Helpjuice, Inc., Heroku, Herox, Hexbridge, Highland Solutions, Hippo Education, HireGamePros, Hireology, HiringThing, Hitlist, Holstee, Honeybadger, Hotjar, Hubstaff, Hudl, Hugo, Hugging Face, Human, Human Made, Iambnb, ICUC, iDoneThis, Igalia, iMedicare, Import2, Incsub, Indie Localizers, Influx, InfluxData, Inpsyde GmbH, Inspired HR, Instructure, Intellum, Interactive Intelligence, Intercom, Intridea/Mobomo, INTUO, InVision, IOpipe, iwantmyname, Jackson River, Jim’s Mowing, Jitbit, Jolly Good Code, Kalypso LP, Kanopi Studios, Kantree, KBMax, Keen IO, Kellerkinder, KeyCDN, Khan Academy, Kiprosh, KissMetrics, Knack, Knock Homes, KnownFour, Koding, Konveen, Kuali, Later, LaterPay, Launch Potato, layer, Lazy Eight, Leadfeeder, LearnZillion, Let’s Encrypt, Librato, Librato, Lightbend, Linaro, Lincoln Loop, LitCharts, Litmus, LiveMentor, Living Social, Localistico, loco2, log, Logikcull, Logmein, Loom, LoveToKnow, Loyal, Lullabot, Lumiserv, Lynx Technology Partners, Machinio, mailparser.io, Make Works, Manage Social, Mapbox, MariaDB, MarkIT.eu, MarsBased, Mattermost, Mavens, Mcbeard Media, MCF Technology Solutions, Mediacurrent, Medko, Meet Edgar, Member Up, MetaLab, Metaluxo IT Security, Metamaterial Technologies, Meteor, Midokura, Mightycast, Mixcloud, Mixmax, Mobile Jazz, Mobility Labs, Inc., Mobomo, Modern Tribe, Modus-create, Mokriya, Moltin, Moment, Moo.do, Moondo, Moraware, MotorLot, Moz, Mozilla, Much Better Adventures, MyOnlineSchool, mySociety, MySQL, myTips, NationBuilder, nClouds, Nearform, Netguru, Netsparker, Network Ninja, New Context, Next Big Sound, NIFTIT, Niteoweb, NodePing, NodeSource, NodeSWAT, NoRedInk, Novoda, Nugg, Numbrs, nVisium, O’Reilly Media, Octopus Deploy, Oh My George, OK GROW!, Olark, Olo, OnTheGoSystems, Onyo, Open Knowledge, OpenCraft, openredis, Optimal, Optimile NV, Origin Eight, Outbank, Overl.ai, owl power, Owsy, PageFreezer Software, Pagely, Paktor, ParcelBright, Parse.ly, Particular Software, Pasilobus, Inc, Patients Know Best, Paylocity, Paylock, Peak Games, Peerfit, Peergust, PeopleDoc, PeopleG2, Percona, PersistIQ, PhishMe, Pindrop, Pipedrive, Pivotal Labs, Pixel2HTML, Planet OS, Platform.sh, Plex, Postlight, Precision Nutrition, Pressable, Pressed.net, PreviousNext, Prezly, Product Hunt, Productive Power, Proemion, Protocol Labs, Puppet Labs, Purple Voice, Quantum Mob, Quartzy, Rackspace, railroad19, Railsformers, RainforestQA, RaRe Technologies, Reaction Commerce, Real HQ, Receiptful, ReCharge, Recruiterbox, Recurly, Red Hat, Redox, Reinteractive, Relayto, RepeaterStore, Replay Gaming, resin.io, retail-zipline, RetailNext, RightScale, rmotr.com, Roadtrippers, Rocana, sailteam.io, Salesforce, Sapien, Savvy Apps, ScheduleOnce, ScienceLogic, Scrapinghub, Screenly, Security Roots, Semaphore CI, Sencha Inc, SenorCoders, Server Density, ServiceNow, ShakaCode, Sherpany AG, Shopify, Shortfundly, Simbiose Ventures, Simple, Simplecast, SiteGround, SketchTogether.com, Skillshare, Skore, Skycrapers, SmileDirectClub, SOASTA, Sococo, SoftwareMill, Songspace, Sourcefabric, SparkLabs, Spatial Key, Speedchecker, Spotify, Spreaker, Stack Exchange, Stack Overflow, Staff Squared, Starcoders, Statement, SteepRock, Stripe, Student Loan Hero, Sucuri, Inc, SugarCRM, Sulvo, Surevine, Superble, SurveyMonkey, Swappa, Sysdig Cloud, Taiga.io, TailorDev, Task Analytics, Taxjar, TeachBoost, Team App, Teamed.io, Teamily, TeamSnap, TechnologyAdvice, TED, Teleport, Tenable, TEONITE, Tesera, Tessitura Network, TestDome, Testlio, The Cheat Sheet, The Sensible Code C’y, The Wirecutter, Thinkbox.io, Third Iron, ThirdPath Institute, tidelift, Time Doctor, Timely, TNTP, Toggl, TopDevz, Toptal, Tortuga Backpacks, Tractionboard, Traity, Transloadit, TraveDoc, Treehouse, Trello, Triposo, Twilio, Twin Technologies, Tyk, Uberspace, Unbounce, UniversalMind, Upwork, UpWorthy, Urbansitter, Urgently, Userbin, UserTesting, Ustream, Vaamo, Valutac, Velaro, Inc., Venafi, Inc, Vervoe, Vidian, Vinted, Virtual Law Partners, Waldo Photos, Water Lily Pond, Watsi, Waybetter, Waygo, WeaveUp, Webikon, WebPunch, WebRTC Ventures, WebSharks, Inc., When I Work, Whitebox, Whitesmith, Whitespectre, Wikimedia, Wildbit, WizeHire, Wordfence, X-Team, Xapo, Yammer, Yoko Co, YouNeedABudget, YourSports, Zapier, Zemanta, ZenCash, Zest, ZeroTurnAround.
-]
-]
-
-.source[[Remotive.io](https://remotive.io) [Zapier](https://zapier.com/blog/companies-hiring-remote-workers/)]
-.footer[Inequality & Skills Gap]
-
----
-
-class: document-slide
-
-# 「リモートワーク」とは何か。それは現在どこに向かっているのか。
-
-.grid.ratio-2-1[
-.group[
-.numeral.subhead[2012]
+.sans[[**悪いことがほとんど起こらなくても、貧困からの脱出には20年近くが必要 **](https://www.theatlantic.com/business/archive/2017/04/economic-inequality/524610/) by Gillian White]
 
 .quote[
-> テレコミューティング、在宅勤務、遠隔勤務。これらはすべて基本的に同様である。（オフィス以外の場所で仕事をするということ）このようなワークスタイルが増加している。
-
-—[TIME](http://business.time.com/2012/03/13/the-rise-of-the-remote-worker-or-how-to-work-from-home-without-getting-fired/)
+> (MITの経済学教授) Teminによると、何十年もの間拡大し続けた不平等を受け、今日のアメリカには程度の差こそあれ2階級システムが残存している。不釣り合いな金・権力・政治的影響力を独占している少数の特権的白人上流階級と、彼らの気まぐれに翻弄されるばかりのマイノリティに偏った（それでもほとんどは白人の）大多数の下層階級である。” —[The Atlantic](https://www.theatlantic.com/business/archive/2017/04/economic-inequality/524610/)
 ]
 
-.numeral.subhead[2018]
-
-.quote[
-> 一部またはすべての従業員が物理的オフィスなしで業務を行うスタートアップ企業がますます増加している。そうすることで、世界中の人々を雇用することが容易になり、コストダウンにつながる。ただし、従業員はそれによって繋がりが失われたと感じている。
-
-—[The Information](https://go.theinformation.com/679dfd8ccfa47caa)
+.grayscale.figure[
+![:image 0 50%, auto, 200px, https://mitpress.mit.edu/sites/default/files/styles/large_book_cover/http/mitp-content-server.mit.edu%3A18180/books/covers/cover/%3Fcollid%3Dbooks_covers_0%26isbn%3D9780262036160%26type%3D.jpg]
+.caption[via MIT Press]
+]
+.sans.x-small[[The Vanishing Middle Class](https://amzn.to/2SCfj1a)]
 ]
 
-<br>
-
-**「[リモートワーク × デザイン](https://automattic.design/2018/03/07/remote-work-and-remote-designers/)」の秘訣は、Automattic Design社から入手できる。
-]
 .group[
-.large.quote[
-> Facebookは決してこのような業務形態を採らないだろう。Googleも決してそうしないだろう。しかし、その代替はどのようなものであれ、中央集権型ではなく分散型企業のようなものになるだろう。
 
-—[Matt Mullenweg](https://go.theinformation.com/679dfd8ccfa47caa)
-]
+.sans[[**上へ移動する: 経済的流動性のデータを用いた教育**](https://www.nytimes.com/interactive/2018/03/27/upshot/make-your-own-mobility-animation.html?module=inline) by NYT team]
+
+![](https://static01.nyt.com/images/2018/05/02/learning/economic-mobilityLN/economic-mobilityLN-superJumbo.png)
+
+>画期的な国勢調査研究で、2,000万人のアメリカ人を対象に子どもから大人になるにつれてどのように経済ステータスが変化したかを調べ...” —[NYT](https://www.nytimes.com/interactive/2018/03/27/upshot/make-your-own-mobility-animation.html?module=inline)
+
 ]
 ]
 
-.source[@photomatt [Quartz](https://qz.com/694410/automattic-has-figured-out-the-right-tools-for-remote-working/) [The Information](https://go.theinformation.com/679dfd8ccfa47caa) [Stanford GSB](https://www.gsb.stanford.edu/insights/why-working-home-future-looking-technology) [The Cut](https://www.thecut.com/2017/08/working-from-home-isnt-ruining-your-social-skills.html)]
-.footer[Inequality & Skills Gap]
+.source[@theatlantic @gillianbwhite @mit [MIT News](http://news.mit.edu/2017/america-economy-decline-middle-class-0313) @nytimes]
+.footer[Addressing Imbalance]
 
 ---
 
 class: document-slide
 
-# 仕事をする場所は？　オフィス？ リモート？ それとも両方？
+# デジタルテクノロジー以前にもパワーの不均衡は存在した。
+
+.darkgray.stack[
+.group[
+
+.gray.numeral.subhead[1956]
+
+<br />
+.grayscale.figure[![:image 0 50%, auto, 40px, https://www.eff.org/sites/all/themes/phoenix/images/logo-with-text.svg]]
+
+.quote[
+>政府の調査プログラムの中で最も悪名高いFBIのCOINTELPROは、1950年代と60年代に人種隔離や構造的人種差別主義と戦う黒人系アメリカ人を標的にしていた。 COINTELPROはCounter Intelligence  Program(スパイ防止活動プログラム）の略称で、FBIにより1956年に開始され1971年まで続いた。このプログラムは「国家安全保障」の名のもとに、活動家の運動に入り込み、監視し、妨害する体系的な試みであった。最初は社会主義政党に焦点が当たっていたが、1960年代になるとより広範にわたる活動家たちが対象となった。特に厳しく監視されていたのはブラックパンサー党と、マーティン・ルーサー・キング博士およびジュニアのような公民権運動のリーダーである。” —[EFF](https://www.eff.org/deeplinks/2014/02/history-surveillance-and-black-community)
+]
+]
+.group[
+.darkgray.numeral.subhead[1997]
+
+.quote[
+>生年月日、性別、5桁の郵便番号（ZIP）で、アメリカに住むほとんどの人を個別に特定できる。驚いた？” <br>—[Professor Latanya Sweeney](https://aboutmyinfo.org/index.html), Data Privacy Lab
+]
+
+.black.numeral.subhead[2018]
+
+
+![:tweet 976971873090142208]
+
+]
+
+]
+
+.source[@EFF @latanyasweeney @dangillmor]
+.footer[Addressing Imbalance]
+
+---
+
+class: document-slide
+
+# 不均衡に対するひとつの解決策は、スケールを小さくすること。つまり「近接させる」こと。
+
+.x-medium.quote[
+>.orange[仮に人類学的解釈が、起きている物事の解釈を構成することだとすると、起きている物事 — そのときその場所で起きたこと、特定の人々の発言や行動、彼らが受けた行為、世界全体に広がる問題 — から解釈を分離させることは、その妥当性から分離させて空の状態にすることを指す。] 詩、人、歴史、儀式、社会など対象は何であれ、良い解釈は私たちを対象物の中心＝その解釈へといざなう。そうではなく、解釈そのもののエレガントさや、著者の賢さ、あるいはユークリッドオーダーの美しさを称賛しているのであれば、それは本質的な魅力を持っているのかもしれない。羊の不可解な態度や求めるものを自分の手で解明するタスクとはかけ離れているけれど。” —[Clifford Geertz](https://maeda.pm/2018/12/31/thick-data-and-thickness-of-description/) (1973)
+]
+.source[@its_me_ajb [Automattic Design SMB Study](https://automattic.design/2018/09/30/can-you-hear-me-your-customer/) @mismatch_design @indiyoung [design research](https://twitter.com/indiyoung/status/974025516972957698?lang=en) @lynneux]
+.footer[Addressing Imbalance]
+
+---
+
+class: document-slide
+
+# アドバイス : 周囲の不均衡すべてに興味を持とう。
+
+<br />
+<br />
+
+.darkgray.stack[
+
+.group[
+
+.large.quote[.orange[明らかな不均衡]
+
+意識的にせよ無意識的にせよ表出したアイデンティティが、支配的な多数派と反対の行動を取る。不均衡はすぐに明らかになる。]
+]
+
+.group[
+
+.large.quote[.orange[見えにくい不均衡­]
+
+外に表れないが感じられているアイデンティティが、支配的な多数派と反対の行動を取る。不均衡はすぐに明らかにならない。]
+]
+]
+
+.source[convo with @katholmes]
+.footer[Addressing Imbalance]
+
+---
+
+
+class: document-slide
+
+# アドバイス: イノベーションには異なる人々の集合が有利。
 
 .grid.ratio-4-1[
-.group[
-![:iframe 480px, https://datastudio.google.com/embed/reporting/1dYTuYBbAzAB15hlqK-ctAew36XT-xqAS/page/rZjO]
-]
-
-.darkgray.group[
-.numeral.subhead[16%]
-
-**リモート型**<br>ほぼリモートワークという人の割合
-
-.numeral.subhead[41%]
-
-**混合型**<br>主にオフィスだがリモートでも仕事する人の割合
-
-.numeral.subhead[42%]
-
-**オフィス型**<br>ほぼオフィスで仕事をする人の割合
-]
-]
-
-.source[#DesignInTech 2018 Open Survey | 1219 samples]
-.footer[Inequality & Skills Gap]
-
----
-
-class: document-slide
-
-# Automattic Design社は[ケンタッキー州ペインツビル](http://www.theholler.org/firecast-episode-7-paintsville-independent/)の生徒と活動している
-
-.stack[
-.group[
-.lightgray.subhead[.fas.fa-car[]]
-
-.figure[
-![](https://creativeleadership.files.wordpress.com/2018/03/meganleanne.jpg)
-.caption[via @johnmaeda]
-]
-
-.darkgray[私は、リアン・ピッツフォードとミーガン・ スミスの案内のもと、[TechJobsTour](https://techjobstour.com/)チームと一緒にケンタッキー州ペインツビルを旅行した。アメリカにはテクノロジー関連の一般求人が50万件あり、それは2020年までに100万件まで発展すると見込まれている。誰がその職を手にするのだろうか。私たちは排他的な様式を[変えられるだろうか](https://www.fastcodesign.com/90154530/tech-has-a-diversity-problem-so-this-designer-went-to-kentucky)。]
-]
-.group[
-.subhead[.fas.fa-quote-left[]]
-
-.figure[
-![](https://www.gannett-cdn.com/-mm-/894073717d73d0cb12a089188c5788267e8b3349/c=162-0-2837-2006&r=x404&c=534x401/local/-/media/Louisville/2015/04/17/B9316989179Z.1_20150417101849_000_GHQAGT1LF.1-0.jpg)
-.caption[via Gannett]
-]
-
-.quote[
-> 1964年4月、リンドン・B・ジョンソン 大統領が「貧困との戦い」の一部としてケンタッキー州ジョンソン郡ペインツビルにあるアパラチアの街を訪問した際、そこには数千人の群衆が押し寄せた。
-
-—[Courier Journal](https://www.courier-journal.com/story/news/history/river-city-retro/2015/04/17/history-lbj-visits-kentucky/25929287/)
-]
-]
-.group[
-.subhead[.fas.fa-quote-left[]]
-
-.quote[
-> EUでは2015年におよそ1億1900万人の人々が貧困や社会的排除の危機に直面していた。これはEU人口の23%以上である。加盟国の農村部居住者の大半は、都市圏居住者に比べて貧困や社会的排除のリスクが高い状態にあった。2014年には、農村部人口の27.2%が貧困や社会的排除に苦しんでおり、都市圏では人口の24.3%であった。
-
-—[EU Parliament](https://epthinktank.eu/2016/12/16/rural-areas-and-poverty/)
-]
-]
-]
-
-.source[@suptdgibson]
-.footer[Inequality & Skills Gap]
-
----
-
-class: chapter-slide lightgray-slide
-
-# インクルーシブデザイン
 
 .group[
-### Inclusion（包括性） = INCLU$ION
-
-* 「自分たちより幸福でない人々を助ける」という認識を、「特権的であることに対して、私たちがいかに無知であるかを学ぶ」へと変えることは、日々のエクササイズとして有用だ。
-* より良い製品のデザインや製作のためにそのエネルギーを用いることは、ある種の情熱であり実践である。そしてこの動きは、テクノロジー企業で頻繁に目の当たりにするようになるだろう。インクルーシブデザインが常識になりつつあるからだ。
-* 自分が属する世界や、自分とは異なる世界に対して何ができるかとただ思いを巡らすのではなく、アクションを起こそう。今ある様々なテクノロジーのおかげで、今日では簡単なことだ。
-]
-
-.footer[Inclusive Design]
-
----
-
-class: document-slide
-
-# 多様性と包括性についてのすべてを言い表したシンプルな定義
-
-.xx-large.quote[
-> 多様性はパーティに招待されることであり、<br>包括性はダンスに誘われることである。
-
-—[Vernā Myers](https://www.americanbar.org/groups/gpsolo/publications/gpsolo_ereport/2012/june_2012/diversity_invited_party_inclusion_asked_dance.html), Esq.
-]
-
-.source[[American Bar Association, Vol. 1. No. 11 (2012)](https://www.americanbar.org/groups/gpsolo/publications/gpsolo_ereport/2012/june_2012/diversity_invited_party_inclusion_asked_dance.html)]
-.footer[Inclusive Design]
-
----
-
-class: document-slide
-
-# インクルーシブデザインは長い年月を経て注目を集める
-
-## テクノロジー業界におけるインクルーシブデザインの問題が認められるようになり、共感（とアクション）が増えている。
-
-.timeline-grid.across-6[
-* ### 1950年代以前
-
-* .timeline-title[] 工業化の進行により、タイプライターから電話や道路の縁石まで、障害のある人々のための[デザイン製品](https://www.fastcodesign.com/3054927/microsofts-inspiring-bet-on-a-radical-new-type-of-design-thinking)が、すべての人々に利益をもたらすマス市場向け製品となる。
-* .timeline-title[] 二度の世界大戦の後、負傷した退役軍人の増加がアクセシビリティへの配慮に対する新たな需要を後押しした。これを主導したのは、1961年に米国規格協会A117.1の建築アクセシビリティ標準を策定したイリノイ大学アーバナ・シャンペーン校の[初期の活動](http://disability.illinois.edu/university-illinois-urbana-champaign-disability-firsts)である。
-
-* ### 1950-60年代
-
-* .timeline-title[] バークレーのEd Robertsによる自立生活運動が、障害のある人々の権利に対する認知を高める。これが重要な社会変化につながり、テレグラフ通りに、アメリカ初の車椅子での完全なアクセスが可能な道路が作られる。
-
-* ### 1970-80年代
-
-* .timeline-title[] ワシントンを拠点とするインテリアデザイナーのBarbara Allenが、アクセシビリティの基準についてイラスト付きガイドを出版する。これは最初期の出版物の1つであり、法的基準がどのようにしてデザインの標準となるかを示す重要な事例である。
-* .timeline-title[] Patricia Mooreがデザイン調査のために数百という都市に高齢女性として3年以上にわたって潜入し、インクルーシブデザイン実践のための基礎を作り上げる。
-* .timeline-title[] 『The Seven Principles of Universal Design（ユニバーサルデザインの7原則）』がノースカロライナ州立大学の[Ron Mace](https://projects.ncsu.edu/design/cud/about_us/usronmace.htm)により出版される。
-* .timeline-title[] 1973年のリハビリテーション法 第508条が議会を通過し、連邦政府における情報テクノロジー（IT）のアクセシビリティが規定される。インターネット隆盛後、これらの標準はデジタルテクノロジーにおけるアクセシビリティを規制するうえで最も重要な基準となる。
-* .timeline-title[] Jutta Treviranusが[インクルーシブデザイン研究センター](https://idrc.ocadu.ca/about-the-idrc)を創設し、インクルーシブデザインの最初の学位ができる。
-* .timeline-title[] [Susan Kare](http://kare.com/)がApple Macintosh用のアイコンをデザインし、[Virginia Howlett](https://medium.com/microsoft-design/a-brief-history-of-design-8641bd186e00)がMicrosoft Windowsにデザインをもたらす。これが、オタク中心のコンピューター体験を、コンピューター好きでない人々にもアピールできる可能性を持つものへと変化させる道を開く。
-
-* ### 1990年代
-
-* .timeline-title[] 障害を持つアメリカ人法が議会を通過する。この公民権法は、差別を禁止し、アメリカでの一般的生活に参加するための機会が、障害のある人々にも他の人々と同等に与えられることを保証するものである。
-* .timeline-title[] Royal College of ArtのDesignAge action research programmeがスタートする。そしてそれは、人々の生活の改善に貢献するデザインの研究や、産業連携プロジェクトを実施するために、[Helen Hamlyn Centre for Design](https://www.rca.ac.uk/research-innovation/helen-hamlyn-centre/about/)へと発展する。
-* .timeline-title[] 「皆のためのデザインを通じた生活の質の向上」と「よいデザインは可能性を、悪いデザインは障害を生む」という綱領を掲げ、European Institute for Design and Disability (EIDD)が設立される。
-* .timeline-title[] ホワイトハウスでのWorld Wide Web Consortium（W3C）のプレゼンテーションの後、Web Accessibility Initiative（[WAI](https://www.w3.org/WAI/events.html)）が[スタート](https://illyism.com/journal/history-web-accessibility)する。W3Cによる「Accessibility is Good Business（アクセシビリティは良きビジネスである）」は[こちら](https://w3c.github.io/wai-website/business-case/)。
-* .timeline-title[] [Web Content Accessibility Guidelines（WCAG）](https://www.w3.org/WAI/intro/wcag)の初版がW3Cにより公表され、アクセシブルなウェブとデジタルテクノロジーのデザインのための重要な基準が明確になる。
-]
-
-.footer[Inclusive Design]
-
----
-
-class: document-slide black-slide
-
-# デザインによる不平等への解とは？ インクルーシブデザインの再起である。
-
-![](https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/REYaAc?ver=f2a3)
-
-.center[
-[Microsoft Inclusive Design](https://www.microsoft.com/en-us/design/)には、これから取り組むための最適なリソースがある。
-]
-
-.source[https://twitter.com/MicrosoftDesign]
-.footer[Inclusive Design]
-
----
-
-class: document-slide
-
-# AIにおけるバイアスとその自動補完?
-
-.stack[
-.group[
-.quote[
-> トルコ語には、性別を区別しない代名詞「o」がある。しかし、 「o bir doktor」（画像上）や「o bir hemşire」（画像下）と いうトルコ語の文をGoogle翻訳に入力すると、それらは英語 で「he is a doctor(彼は医者だ)」、「she is a nurse(彼女は看 護師だ)」と翻訳される。
-
-—[Princeton](https://www.princeton.edu/news/2017/04/18/biased-bots-artificial-intelligence-systems-echo-human-prejudices)
-]
-
-![:tweet 921778200287629313]
-]
-.group[
-.figure[
-![:image 500px, https://www.princeton.edu/sites/default/files/styles/scale_1440/public/images/2017/04/doctor-search-1150.jpg?itok=mlmoqrYu]
-.caption[via Princeton]
-]
-]
-]
-
-.source[@princeton @daynagrayson @kmlake @google [Fair Not Default](https://design.google/library/fair-not-default/)]
-.footer[Inclusive Design]
-
----
-
-class: document-slide
-
-# 排除の存在を認識し、アクションを起こそう
-
-.stack[
-.group[
-### まずは排除の認識から
 
 .large.quote[
-> 排除の存在を認識しなさい。
+>新しいアイディアはどこから生まれるのだろうか？ 答えは簡単だ。違いから生まれる。創造性は予想外の並びから生まれるのだ。” —[Nicholas Negroponte](https://web.media.mit.edu/~nicholas/Wired/WIRED3-11.html)
 
-—[Kat Holmes](https://twitter.com/katholmes?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor)
-]
+>有益な決定を下すために学んだことがある。それは、最善の決定はしばしば多様なグループに属する人々によって下されるということだ。次の言葉を言ったり聞いたりすると魔法がかかる: それは本当に面白いですね。そんな風に考えたことありませんでした。ありがとう。” —[Mary Meeker](https://www.kleinerperkins.com/perspectives/internet-trends-report-2018/)
 
-.darkgray[それが信じられないなら、「[Congrats, you have an all male panel!](http://allmalepanels.tumblr.com)（全員男性で構成されるセミナーやイベント等をドキュメントしたサイト）」 を見るといい。]
-
-.small.darkgray[それから、この[4時間のポッドキャスト](https://beta.techcrunch.com/2017/05/13/does-design-have-an-exclusion-problem/)も聴いてほしい。 これは、Automattic社のデザインリーダーである**Ashleigh Axios**が、**Amy Choi**（Mashup Americans）、 **Ethan Zuckerman**（MIT Media Lab）と共に作成したもので、アーロン・ウォルター（InVision）、**Maria Giudice**（Autodesk）、**Paco Viñoly**（NextDoor）、**Aminatou Sow**（TechLadymafia）、**Anne Diaz**（Airbnb）、**Andrew Sinkov**（Etsy）らの出演した「[Design and Exclusion](https://x.design.blog)（デザインと排除）」 でのトークだ。]
-]
-.group[
-### そして、テクノロジー業界のバイアスに興味を持ち
-
-.quote[
-> 残念ながらAlexaはフェミニストではない
-
-—[The Atlantic](https://www.theatlantic.com/technology/archive/2018/01/sorry-alexa-is-not-a-feminist/551291/)
-]
-
-.quote[
-> AmazonのAlexaは今や、性差別的な言葉に対して毅然とした態度をとるようになった
-
-—[Glamour](https://www.glamour.com/story/amazon-alexa-stands-up-for-herself-if-you-use-sexist-language)
-]
-
-.quote[
-> あなたの会社のSlackはおそらく性差別的だ
-
-—[Quartz](https://work.qz.com/1128150/your-companys-slack-is-probably-sexist/)
-]
-
-.quote[
-> あなたの会社の性差別的なSlackと戦う方法
-
-—[Life Hacker](https://lifehacker.com/how-to-fight-sexism-on-your-companys-slack-1821302639)
+>異なる人生経験を提示してくれる人々からの方が学びは多い。” —[Mark Schlissel](https://www.theatlantic.com/education/archive/2017/03/the-university-of-michigans-slow-painful-plan-to-increase-diversity/519903/)
 ]
 ]
 .group[
-### アバターをマイノリティのものに変える
+.small.subhead[.sans[**違いについて**]]
 
-アバターによる顧客の反応の違いを見聞した後は、アバターをネコに変えたくなることだろう。
+.figure[![](https://hbr.org/resources/images/article_assets/hbr/0409/F0409C_A.gif)
+.caption[出典：HBR]
+]
+.x-small.quote[
+>チームメンバーが似た者同士の場合、イノベーションの平均値は比較的高いが、平均からの変動率は低い。つまり、たくさんの失敗はしない代わりに、とび抜けて画期的なアイディアも多くないということである。
 
-.quote[
-> Enthovenは、彼女の写真を共同設立者のEric Luのものと交換するという実験を始めた。そして彼女は驚いた。嫌がらせがほぼゼロになったのだ。
+しかし、チームメンバーの専門分野が違えば違うほど、チームのイノベーションの平均値は下がるが、平均からの変動率は高い。失敗も多いが、ときに異常なほど高い数値のブレークスルーがあるということだ。” —[Lee Fleming, HBS (2004)](https://hbr.org/2004/09/perfecting-cross-pollination)]
 
-—[Wired](https://www.wired.com/story/this-startups-test-shows-how-harassment-targets-women-online/)
 ]
 
-.grid.ratio-1-1[
-![](https://media.wired.com/photos/5a8de3bfb2b92b689be91201/master/w_1164,c_limit/ChatBot-FINAL.jpg)
-]
-]
 ]
 
-.source[@katholmes @wired @theatlantic @glamour @quartz @lifehacker]
-.footer[Inclusive Design]
+.source[@jedkolko [Census 2017](https://twitter.com/jedkolko/status/976812035240476672) [@SosLindblom](https://twitter.com/SosLindblom/status/864784294664970240/photo/1) [@censusamericans](https://twitter.com/censusAmericans)]
+.footer[Addressing Imbalance]
 
 ---
 
 class: document-slide
 
-# 自分とは異なる人を必ず入れよう、そして友人を連れてこよう。
+# アドバイス: 皆の[味方](https://blog.techinclusion.co/tech-diversity-12-things-an-ally-can-do-ca5c93435d26) でいることは不可能だが、努力は可能。
 
-.grid.ratio-1-1[
+.darkgray.stack[
+
 .group[
-![:tweet 941705482884001792]
+.subhead[平等]
+
+すべての人が同じ機会を得るとき、それは既存の（そしてしばしば無意識のうちに）_不公平な優位性_ を持っている人々にとっては公平であるとみなされる。
 ]
+
 .group[
-.figure[
-![](https://projecta3private.files.wordpress.com/2017/11/img_20170816_1340111.jpg)
-.caption[via TechJobsTour in Paintsville, KY]
+.subhead[公平]
+
+誰もが仲間と平等な競争の場にいる機会を得るとき、それは競争するために公平性の異常なレベルがあることを意味する。
 ]
 
-.quote.x-small[
-@johnmaedaから、このプロジェクトの偉大なデザイナーグループへ招待されたことはとても光栄だ。ペインツビル学区の教育長であるDavid Gibsonがこのアイデアを思いついたんだ。私の所属するAutomattic社は、仕事はすべてリモートで行う。だから、社員はペインツビルを離れずにしてフルタイムの仕事をすることが可能だ。これはデビッドの子供たちにも可能なんじゃないだろうか。そうすれば、彼らの家族が何世代も暮らしてきて、 いまでも収入や利益を得ているこの土地で生活することは可能ではないかとひらめいたんだ。
- —[Fast Company](https://www.fastcodesign.com/90154530/tech-has-a-diversity-problem-so-this-designer-went-to-kentucky)
+.group[
+.subhead[良いテクノロジー]
+
+故Steve Jobsの言葉:
+
+.x-small.quote[
+>地球上の生物の運動効率を測定した論文を読んだ。最も少ないエネルギーで1キロメートル移動できるのはコンドルだった。人間はリストの上位3分の1くらいだった。万物の長としてはあまり誇れる結果ではない。アメリカの科学者は自転車に乗った男の運動効率をテストした。自転車に乗った人間はコンドルを抜いてダントツのトップに立った。
+
+それが、私にとってのコンピューターだ。コンピューターは私にとって、史上最も優れたツールだ。.orange[私たちの精神にとっての自転車に値する。]”<br /><br />
 ]
-]
+良いテクノロジーは公平さを生むが、テクノロジー自体は公平ではない。そこが問題だ。テクノロジーはどんどん進む。 _とにかく速い。_
 ]
 
-.footer[Inclusive Design]
-.source[@michaelbierut @fastcompany]
+.group[
+.subhead[シンギュラリティ]
+
+技術者がAIに抱く恐怖は、彼ら自身もAIに乗っ取られるかもしれない、乗っ取られるだろうという潜在的恐怖によって引き起こされているのではないか。もしそうなら、希望はある。なぜなら自衛本能は世界平和の希求よりも強い動機であるからだ。 団結のときは今！
+
+_みんなで頑張ろう！_
+
+<details><summary>🎉</summary>
+<iframe width="232" height="130" src="https://www.youtube.com/embed/BlRvE9dKWQc?start=18" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</details>
+
+]
+]
+.source[[Equality vs Equity Google Image Search](https://www.google.com/search?q=equity+equality&source=lnms&tbm=isch&sa=X&&biw=1552&bih=799)]
+.footer[Addressing Imbalance]
 
 ---
 
 class: document-slide
 
-# インクルーシブデザインで最大市場規模を拡げる
+# どのような世界に住みたい? **オープン** な世界がいいだろう？
 
-## ハリウッドが社会の多様性を反映させ始めたところ、映画は過去最高益を記録した。
+.grid.ratio-1-2[
+.group[
 
-.large.purple.sans.box-list[
-* Black<br>Panther
-* Wonder<br>Woman
-* Star<br>Wars
-* The<br>Foreigner
-* The Big<br>Sick
+### オープンウェブに関する瞑想
+
+.medium.quote[
+
+> 支配的なソーシャルメディアプラットフォームの壁を超えた、オープンウェブの世界はどのようなものだろうか？どこで過ごし、アイデアを共有するかによって、インターネットの経験はどう違うのだろうか。
+私たちと一緒にウェブの風景を探索する旅に出よう。そしてオープンソース、オープンウェブ、オープンチャンスに存在する人々や可能性を知ってほしい。” —[Alexis Lloyd](http://www.alexislloyd.com/)
+]
+]
+.group[
+![:iframe 380px, https://www.youtube.com/embed/Uxufu1H4Ngo]
+
+.small.quote[
+>_テクノロジー産業は、他の産業と同じようにサイクルに従い、振り子は前後に揺れ初期のソーシャルウェブを支えた哲学を強化してきた。しかし今は、ウェブがが意味するものについて10億人を再教育しなければならない困難に我々は直面している。”_
+ —[Anil Dash](https://anildash.com/2012/12/13/the_web_we_lost/)
+]
+]
 ]
 
-.large.quote[
-> 異なる視点からの映画が多くあって、それが大金を稼いでいる。社会のためになるからとか正しい表現だからという理由でそうしないでよ。それはその通りなんだけどね。お金になるからやるんだよ。報酬が増えるからやるんだ。そうだろ？
-
-–[Kumail Nanjiani](http://www.upworthy.com/kumail-nanjiani-hilariously-reassures-anyone-fearing-change-in-hollywood)のオスカーでのコメント
-]
-
-.quote[
-‘Black Panther’ Should Become Marvel’s Latest Billion-Dollar Movie This Weekend —[Fortune](http://fortune.com/2018/03/09/black-panther-box-office-weekend-billion-china/)
-]
-
-.source[@upworthy #wakanda @fortunemagazine and consider the Star Trek economy too]
-.footer[Inclusive Design]
+.source[@automatticdsgn @alexislloyd @caressemh]
+.footer[Addressing Imbalance]
 
 ---
 
-class: document-slide black-slide
+class: tonyruth-ending-slide black-slide
 
-background-image: URL(https://www.newstatesman.com/sites/default/files/styles/nodeimage/public/blogs_2018/02/black-panther-quad-poster.jpg)
+background-image: URL(https://raw.githubusercontent.com/johnmaeda/designintech-2019/master/asset/image/GivingTree_1.jpg)
+background-size: cover
 
-# .x-large[82歳の母よりSMSで送られてきた最近の映画レビュー]
-
-![:tweet 966462025781170176]
-
-.source[Marvel]
-.footer[Inclusive Design]
+.source[With apologies to Shel Silverstein from @lunchbreath]
+.footer[Addressing Imbalance]
 
 ---
 
+class: tonyruth-ending-slide black-slide
+
+background-image: URL(https://raw.githubusercontent.com/johnmaeda/designintech-2019/master/asset/image/GivingTree_2.jpg)
+background-size: cover
+
+.source[With apologies to Shel Silverstein from @lunchbreath]
+.footer[Addressing Imbalance]
+
+---
+
+class: tonyruth-ending-slide black-slide
+
+background-image: URL(https://raw.githubusercontent.com/johnmaeda/designintech-2019/master/asset/image/GivingTree_3.jpg)
+background-size: cover
+
+.source[With apologies to Shel Silverstein from @lunchbreath]
+.footer[Addressing Imbalance]
+
+---
+
+class: tonyruth-ending-slide black-slide
+
+background-image: URL(https://raw.githubusercontent.com/johnmaeda/designintech-2019/master/asset/image/GivingTree_4.jpg)
+background-size: cover
+
+.source[With apologies to Shel Silverstein from @lunchbreath]
+.footer[Addressing Imbalance]
+
+---
 class: document-slide lightgray-slide sans
 
-# 2018 #DesignInTech 公開調査クレジット
+# 2019 #DesignInTech Open Survey Credits
 
-.xxx-small[
-Pedro Sanoja, Alejo Romano, Victor Fernandez, Yawen Jang, Cam Rogers, Chi Ryan, mel, CATHERINE HILLS, Paul Strike, Chris McLay, Hayden Dobson, Benson Low, Hass, CAJ, Joyce Seitzinger, Ben Hamley, RS, Glen Barry, Tom Key, SJD, M.Y., ZT, Drew P A Smith, Jessica Tong, Sam Hancock, VT, Christian Baker, Laura van Doore, Jake Deakin, notrevol, valentijn destoop, Mark Graham Dunn, Glauco Cardoso, Pedro Belleza, Romeu Biscaia Machado, Bubu, Paula Fehper, Cristian Mazzeo, Thiago Barcelos, Lucas Terra Cardial, Bruno Fischer, Duda Rodrigues, Andreia Bersot, LionelC, Tiago P. Taveira, Fabrício Astua, LMSM, FNazario, Melissa Ribeiro, Rafael Brandão, Dani Tavares, bani torrico, G0ntz, Rafael Fernandes, Georgi Kamov, Kevin Morris, Johnny Chauvet, Allyna Sagun, Ryan Neufeld, Adam Leon, Lenny Laurier, Aloke Pillai, Suds, Nuff, Matt Nish-Lapidus, Tyler Benning, Heidi McCulloch, Yabo, Kimberley Peter, Filippo Di Trapani, Myriam Picovschi, Julia Guimaraes, mCorby, Francis Gagnon, Marc-Oliver Gern, Jonas Altman, pak, Jacqueline P. Ashby, Kirill Vechtomov, ic, Justin Lim, Lynne Polischuik, Travis Gertz, Craig Cullimore, cs, Emily, Jenna B, Akshay Chauhan, Sim.S, Noman Sid, José Concha, Ariel Contreras @acontrerasv, Alejandro Urrutia, timworks.net, Misterymotion, Nicolas Ochoa, Koncarovski, Ivana Preiss, Antonin Pospisil, Carsten Nguyen Henriksen, JPT, Jesper Philip Sølvbjørke, Daniel Gjøde, Stupid Studio, Thomas Madsen-Mygdal, Bo Madsen, Niels, Morten Lundholm, Troels Nørlem, Pärtel Vurma, Velvet, Monika Zych, PPoi, Niko Laitinen, Vesa Ahtiainen, John T, armansansd, Alexandre Crenn, Charlie Coucou, Charles Bail, Pierre-Denis Autric, Thomas Nicot, Frederique PAIN, Nicolas Marescaux, Chaker Bejaoui, Lise Kemen, David Duhamel, kliger, Matthieu Bousendorfer, j03£, Rachel Ilan, MASC, Helmut Ramsauer, Evgeny, A. Ribotta, Dawn Ahukanna, Florian Lohse, Philipp Schaefer, MSM, Michael, hiep, Fernando Galdino, Jochen Denzinger, Jenica Lewis, Dragomir Ralchev, Marc from Heimatdesign, Guergana, Markus Nowak, Marianne Guillen, Carolina, Yasmina Haryono, Jannes, Kilometer, Lew Freyholtz, CJC, KN, Axel Baumann, Daniel Echeverri, Michael. N, Agoston Nagy, David Udvardy, Saneef Ansari, Amal Tiwari, Saikat dutta, Anoop Chandra, Nandha, Mohit Sharma, Prateek Parijat, Pallavi Naik, Aradhana, Baskar Ganesan, PointBlank, Prob G, Sandheep, Sweta, Murthy Gollapudi, Prafull, Aadesh Mistry, Vispat, Gavin remedios, Arwin Brahma, Tanuja P., Kumar Murthy, NS, Guillermo Acevedo, Soo Basu, Anand, Nipun K. Garodia, Somyeah, Abhishek Jayaprakash, Arganka, Red Lemonade Creative, Lara Hanlon, Hilary Kenna, Ivan Frantar, Eilis Boyle, Mark Swaine, mm, Eoin Smith, John Buckley, Almudena Blanch, Aidan Doré, Craig Phillips, Rui Eduardo, LH, Kostya Gorskiy, Chanan Greenblatt, Eric Hinz, Eyal Fendell, rainwiz, Antonio Civita, Alessandro Pollini BSD design, Luigi, Niccolò Magnani, Andrea Gaiardo, Luca Troisi, Carlo Cavedon, Lorenzo Ruggieri, Manuela Ciancilla, Giovanni Caruso, aldo fontana, Francesca Monti, Annalisa Angelini, Daniele Vitali, ka2, M. Tanaka, Kenji Mori, Itsumi Matsukawa, Yasuhiro Sasaki, Bert Brautigam, Nathan Paterson, Toshiki Wada, Hajime Kuge, Hans Kurihara, Koichiro Eto, Fady Rostom, AnissaL, samcy, Sylvain Vanderhaegen, Justin Farrugia, LA, Joram Patiño, H. McNamara, Polo Garcia, Wendy Johansson, Iliana Moreno Guzman, Oscar Zavala Hernandez, Jeroen Frumau, Zuzanna Skalska, 360Inspiration, Jos van Roosmalen, Patrick de Jong, Murat Akyol, Hielkje Zijlstra, Wilbert Baan, Bob van Luijt, Dylan Evans, Jenny Shen, Linda Mertens, David Linssen, Peter Boersma, AL, Anon, Brian Lucid, Georg, tristam sparks, Steph Creasy, Rildwan Olayemi Bello, Leif Knutsen, Tom gabriel johansen, Eric Haidara, CS, Eder Rengifo, Hope Joanne Dag-um, Eric Agoncillo Ambata, Maciej Mlynek, Ines Bravo, Sara Gago, Hugo Froes, JPR, Francisco Bordallo, Luis Madureira, Peter Anthony Martins, samuel rosario medina, Dan Baciu, Ovidiu Berdila, IR, Archie, Edison Chee, Amanda Arielle Lu, Lwjon, Anuradha Jain, Ben, Maik Lutze, Kimverlyn Lim, SL, LM, Jon Edwards, Francois Brill, Tefo Mohapi, Ali Ndlovu, J.M, J Y, Antonio Molin, Andres Lopez Josenge, @serrodsan, Claudio Lobos, M Lop, miscalzoncillos, Luis Eduardo Dejo, atriz, Pilar Saura, Marco Righetto, Manu Ageitos, Jesús Miguel Gimeno, @abrahamnavas, JCG, Carlos García Maganto, Dragon, AICS, Team PowerHorse, May O. Caballero, Martina Gobec, Andrea Picchi, Patrik Beskow, Allen Smith, Martin Willers, Vincent Garcia, Supermarjo, Zelia sakhi, Jared Fossey, Nirvana Soltani, Hannes Johansson, Diana Africano Clark, Serena Cangiano, Raphael Schaad, Dominic Wuffli, Sylvestre Lucia, Philipp Maul, Raimund Erdmann, Jules Skopp, Marie-France Bojanowski, Mihaly Keserü, Olivier Heitz, jj, Emre Girgin, Twikirize Switzin Tibz, Denys Kulyk, Alex Debkaliuk, Maksym Tkachuk, Ram Prakash Palaparty, TP, Riccie Audrey Janus, Robin Howie, Roland Whitehead, Jordan Harper, barry ainslie, Ryan Burke, JC, Marcela O, eebster, Brendan Kearns, John Williams Taylor, Adam Williams, Thai.H, Jon Rowlandson, Niklas Hagemann, Mr Nick James Turner, Jonathan Conway, Sergei Golubev, Christina Li, Sevil Rahimova, Stephen Wood xLab, Eli Symeon, Sophie Allcock, Alex Menczykowski, Sandor Gyuris, IP, Jiri Jerabek, Kartik Poria, Christopher Gameson, bup, J Meijer, Giovanni Luperti, MC, QS, Alessio Cuccu, Mariana Morris, Tammie Lister, I Chhat, Aden Davies, Michelle Gerrard-Doyle, Konrad Pitala, Gfag8!, Les Hughes, Liam Hutchinson, Gabrielle Micheletti, MP, Luis Salinas, Shimbug, G Knowles Topham, Jeff Salanco, Matthew Gallagher, Dan Abelow, AV, Jared Stephens, Mark Loomis, David Wen, Chad Ostroff, Nick Cochran, Duncan Robertson, James Dow, Jodi Cutler, Peter Eckert, chris hammond, Erin Hauber, Hayley Hughes, KEM, Nick Tilden, TS, Meriah Garrett, Kara Miekina, Anthony Armendariz, Randomood, Dennis Eusebio, Shaun Bhargav, J. Dustin, Vogthorstar, Remote queen, Lance Willett, Kara DeFrias, Brent Summers, Ali Sarwat Hussain, Kelsey Lancaster, Flo Kat, Sara V, Jonathan Kies, Darin Marshall, Igor, Jim C-L, Alessandra B., Chris Wallace, Joshua smith, Visual Communicator, Florian Schommertz, Scott McManigal, seb, Bri, @shelton, Veronica Kovachi, Justin Ruckman, Jon Bell, Rutiger Poopinstalk, Kevin Bethune, Mark Uraine, Carlo Paolo Espiritu, Nicole Thayer, sylvia, Q.O.T.U. Design, inc., ANON, MH, Michael Sueoka, Matthew E. May, Shawn Johnson, Neil LaVigne, Michelle Wong, Alexa Roman, Patrick Fredrickson, Arturo Perez, RC, goodwinux, claudia bardales, Bryan Cheung, Paul Hanaoka, Marissa, Masako Ikegami, b zepeda, Michelle Chin, irene hoffman, BadGenius, Reed Reibstein, CMAINA, Joe Schram, Leslie Luo, Michael J. Morgan, Che Douglas, Ben Bausili, Joe Payne, Floyd Sanchez, Paul-Felix Montez, Tania Lili, Brian RS Ward, Creative Juggernaut, Russell Ong, Mercury Murphy, Lauren Hancock, Alex Yra, Evan Verdoia, Aaron, Houshang, Jay F, Jonathan Shariat, Neeharika gupta, Prithika, Laura Martini, Dddd, Jeff Z., Diego Rodriguez, Vinita Israni, Leigh Anne Miller, R. Mangrobang, musho, Ozzy Urrutia, Christiana, Tara, Yuki Alzona, Daniel Castro, Alex Kim, Tom Illmensee, Michelle Koh, NB, Holly Marie Gibbs, JY, Darren Farrugia, George Chen, Maria Giudice, Ramya, Peter Cho, n/a, Gareth Kay, Dirk Cleveland, James Murnane, Jeff Zwerner, Florentin Hortopan, Julie Stanescu, Maria M Fabbroni, NBL, Melinda, Gretared, Tyler Miller, Teddy Zmrhal, Meekal Bajaj, James Song, Alessandro Sabatelli, mo, Christian Talmage, Ann-Caryn Cleveland, Christine Park, bebe buckner, Ryan Fariñas, Michele Mizejewski, Steffan Schlarb, Vikram, Luan Chen, Vandy Meares, Andrew S, Todd Zaki Warfel, Arianna Orland, Mary Lukanuski, Vineeth Nair, Israel Nevarez, Brian Beaver, Sharon Cardinal, Diana Tobey, Kyle Bennett, Jsp, Daniela Steinsapir, Kasia Wyser-Pratte, Michael Polivka, Akira Motomura, Eric Fain, Kurt Varner, Genevieve Conaty, Laura Mattis, Siyuan Tu, Glenn Rawlinson, Tommy K, Benjamin Schwartz, Bruno Marinho, PKP, Hamza El-Falah, Jake Mac, Dan Harrelson, Stu Griffiths, AmeliaW, Caio, Joanna Ellis, Len, Alex Dixon, C. A. Stavridis, S. Jones, Vel Prakhantree, Marcelo G., DP Venkatesh, Ashleigh Axios, Jaymes Cloninger, Kit Oliynyk, Katherine M. Zhou, XF, Natalie Buda Smith, Jen Strickland, WTB, Sharif Elshinnawi, MH, Kendell Warner, Kyle Johnston, John Resman, Josh Kubicki, Jason Hargis, Ruzanna Rozman, Adam Rotmil, Michael Ellis, Stacy Kvernmo, Daniel R Farrell, Graphex, Jason P Belaire, Scot Przybylski, GRID Impact, Pete Kinser, J.H., Swan5280, David O’Connell, Peter Lloyd, MWK, Brad Baer, Robert T. Whyte, Jason Prunty, mm, Ryan, Devon Burgoyne, James Williams, Pete Fleming, Troy Lachance, Kate Clayton, Tom McQuaid, jfm, David, Al Logiodice, Layne Jackson Hubbard, Rafael Guevara, Bri Piccari!, Nasty Gold Woman, Dipti Siddamsettiwar, Bryan Howell, Rich Hauck, Yoda, Jordan Jackson, Michelle Leonette, Jason Rincker, Catherine Shen, Sean Oakes, Danny Salvatori, Samantha Clark, Jose Coronado, Chino Wong, Dasami Moodley, Karyn Campbell, Michelle Knoernschild, Judy Wert, MT, Torry Colichio, Randy J. Hunt, Ilya Startsev, Syed Lagoon, B Reichler, Van Rais, Sean Ro, NXD, David Fisher, Mattias Wikman, SL, L. Batista, Juan Daniel Herrera, Gloria Kim, im good., JHMOTIVF, Ryan Haigh, Sandra Barron, Rochelle King, Jessica He, MP, Clay Wiedemann, Sumin Chou, Stephen Gates, Bumhan Yu, Daniel Gomez Seidel, Jayne Lee, Jerlyn, SHANI SANDY, flomerboy, Richard Ting, Andrew (Ande) La Monica, Sandy Chen, Vincent Bahk, Adam, Isa Gouverneur, Stephanie Liu, Cheryl L. Oppenheim, Michael Keany, pnts, Anna Fine, wwl, Kathryn Simon, Jason Brady, Sarah Doody, Laura Simpson, M. Dulin, Kevin Smith, Gunther Chanange, Melanie O’Donnell, TJK, Karl van Turk, CDG, GG, Randy J. Hunt, Albert P, Jay Fichialos, Haijing Liu, Dennis Wong, Cathi Bosco, S.A. Meier, Jeff Golenski, Keith Instone, Milan Kocic, Stephen Szermer, Andy Davies, John Fitch, Not Sure, John Horstman, @jeremydwill, Melody Roberts, Nathan Lagacy, Katherine Luby, Steve Finikiotis, Jase Miller, CWR, David A. Townsend, Mark Rattin, Bill Bernahl, MG, mkbrooks, Chris Coffin, Karen Nickerson, Jeff Steffgen, Daniel Orbach, MultiBiomech, Vanya Prokopovich, Chacko Poothicote, Daniel Marano, Isaac Girard, Jay Liu, jenniwon, CRH, Michelle Curtis, EthanLP, Tristan Harward, Leslie Bondaryk, Lisa deBettencourt, David Abbet, Meeta Mathur, Mel Choyce, Maria Matveeva, Miracle Tonic, Fahad Punjwani, Churu Yun, Luke Jones, Chris Blocher, Patrick Miller, Dale Prentiss, Mirekulous, Jared Fanning, Amy Huang, Kimberly C. Wolting, Sarah Brockett, Chris Chiles, Drew Lettner, Shane Ernest, Thomas Y., Michael Laviolette, Kevin Meyer, Andy Vitale, Alan Smithee, Bob Marchant, Roel Uleners, Ashish Rao, Dylan Wilbanks, Jared R Davis, James Holt, Paola Reyes, Tim Whalin, Wolo, FARRUKH RAZA, EAL, Nico Nuzzaci, Blank, Lucas Colusso, Julie Larson-Green, Jenny Lam, Jerrod Larson, J. Lucero, Manali Gortekar, Savage Ewok, Andi Rusu, Omar Elfanek, Toots MacAfee.
-]
+.small[
+Bob, rasoul, Galit Ariel, Kweewa, Joniel Franco da Silva, Sunil Malhotra, Ananya Vetaal, Max Thoeny, Murilo Bispo, Alexander Savard, Brian Ling, Martini, Micah F, Zach Hyman, Ben Faubion, Rui Coutinho, Melissa Patenaude, Cody Evol, Roel Uleners, Mercury Murphy, Natalia Favrin Keri, Bart Baekelandt, Lucian Novosel, Mike McFadden, John David "jdm" Miller, Valeska O'Leary, John Young, Andy Van Solkema, Filippo Comini, Laurence Berry, Valerie Craig, Scout Addis, Sarah Doody, Jesper Bröring, sku, Daniel Terra, Dan Birlew, Red Lemonade, musho, Olympia Datta, Pete Wendel, Christopher Hinger, Oliver Henderson, Lauren Langley, Matteo B, Laetitia Wolff, Emily Campbell, Tiya Z, Raphael Fagundes, Felipe Pires, Wilbert Baan, Alejo B. Romano, Leandro Alpi, Nils "Amuse" Sköld, Andra Oprisan, Vikram Sood, Girish Yelka, Senior UX, John Goff, rolandw, Lex Roman, Masha I., LKL, Georgi Kamov, Sahil Khan, \@kflores, Millie Lin, Nikolaus Kaiser, Connor Hill, Chino Wong, Yuki Alzona, Erin Jerri Malonzo Pangilinan, Juan, Shyn, Peter Trigar, Adam Waxman, RLA, Kara Lindstrom, Wladislav Glad, alex matzner, j.s., Cristina Kulik, JJ, SCS, Brooks, Thank you for your inspiration John Maeda!, Flo Katzenbach, A.C. from Argentina, Becki Hyde, Pete Kinser, Chaker Bejaoui, Devin Hunt, Weiwei Hsu, Julie Hadden, The Home Depot, Clint Schnee, Georg, Stu Griffiths, Christopher Schwing, Chris Barnes, Roger Zhu, Rui Eduardo, Beth Reichler, DAO, A, Sean McLeary, Kei Yumino, Ryan Connolly, Lakshmi K Ajayan, Russell Ong, Mel Choyce, EEG, Katie George, Giorgio Venturi, Chi Ryan, René Spitz, Jesse D., Jadson Dantas dos Santos, pk, Randy J. Hunt, Adam Zeiner, paul hanaoka, Robert Quintero, Sherif Tariq, Sybil Mulokwa, Juan Hidalgo, Michele Palazzo, Huxley Dias, Dominik Rymsza, uɐɥʎɐK, OTTO Williams, Kevin Meyer, Colin Stokes, Dan Parham, Rocio Lopez, Rosemary Murphy, NC, Alexandra Candelas, Erin Sparling, Vincent Bahk, PATCHI, Andrew La Monica, Jessi Rymill, Tyler Ransburgh, David Boddy, Mike Kenny, Abel Valdez, Pallavi Naik, Tom Ward, May O., donnie kim, Vini Mota, Anderson Façanha, Willem-Jan Jansen, xxx, markus nowak, Sergio RS, Pablo Zarate, Luis Madureira, Gopika Setlur, Julie Stanescu, notrevol, Antonin Pospisil, Joe Schram, Gianvito Fanelli, Marie-Anne Nonyme, Bruno Castro, Patrick de Jong, Valeska O'Leary, benjieboo, Eye on Design, Ken Rossi, Keith Instone, Murthy Gollapudi, Justin Farrugia, Pernille Yding, Olivier Heitz, KMJ, Hiroyuki Takeuchi, Daniel Harvey, Chris Rawlinson, Rich Nadworny, M.M., Gianluca Cherubin, tetsuo.11, Philipp Schaefer, Tammie Lister, Pascal Heynol, mediumstudio, Finn Birger Lie, Mallika mhatre, Selen, Snova, Holger Fricke, Nancy Tilbury, YZ, edokoa, Jason Prunty, Helmut Ramsauer with 200 other participants.]
 
 .footer[Credits]
 
@@ -3465,11 +3088,20 @@ class: overview-slide lightgray-slide sans
 # 情報開示
 
 .group[
-このプレゼンテーションは情報提供のみを目的に作成されたものであり、何らかの企業の証券についての売買を勧めるものとして解釈してはならない。
+本プレゼンテーションは情報提供のみを目的に作成されたものであり、何らかの企業の証券についての売買を勧めるものとして解釈してはならない。
 
-このプレゼンテーションは、様々な情報源からのデータおよび洞察に基づくものであり、その情報源には公営・民営企業や市場調査会社、業界の専門家が含まれている。 ここではデータが公開されている特定の情報源を引用しているが、プレゼンテーションでは非公開の情報や知見からも情報を得ている。
+本プレゼンテーションは、様々な情報源からのデータおよび洞察に基づくものであり、その情報源には公営・民営企業や市場調査会社、業界の専門家が含まれている。ここではデータが公開されている特定の情報源を引用しているが、プレゼンテーションでは非公開の情報や知見も参考にしている。
 
-本ドキュメントは「Design in Tech Report」の第三回目の発行となる。改訂や説明については https://designintechreport.wordpress.com にて行う。
+本ドキュメントは「Design in Tech Report」の第5回目の発行となる。改定や説明については[https://DesignIntech.Report](https://DesignInTech.Report)にて行う。
 
-誤りがある場合には、Twitterで @johnmaeda に連絡してください。よろしくお願いします！ ジョン・マエダは、プレゼンテーションで言及されているいくつかの企業について、投資家として少額の株式を保有している。 maedastudio.com/startups
+誤りを見つけた場合は、Twitter上で @johnmaeda にご連絡ください。よろしくお願いします！ ジョン・マエダは、プレゼンテーションで言及されているいくつかの企業において、投資家として少額の株式を保有している。[maedastudio.com/startups](https://maedastudio.com/startups).
 ]
+
+---
+
+class: htsm-slide
+background-image: url(https://raw.githubusercontent.com/johnmaeda/designintech-2019/master/asset/image/htsmfullimage.jpg)
+background-size: cover
+
+.source[[howtospeakmachine.com](https://howtospeakmachine.com) / **プレオーダー** from [Amazon](https://amzn.to/2HjDtM6) | [Barnes & Noble](http://links.penguinrandomhouse.com/type/affiliate/isbn/9780399564420/siteID/8001/retailerid/2/trackingcode/PRH30BB1D484D) | [IndieBound](http://links.penguinrandomhouse.com/type/affiliate/isbn/9780399564420/siteID/8001/retailerid/6/trackingcode/penguinrandom)]
+.footer[How To Speak Machine]
