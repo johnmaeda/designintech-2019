@@ -15,7 +15,7 @@
     "compass-mixins": "^0.12.10",
     "cross-fetch": "^2.2.0",
     "load-script": "^1.0.0",
-    "marked": "^0.3.19",
+    "marked": "^4.0.10",
     "mutation-observer": "^1.0.3",
     "query-string": "^6.1.0",
     "remark": "github:gnab/remark#7ac03f2955d949128f3bf5be23f1aea1fc497f04"
